@@ -61,14 +61,13 @@ args = parser.parse_args()
 
 
 # Set GPU
-print('######################################################################')
+print('***** Setting up GPU *****')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print('Device:', device)
-print('Current cuda device:', torch.cuda.current_device())
-print('Count of using GPUs:', torch.cuda.device_count())
-print(torch.cuda.get_device_name())
-print('######################################################################')
-
+print('Using GPU (cuda) or CPU? ', device)
+print('Id of the GPU: ', torch.cuda.current_device())
+print('Name of the GPU: ', torch.cuda.get_device_name())
+print('Number of available GPUs: ', torch.cuda.device_count())
+print()
 
 # Start WANDB Log (Set Logging API)
 # wandb.init(project="ICSK4AS", reinit=True, entity='icsk4as')
@@ -87,9 +86,9 @@ if args.use_sentence_transformer:
     else:
         cs = "comet_sentence_transformer"
 
-print("#"*50)
-print(cs)
-print("#"*50)
+# print("#"*50)
+# print(cs)
+# print("#"*50)
 # wandb.run.name = f"context_{args.dataset_name}_{args.relation}_{cs}_lr{str(args.init_lr)}"
 
 
@@ -165,23 +164,23 @@ elif args.dataset_name=='dialogsum':
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
-print('######################################################################')
+
+print('***** Setting up Dataset *****')
 print('Training Dataset Size is : ')
 print(len(train_dataset))
 print('Validation Dataset Size is : ')
 print(len(eval_dataset))
 print('Test Dataset Size is : ')
 print(len(test_dataset))
-print('######################################################################')
+print()
 
 
 # Loading checkpoint of model
 config = AutoConfig.from_pretrained(args.model_name)
 finetune_model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
-print('######################################################################')
-print("Number of Model Parameters are : ",finetune_model.num_parameters())
-print('######################################################################')
-
+print('***** Setting up pretrained model *****')
+print("The number of model's parameters is : ",finetune_model.num_parameters())
+print()
 
 # Set extra Configuration for Finetuning on Summarization Dataset
 finetune_model.resize_token_embeddings(len(tokenizer))
@@ -272,10 +271,12 @@ finetune_trainer = Seq2SeqTrainer(
 )
 
 # Run Training (Finetuning)
+print('Start the training ...')
 finetune_trainer.train()
 
 
 # Save final weights
+print('Save model in ', args.best_finetune_weight_path)
 finetune_trainer.save_model(args.best_finetune_weight_path)
 
 """
