@@ -61,6 +61,7 @@ args = parser.parse_args()
 
 
 # Set GPU
+print()
 print('***** Setting up GPU *****')
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print('Using GPU (cuda) or CPU? ', device)
@@ -272,11 +273,13 @@ finetune_trainer = Seq2SeqTrainer(
 
 # Run Training (Finetuning)
 print('Start the training ...')
+print()
 finetune_trainer.train()
 
 
 # Save final weights
 print('Save model in ', args.best_finetune_weight_path)
+print()
 finetune_trainer.save_model(args.best_finetune_weight_path)
 
 """
