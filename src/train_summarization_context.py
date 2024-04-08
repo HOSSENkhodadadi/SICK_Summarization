@@ -95,7 +95,7 @@ wandb.run.name = f"context_{args.dataset_name}_{args.relation}_{cs}_lr{str(args.
 
 # Define Global Values
 model_checkpoint_list = [
-    "facebook",
+    "mistralai/Mistral-7B-v0.1",
     "facebook/bart-large", 
     "facebook/bart-large-xsum",
     "google/pegasus-large",
