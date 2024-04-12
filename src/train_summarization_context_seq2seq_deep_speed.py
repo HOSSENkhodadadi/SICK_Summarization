@@ -1,4 +1,3 @@
-# this package was used to train prophet
 import os
 os.environ['WANDB_SILENT']="false"
 
@@ -17,6 +16,9 @@ from transformers import AutoConfig, AutoModelForSeq2SeqLM
 from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
 # added by Hossein
 from transformers import AutoModelForCausalLM
+from transformers.integrations import HfDeepSpeedConfig
+import deepspeed
+import os
 #from datasets import load_metric
 from datasets import load_metric
 import wandb
@@ -100,6 +102,8 @@ wandb.run.name = f"context_{args.dataset_name}_{args.relation}_{cs}_lr{str(args.
 model_checkpoint_list = [
     # added by Hossein
     "microsoft/prophetnet-large-uncased",
+    "bigscience/T0_3B"
+
     "facebook/bart-large", 
     "facebook/bart-large-xsum",
     "google/pegasus-large",
@@ -110,6 +114,7 @@ model_checkpoint_list = [
 tokenizer_list = {
     # added by Hossein
     "microsoft/prophetnet-large-uncased":"RobertaTokenizer", 
+    "bigscience/T0_3B":"RobertaTokenizer",
     "facebook/bart-large":"RobertaTokenizer",
     "facebook/bart-large-xsum":"RobertaTokenizer",
     "google/pegasus-large":"PegasusTokenizer",
@@ -119,6 +124,7 @@ tokenizer_list = {
 }
 max_len_list ={
     # added by Hossein
+    "RobertaTokenizer": 512, 
     "microsoft/prophetnet-large-uncased": 512,
     "facebook/bart-large":1024,
     "facebook/bart-large-xsum":1024,
@@ -129,6 +135,7 @@ max_len_list ={
 }
 vocab_size_list={
     # added by Hossein
+    "RobertaTokenizer": 50265,
     "microsoft/prophetnet-large-uncased": 50265,
     "facebook/bart-large":50265,
     "facebook/bart-large-xsum":50264,
@@ -185,9 +192,19 @@ print('Test Dataset Size is : ')
 print(len(test_dataset))
 print('######################################################################')
 
+print("distributed setup")
+os.environ["TOKENIZERS_PARALLELISM"] = "false"  # To avoid warnings about parallelism in tokenizers
+local_rank = int(os.getenv("LOCAL_RANK", "0"))
+world_size = int(os.getenv("WORLD_SIZE", "1"))
+torch.cuda.set_device(local_rank)
+deepspeed.init_distributed()
 
 # Loading checkpoint of model
 config = AutoConfig.from_pretrained(args.model_name)
+model_hidden_size = config.d_model
+train_batch_size = 1 * world_size
+
+
 if args.model_name == "mistralai/Mistral-7B-v0.1":
     finetune_model = AutoModelForCausalLM.from_pretrained(args.model_name)
 else:
@@ -196,13 +213,40 @@ print('######################################################################')
 print("Number of Model Parameters are : ",finetune_model.num_parameters())
 print('######################################################################')
 
-
+#
 # Set extra Configuration for Finetuning on Summarization Dataset
 finetune_model.resize_token_embeddings(len(tokenizer))
 finetune_model.gradient_checkpointing_enable()
 finetune_model = finetune_model.to(device)
 
+# deep speed config
 
+ds_config = {
+    "fp16": {
+        "enabled": False
+    },
+    "bf16": {
+        "enabled": False
+    },
+    "zero_optimization": {
+        "stage": 3,
+        "offload_param": {
+            "device": "cpu",
+            "pin_memory": True
+        },
+        "overlap_comm": True,
+        "contiguous_gradients": True,
+        "reduce_bucket_size": model_hidden_size * model_hidden_size,
+        "stage3_prefetch_bucket_size": 0.9 * model_hidden_size * model_hidden_size,
+        "stage3_param_persistence_threshold": 10 * model_hidden_size
+    },
+    "steps_per_print": 2000,
+    "train_batch_size": train_batch_size,
+    "train_micro_batch_size_per_gpu": 1,
+    "wall_clock_breakdown": False
+}
+ds_engine = deepspeed.initialize(model=finetune_model, config_params=ds_config)[0]
+ds_engine.module.train()  # inference
 # Set Training Arguments (& Connect to WANDB)
 finetune_args = Seq2SeqTrainingArguments(
     output_dir = args.finetune_weight_path,
@@ -274,6 +318,8 @@ def preprocess_logits_for_metrics(logits, labels):
     logits_reduced = logits_reduced.to(logits_device)
 
     return logits_reduced
+
+dschf = HfDeepSpeedConfig(ds_config)
 
 finetune_trainer = Seq2SeqTrainer(
     model = finetune_model,
