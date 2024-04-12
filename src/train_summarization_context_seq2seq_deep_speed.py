@@ -102,7 +102,7 @@ wandb.run.name = f"context_{args.dataset_name}_{args.relation}_{cs}_lr{str(args.
 model_checkpoint_list = [
     # added by Hossein
     "microsoft/prophetnet-large-uncased",
-    "bigscience/T0_3B"
+    "bigscience/T0_3B",
 
     "facebook/bart-large", 
     "facebook/bart-large-xsum",
@@ -124,7 +124,7 @@ tokenizer_list = {
 }
 max_len_list ={
     # added by Hossein
-    "RobertaTokenizer": 512, 
+    "bigscience/T0_3B": 512, 
     "microsoft/prophetnet-large-uncased": 512,
     "facebook/bart-large":1024,
     "facebook/bart-large-xsum":1024,
@@ -135,7 +135,7 @@ max_len_list ={
 }
 vocab_size_list={
     # added by Hossein
-    "RobertaTokenizer": 50265,
+    "bigscience/T0_3B": 50265,
     "microsoft/prophetnet-large-uncased": 50265,
     "facebook/bart-large":50265,
     "facebook/bart-large-xsum":50264,
