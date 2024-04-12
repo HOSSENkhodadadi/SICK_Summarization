@@ -200,11 +200,12 @@ torch.cuda.set_device(local_rank)
 deepspeed.init_distributed()
 
 # Loading checkpoint of model
+
 config = AutoConfig.from_pretrained(args.model_name)
 model_hidden_size = config.d_model
 train_batch_size = 1 * world_size
 
-
+print("aauto model for seq to seq")
 if args.model_name == "mistralai/Mistral-7B-v0.1":
     finetune_model = AutoModelForCausalLM.from_pretrained(args.model_name)
 else:
@@ -245,6 +246,7 @@ ds_config = {
     "train_micro_batch_size_per_gpu": 1,
     "wall_clock_breakdown": False
 }
+
 dschf = HfDeepSpeedConfig(ds_config)
 ds_engine = deepspeed.initialize(model=finetune_model, config_params=ds_config)[0]
 ds_engine.module.train()  # inference
