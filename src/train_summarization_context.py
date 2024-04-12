@@ -14,6 +14,8 @@ from torch.utils.data import Dataset, DataLoader, SequentialSampler
 from transformers import AutoTokenizer
 from transformers import AutoConfig, AutoModelForSeq2SeqLM
 from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
+# added by Hossein
+from transformers import AutoModelForCausalLM
 #from datasets import load_metric
 from datasets import load_metric
 import wandb
@@ -183,7 +185,10 @@ print('######################################################################')
 
 # Loading checkpoint of model
 config = AutoConfig.from_pretrained(args.model_name)
-finetune_model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
+if args.model_name == "mistralai/Mistral-7B-v0.1":
+    finetune_model = AutoModelForCausalLM.from_pretrained(args.model_name)
+else:
+    finetune_model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name)
 print('######################################################################')
 print("Number of Model Parameters are : ",finetune_model.num_parameters())
 print('######################################################################')
