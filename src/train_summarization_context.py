@@ -95,6 +95,7 @@ wandb.run.name = f"context_{args.dataset_name}_{args.relation}_{cs}_lr{str(args.
 
 # Define Global Values
 model_checkpoint_list = [
+    # added by Hossein
     "mistralai/Mistral-7B-v0.1",
     "facebook/bart-large", 
     "facebook/bart-large-xsum",
@@ -104,6 +105,8 @@ model_checkpoint_list = [
     "google/t5-v1_1-large"
 ]
 tokenizer_list = {
+    # added by Hossein
+    "mistralai/Mistral-7B-v0.1":"RobertaTokenizer", 
     "facebook/bart-large":"RobertaTokenizer",
     "facebook/bart-large-xsum":"RobertaTokenizer",
     "google/pegasus-large":"PegasusTokenizer",
@@ -112,6 +115,7 @@ tokenizer_list = {
     "google/t5-v1_1-large":"T5Tokenizer"
 }
 max_len_list ={
+    "mistralai/Mistral-7B-v0.1": 512,
     "facebook/bart-large":1024,
     "facebook/bart-large-xsum":1024,
     "google/pegasus-large":1024,
@@ -120,6 +124,7 @@ max_len_list ={
     "google/t5-v1_1-large":512
 }
 vocab_size_list={
+    "mistralai/Mistral-7B-v0.1": 50265,
     "facebook/bart-large":50265,
     "facebook/bart-large-xsum":50264,
     "google/pegasus-large":96103,
