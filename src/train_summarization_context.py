@@ -1,5 +1,5 @@
 import os
-os.environ['WANDB_SILENT']="true"
+os.environ['WANDB_SILENT']="false"
 
 import sys
 sys.path.append('../')
