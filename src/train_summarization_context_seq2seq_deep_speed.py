@@ -245,6 +245,7 @@ ds_config = {
     "train_micro_batch_size_per_gpu": 1,
     "wall_clock_breakdown": False
 }
+dschf = HfDeepSpeedConfig(ds_config)
 ds_engine = deepspeed.initialize(model=finetune_model, config_params=ds_config)[0]
 ds_engine.module.train()  # inference
 # Set Training Arguments (& Connect to WANDB)
@@ -319,7 +320,7 @@ def preprocess_logits_for_metrics(logits, labels):
 
     return logits_reduced
 
-dschf = HfDeepSpeedConfig(ds_config)
+
 
 finetune_trainer = Seq2SeqTrainer(
     model = finetune_model,
