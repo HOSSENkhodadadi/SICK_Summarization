@@ -1,7 +1,7 @@
 import os
 
 import sys
-sys.path.append('../')
+sys.path.append('./')
 import argparse
 import random
 import json
@@ -126,7 +126,7 @@ if args.dataset_name not in dataset_list:
 
 
 # Set metric
-metric = load_metric("../utils/rouge.py")
+metric = load_metric("./utils/rouge.py")
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)

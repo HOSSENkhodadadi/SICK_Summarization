@@ -4,7 +4,7 @@ import os
 #os.environ['CUDA_VISIBLE_DEVICES']="1"
 
 import sys
-sys.path.append('../')
+sys.path.append('./')
 import nltk
 import numpy as np
 #import tdqm
@@ -107,9 +107,9 @@ finetune_model.eval()
 
 
 # Set metric
-metric = load_metric("../utils/rouge.py")
-metric2 = load_metric("../utils/rouge.py")
-metric3 = load_metric("../utils/rouge.py")
+metric = load_metric("./utils/rouge.py")
+metric2 = load_metric("./utils/rouge.py")
+metric3 = load_metric("./utils/rouge.py")
 
 bertscore_metric = load_metric("bertscore",lang='en',model_type='bert-base-uncased')
 if args.dataset_name=='dialogsum':

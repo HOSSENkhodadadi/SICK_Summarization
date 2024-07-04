@@ -1,7 +1,7 @@
 import transformers
 from transformers.models.bart.modeling_bart import *
 import sys
-sys.path.append('../')
+sys.path.append('./')
 from utils.util import load_checkpoint
 
 #################################################################################################################################

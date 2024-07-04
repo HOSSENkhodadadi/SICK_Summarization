@@ -1,5 +1,5 @@
 import sys
-sys.path.append('../')
+sys.path.append('./')
 import numpy as np
 import nltk
 nltk.download('punkt')
@@ -143,7 +143,7 @@ print()
 
 
 # Set metric
-metric = load_metric("../utils/rouge.py")
+metric = load_metric("./utils/rouge.py")
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
