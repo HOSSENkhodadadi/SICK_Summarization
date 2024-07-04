@@ -1,3 +1,5 @@
+import os
+os.environ['WANDB_DISABLED'] = 'true'
 import sys
 sys.path.append('./')
 import numpy as np
