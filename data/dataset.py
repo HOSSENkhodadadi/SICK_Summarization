@@ -393,12 +393,25 @@ class DialogsumDataset(Dataset):
         ##################################################
 
         self.data = custom_load_dataset('dialogsum', split=split_type)
-        self.dialogue = self.data['dialogue']
-        self.summary = self.data['summary']
+
+        total = [i for i in range(len(self.data))]
+        random.seed(42)
+        random_sampled = random.sample(total, len(self.data) // 10)
+
+        whole_dialogue = self.data['dialogue']
+        whole_summary = self.data['summary']
+        whole_id = self.data['id']
+
+        self.dialogue = [whole_dialogue[i] for i in random_sampled]
+        self.summary = [whole_summary[i] for i in random_sampled]
+        self.id = [whole_id[i] for i in random_sampled]
+
         if split_type == "test":
-            self.summary2 = self.data['summary2']
-            self.summary3 = self.data['summary3']
-        self.id = self.data['id']
+            whole_summary2 = self.data['summary2']
+            whole_summary3 = self.data['summary3']
+
+            self.summary2 = [whole_summary2[i] for i in random_sampled]
+            self.summary3 = [whole_summary3[i] for i in random_sampled]
 
         self.nlp = spacy.load('en_core_web_sm')
         
