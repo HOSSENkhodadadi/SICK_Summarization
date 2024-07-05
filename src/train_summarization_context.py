@@ -1,3 +1,5 @@
+import warnings
+warnings.filterwarnings("ignore", module="transformers")
 import os
 os.environ['WANDB_DISABLED'] = 'true'
 import sys
