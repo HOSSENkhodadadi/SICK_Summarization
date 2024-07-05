@@ -36,13 +36,13 @@ class SamsumDataset(Dataset):
 
         self.roberta = roberta
         self.sentence_transformer = sentence_transformer
-        print(self.relation)
+        # print(self.relation)
         ##################################################
         
         self.data = load_dataset('samsum',split=split_type)
         total = [i for i in range(len(self.data))]
         random.seed(42)
-        random_sampled = random.sample(total, len(self.data) // 15)
+        random_sampled = random.sample(total, len(self.data) // 10)
 
         whole_dialogue = self.data['dialogue']
         whole_summary = self.data['summary']
