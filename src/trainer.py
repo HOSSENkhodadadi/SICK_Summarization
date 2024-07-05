@@ -48,9 +48,6 @@ class DialoGPTTrainer(Seq2SeqTrainer):
 
 # trainer used for setting in extra_supervision, full
 class DualDecoderTrainer(Seq2SeqTrainer):
-    def __init__(self):
-        super().__init__()
-
     def compute_loss(self, model, inputs, return_outputs=False):
         if model.training:
             labels = inputs.get("labels")
