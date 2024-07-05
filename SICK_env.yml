@@ -1,0 +1,23 @@
+name: SICK
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - conda
+  - python==3.8
+  - pytorch==1.10.1
+  - torchvision==0.11.2
+  - torchaudio==0.10.1
+  - cudatoolkit=11.3
+  - transformers==4.13.0
+  - spacy
+  - pip
+  - pip:
+      - nltk
+      - datasets
+      - wandb
+      - rouge_score
+      - bert_score
+      - py7zr
+      - metrics
