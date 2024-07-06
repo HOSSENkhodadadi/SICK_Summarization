@@ -14,4 +14,4 @@ src/tmp_result.txt
 utils/__pycache__/
 .history
 
-SICK/
+SICK_env/
