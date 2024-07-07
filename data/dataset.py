@@ -394,9 +394,9 @@ class DialogsumDataset(Dataset):
 
         self.data = custom_load_dataset('dialogsum', split=split_type)
 
-        total = [i for i in range(len(self.data))]
+        total = [i for i in range(len(self.data['id']))]
         random.seed(42)
-        random_sampled = random.sample(total, len(self.data) // 10)
+        random_sampled = random.sample(total, len(total) // 10)
 
         whole_dialogue = self.data['dialogue']
         whole_summary = self.data['summary']
