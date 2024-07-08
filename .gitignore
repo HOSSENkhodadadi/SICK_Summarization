@@ -15,3 +15,5 @@ utils/__pycache__/
 .history
 
 SICK_env/
+
+temp.py
