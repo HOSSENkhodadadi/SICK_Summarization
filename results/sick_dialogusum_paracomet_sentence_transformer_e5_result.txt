@@ -1,0 +1,71 @@
+num_beams: 20
+ rouge1: 28.887545633694177
+ rouge2: 8.877500089790438
+ rougeL: 21.975465677843093
+ rougeLsum: 26.115855296735013
+ bert-score: 0.5835281896591187
+
+num_beams: 20
+ rouge1: 28.15738232072048
+ rouge2: 6.719494891610286
+ rougeL: 22.035183886299155
+ rougeLsum: 24.480517885081852
+ bert-score: 0.5796829336881637
+
+num_beams: 20
+ rouge1: 28.328294497606997
+ rouge2: 7.083870792909259
+ rougeL: 22.12408291695482
+ rougeLsum: 24.587076122432496
+ bert-score: 0.5762334191799163
+
+#Person1# says "Thank you very much for buying my personal stereo at your shop 3 days ago." #Person2# says yes.
+#Person1# and #Person2# are on the phone.
+#Person2# said "I know my father will kill me if I fail, he'll kill me" when he finds out my father knows my father.
+#Person2# said "Having a father figure in my baby's life is important, but I now have a responsibility to my baby."
+#Person1# said "I haven't called or anything, but right after you decided you wanted a break, I was called up north to put out some major forest fires! "#Person2# was working day and night, trying to prevent the blaze from spreading.#Person3# was away the first week of February at a training seminar.
+#Person1# and #Person2# are talking on the phone.
+#Person2# said "It was about 10 o'clock" when the big fire broke out.
+#Person2# said "My husband and I moved to London, and so I managed to find a job in a newspaper in York called the York Herald."
+#Person1# said "I am happy I started carrying the credit card that the bank gave us." #Person2# thanked the bank for allowing us to use it.
+#Person1# and #Person2# are waiting for the bus to take them to their destination.
+#Person2# said "I'll be back in a few months, in time for the first day of school."
+#Person1# said "It's the biggest dragon lantern I've ever seen in all my life. ".
+#Person1# said "Please put down the table in front of you if you need any help. "#Person2# says "OK, enjoy yourself."
+#Person1# said "Buying a house near our company can be expensive, but there are ways to find cheaper houses." Sarah thinks about moving.
+#Person1# has a nasty infection, Doctor Smith says.
+#Person1# asked #Person2# to stay.
+#Person1# said "Look at those two ugly old ladies, they're not meant to be our friends." #Person2# is thanked.
+#Person2# said "I will buy a tea set" at the party tonight.
+#Person1# swept the front steps and took out the leaves in the yard.
+#Person1# and #Person2# went to the department office to register for Comp Lit 287.
+#Person1# and #Person2# went to interview for a job as an electrician.
+#Person1# and #Person2# are listening to a recording of Mary getting married.
+#Person1# said "John dates a girl seven times a week. "#Person2# has a girlfriend.
+#Person1# said "What time is it, Tom? "#Person2# says "It's ten to nine by my watch".
+#Person1# and #Person2# are talking about the earthquake in Wenchuan.
+#Person1# said "I need to use the ATM. "#Person2# says "I can help you figure it out."
+#Person1# and #Person2# arrived at the bank.
+#Person1# said "I think that is the first time that you will have come to visit us after your marriage. ".
+#Person1# and #Person2# went to the theatre together.
+#Person2# said "It seems that he's been seeing someone else for about two months, and so I pressed him on it, and he gave me a lame excuse," and then broke down and admitted to a small indiscretion.
+#Person2# asked #Person1# what time it is.
+#Person1# said "She's going to take me to Disney World."
+#Person1# said "Err... seven dollars in all." #Person2# # said "How much do I need for this letter?" #Person1 # sent it as an ordinary or registered letter.
+#Person2# said "If you lose your job, you can just move in with me until you find another job, and there's nothing I can do about it. "#Person1# said his boss won't believe him if he tells his boss the truth.
+#Person1# said "I didn't see the crash itself, but I did see the smoke and everything afterwards from my parents' apartment building.
+#Person1# said "You sit in front of the TV for 3 hours every Saturday. "#Person2# says "I don't think I can afford it." #Person1 # said "I'll call him tomorrow to see if there are still spaces available."
+#Person1# and #Person2# were having a birthday party for Brian.
+#Person1# and #Person2# curl their eyelashes.
+#Person1# said "I think America really deserves the name of fast food nation - as people can find McDonald's, KFC and Pizza Hut there."
+#Person1# and #Person2# were on their way to the school clinic.
+#Person1# said "Hi, can I help you?" hi #Person2# says hello.
+#Person1# and #Person2# arrived at McDonald's.
+#Person2# apologizes to #Person1# for signing the agreement.
+#Person1# has decided to go on a diet.
+#Person1# and #Person2# arrived at Danny's restaurant.
+#Person1# found a teacher for me who is from the UK and wants to learn from her.
+#Person1# said "I am wondering that you must believe fast food is your lifestyle, don't you?" before going to the restaurant.
+#Person1# said "Linda, I can't find my cellphone anywhere in this hotel room!"
+#Person1# said "The feeling was all wrong, Mike was acting hurt and sad, but that's not how your character would act in this situation, let's start from the beginning."
+#Person1# said "I don't know if you've heard of it, Peter, but some of us are thinking of going to Xi'an in the summer."

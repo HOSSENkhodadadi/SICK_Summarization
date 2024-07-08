@@ -1,0 +1,88 @@
+num_beams: 20
+ rouge1: 30.36315810517466
+ rouge2: 9.47585511339496
+ rougeL: 24.465810599281973
+ rougeLsum: 26.12139363468973
+ bert-score: 0.546707135659677
+
+Richie said "Pogba" when he chopped the ball back to his right foot.
+Lincoln said "I talked to Jenson, he’s not too happy".
+Ollie said "Nagoro village in Japan is the worst place in the world to have a village".
+Camilla has a hangover.
+Dylan has talked to Miro about his father coming from Albania to the US in the early 1990s.
+Piper and Shaldona are getting married.
+Kate and Emily went to the pub after work today.
+Harry said "heyyyy are you there? "Cindy said "Yes dear".
+Candy and Val are going to the park.
+Maya and Randolph went to the pharmacy to buy earplugs.
+Tina said "I think I have to catch a bit of your approach" after a huge heartbreak.
+Tomas said "I'm completely broke" and Jeremy said "don't worry, don't be broke".
+Blair said "Remember we are seeing the wedding planner after work" after work.
+Tom and Ben have a decision to make by 2pm in the Oval Room.
+Milena and Regina were listening to a presentation by Kate.
+Javier said "Hey do you know any tattoo parlors over here with English speaking employees? ".
+Jack said "Cocktails later?" May said "Maybe two".
+Mary and Carter have been borrowing box after box from each other.
+Gina has to go to the salon on the 6th.
+Jessica and Frank went to the second hand shop downtown.
+Annie said "Are you going to be at school tomorrow?"
+Mario said "I’ve landed in every airport in Europe today - completely whacked out dude".
+Jake said "dude, I just pulled a TOTW" at Tom.
+Eric said "Hey Bella, What happened today in boss's room?"
+Mason has scored twice in Huddersfield's game against Chelsea.
+Lily said "I've had so much pleasure that I have a headache".
+Ronald and Julia are having a fight over the giraffe from Skittles.
+Hannah asked James if he was watching the football.
+Sean said "After many days of thinking about I finally decided that my spirit animal is a tortoise."
+Rodney said "Have you heard a guy got beaten and mugged on campus?"
+Desiree asked Lucian to spend time with someone at home.
+Zoey said "Hello dear friends, here something to cheer you up on a cold day. ".
+Gyle went home early because he had to go somewhere.
+Dan and Tom are going out on a date.
+Max said "Know any good sites to buy clothes from?" petertodd Payton sent a file.
+Ainsley said "I've got a cold and I'm sneezing like a bitch every 2 seconds".
+Adrian and Simon were talking on the phone.
+Bart bombed his economy final and ended up with a bad score.
+Daisy said "please be back before 11 pm" and Lisa said "ok".
+Greg said "Was your account hacked by some prankster?" and Ken said "No, I'm a good prankster" and Greg said "Well, fuck you too then".
+Peter has a gym membership near his office and Lisa is trying to lose weight.
+Mae and Cael are getting ready for the wedding.
+Sally said "Hi guys have you heard about Natalie?"
+Elliot said "i can't talk rn, i'm rly busy"  because he's going to a funeral.
+Mariana and Rita went to the print shop to buy copies of Stephen's seminar.
+Jacky said "I think you were right yesterday. "David said "What about?"
+Steve said "hiya the dishwasher has turned up" to wash dishes.
+Cindy said "I don’t want to talk about it…".
+Jordan said "Sorry I didn't ring you before" to thank him for the £20.
+Conrad said "I'm outside the house" before going to bed.
+Ella said "Twins* darling xD" and Joseph sent a photo.
+Stefano said "Hi, Josie!" Josie said "Ciao, Stefano! ".
+Rob said "I wanna start Get off the couch challenge!" at least 60 minutes a day every day.
+Alex said "Hon, could you buy some milk"  to express his anger at Martin.
+Jeff said "Should we go to the village party?" Lia said "I'm too tired after hiking".
+Ally said "I can't do more than 3-4 per day" to Jill.
+Sebastian sent a file to Ryan.
+Luis and Cole are in the same room.
+Jerry said "Hi sweetie" to Janet.
+Ed said "Sex is for married people" and Jessica said "And only for procreation."
+Simon said "I always say that there is advantage to having a good time in Poland".
+Henry said "Do you know what happened to Kohaku?"
+Marleen said "If you have any idea for a present for Rita let me know." let her know.
+Anne said "I hate that bitch!" Catherine said "She wants to take Tom away from me." Katherine said "No way she did it!!"
+Kate and George went to the grocery store to buy fruits for school tomorrow.
+Laura and Linda are going to bed.
+Lola said "hey girlfriend, what's up?" Lola has a new puppy.
+Dolph the Red-Nosed Reindeer met Ziggler for the first time.
+Mary went to school today and Alice stayed home.
+Cindy asked Carly to show off her skills.
+Dima's laptop is broken.
+Finn said "Hey" to Zadie at the main entrance.
+Pete asked Adelle to clean the hamster cage.
+Emily said "Does anybody now where the next ASEEES conference takes place?"
+Jake said "Maaaan!" when he saw Mike in London.
+Tom and Camilla are going to Dublin this weekend.
+Gab said "So when can we meet up for a drink?" Kat said "I don't want to meet strange men from the internet."
+Megan and Nathan have been talking about Jason.
+Ben said "I don't have to drive to another city to do it" in order to see his family.
+Bob said "did you reserve the tickets for tomorrow?" Melanie said "yes, Jake promised me he will do that".
+William said "hey im making spaghetti" to Olivia and Beth.
