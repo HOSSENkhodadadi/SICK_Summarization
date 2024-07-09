@@ -15,7 +15,7 @@ import argparse
 import torch
 # import transformers
 from torch.utils.data import DataLoader, Dataset
-from transformers import BartForConditionalGeneration, AutoTokenizer
+from transformers import BartForConditionalGeneration, ProphetNetForConditionalGeneration, AutoTokenizer
 from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total, MediasumDataset_total, TweetsummDataset_total
 from models.bart import BartForConditionalGeneration_DualDecoder, BartForConditionalGeneration_DualHead
@@ -36,6 +36,7 @@ parser.add_argument('--use_sentence_transformer',type=bool,default=False)
 parser.add_argument('--relation',type=str,default="xReason")
 parser.add_argument('--supervision_relation',type=str,default='isAfter')
 parser.add_argument('--num_beams', type=int, default=20)
+parser.add_argument('--model_name',type=str, required=True)
 args = parser.parse_args()
 
 # Set GPU
@@ -85,7 +86,10 @@ extra_context=False
 if args.train_configuration == "base":
     finetune_model = BartForConditionalGeneration.from_pretrained(args.model_checkpoint)
 elif args.train_configuration == "context":
-    finetune_model = BartForConditionalGeneration.from_pretrained(args.model_checkpoint)
+    if args.model_name == 'facebook/bart-large-xsum':
+        finetune_model = BartForConditionalGeneration.from_pretrained(args.model_checkpoint)
+    elif args.model_name == 'microsoft/prophetnet-large-uncased-cnndm':
+        finetune_model = ProphetNetForConditionalGeneration.from_pretrained(args.model_checkpoint)
     extra_context = True
 elif args.train_configuration == "supervision":
     finetune_model = BartForConditionalGeneration_DualDecoder.from_pretrained(args.model_checkpoint)
