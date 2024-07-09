@@ -1,0 +1,71 @@
+num_beams: 20
+ rouge1: 28.618429445348603
+ rouge2: 9.917321756063801
+ rougeL: 23.31323970374935
+ rougeLsum: 25.768253956231625
+ bert-score: 0.5759570896625519
+
+num_beams: 20
+ rouge1: 27.30491286653193
+ rouge2: 8.175581512145497
+ rougeL: 20.991863362089884
+ rougeLsum: 23.426537489359227
+ bert-score: 0.5666190254688263
+
+num_beams: 20
+ rouge1: 27.238841636053902
+ rouge2: 8.484079626917543
+ rougeL: 21.45376020502234
+ rougeLsum: 23.38408309154394
+ bert-score: 0.5682490742206574
+
+# person1 # wants to help # person2 # with a problem with their new stereo. [X_SEP] # person2 # noticed a large scratch across the front of the stereo. [X_SEP] # person2 # asked # person1 # to check the goods are safe. [X_SEP] # person1 # said " it really is your responsibility to check the goods when you buy them, " to make sure the goods are safe.
+leah collins will not be able to call nathaniel back until next week. [X_SEP] # person2 # called leah collins to book an appointment with someone else. [X_SEP] # person2 # said " ms. collins had to leave the office suddenly and won't be able to call you back until next week "
+# person1 # said " you look unhappy. " [X_SEP] # person2 # said " i really wish i hadn't done it. " [X_SEP] # person2 # said " if i fail, he'll kill me. " [X_SEP] # person1 # said " so long as you learn from your mistakes, " to to learn from your mistakes.
+# person1 # asked # person2 # if having a baby has stopped you from your goals or dreams. [X_SEP] # person2 # said " i always wanted to be a cheerleader, and that won't happen, i also miss out on a lot of freedom " [X_SEP] # person2 # said " the best part of being with her is watching her go through every stage knowing there is somebody who loves her "
+# person1 # was called up north to put out some major forest fires. [X_SEP] # person2 # was called up north to put out some major forest fires. [X_SEP] # person1 # said " honey, of course i forgive you! " [X_SEP] # person1 # said " i think i'm pregnant! " [X_SEP] # person2 # said " we'll go to the doctor first thing in the morning! "
+# person1 # and # person2 # go to a friend's wedding next week. [X_SEP] # person1 # invites # person2 #'s friend megan to the wedding. [X_SEP] # person2 # and # person1 # drive to the wedding together.
+# person1 # asked # person2 # for the exact time when the big fire broke out. [X_SEP] # person2 # said " it was about 10 o'clock "
+rebecca's first job was as an intern for a local paper in york. [X_SEP] # person2 # was in charge of the sports news section of the newspaper. [X_SEP] # person2 # left the paper in 2006 to find a job with a national newspaper based in london.
+# person1 # is happy he started carrying the credit card that the bank gave us. [X_SEP] # person2 # asked " why is that? " to ask personx why. [X_SEP] # person1 # said " on my way home i stopped at the store to buy some beef for dinner because i didn't have any cash with me. " [X_SEP] # person2 # said " if you lose them and someone finds them, the bank will charge you for what you buy "
+# person1 # asked " how long does it take to get to downtown from here? " [X_SEP] # person1 # said " mitsubishi, hp, ibm and many other famous corporations " [X_SEP] # person1 # said " does the 7th floor belong to our company too? "
+nathan is almost ready to go to chicago for his practice. [X_SEP] # person1 # said " we're sure going to miss you around here. " [X_SEP] # person2 # said " i'm not afraid of hard work, and i think i'll do a good job "
+# person1 # said " now, i can see why it's called the lantern festival. " [X_SEP] # person1 # said " now, i can see why it's called the lantern festival. " [X_SEP] # person2 # said " people always enjoy the lighted lanterns and the gala performances "
+# person2 # asked # person1 # to have dinner in the dining room. [X_SEP] # person1 # said " it's more comfortable that way " [X_SEP] # person2 # asked # person1 # to take two value meals.
+sarah thought about moving, but her husband and i can't afford it right now. [X_SEP] sarah's sister in law and her husband bought a house that way. [X_SEP] # person1 # bought the house from her friend and took good care of it. [X_SEP] when she died she had no family left and no will, so the government had to sell it for her.
+# person1 # is going to prescribe some antibiotics, and some cream to ease the itching and burning. [X_SEP] # person2 # said " the pharmacy will give you a discount since you came to the clinic " [X_SEP] # person1 # sent the prescription down there, so you can pick it up on your way out.
+# person1 # said " i swear it, and the oath shall be kept " [X_SEP] # person2 # said " i ask you to pass through life at my side " [X_SEP] # person1 # said " i'll never again come to your side ; i am turn away now and can't return "
+# person1 # : if they don't think this is fun, they're not meant to be our friends. [X_SEP] # person2 # : if they don't think this is fun, they're not meant to be our friends. [X_SEP] # person1 # : if they don't think this is fun, they're not meant to be our friends.
+# person1 # told # person2 # that ruojia has got married. [X_SEP] # person2 # said " i can't believe it! " # person1 # said " ruojia has got married. " [X_SEP] # person1 # bought a pair of wineglasses and a card to wish her happy marriage.
+# person1 # cleans up the yard. [X_SEP] # person2 # takes # person2 #'s dog oscar for a walk. [X_SEP] # person1 # is saving up to buy a bike.
+# person1 # tried to register for comp lit 287 through the touch - tone registration system. [X_SEP] # person2 # said " i already tried to register for it by phone, but the computer won't let me " [X_SEP] # person1 # said " i'm sorry, but that class is already full. " [X_SEP] # person2 # said " i thought maybe there was some way i could get into the class. "
+# person1 # is out of a job because the company he worked for closed down, so he's out of a job. [X_SEP] # person2 # asks # person1 # if he has given much thought to what he wants to do next. [X_SEP] # person1 # says " i wish that i could get the opportunity to be interviewed "
+# person1 # said " mary got married. " # person2 # said " i can't believe it! " [X_SEP] # person1 # said " she married jerrod. " [X_SEP] # person2 # said " she's going to live in paris. "
+john dates his girlfriend seven times a week. [X_SEP] # person1 # thinks john has fallen for her. [X_SEP] # person2 # says it's a perfect match between a man and a girl.
+# person1 # said " i must catch the nine - thirty train " [X_SEP] # person2 # said " it won't take more than twenty minutes to get there "
+# person1 # said " it seems that typhoon is not as bad as earthquake " [X_SEP] # person2 # said " earthquake is one of the most badly natural disasters in the world " [X_SEP] # person1 # said " love among human beings is not limited by geography "
+# person1 # says he's not sure how to use the atm. [X_SEP] # person2 # says " i can help you figure it out, " to help personx. [X_SEP] # person1 # says " i've never used one before. " # person2 # says " click on whichever option you want, and you're done "
+# person2 # received some leaflets in the post that talked about a new service you have where you can transfer money between this bank and securities companies. [X_SEP] # person1 # said " we can provide a tailored consultation service for you, giving you the latest quotes from the stock exchange and help you plan what exactly you do with your investments. "
+# person1 # gets a letter from tom. [X_SEP] # person1 # says " i was happy to hear that you two will be in town in january " [X_SEP] # person1 # says " please do call me when you arrive so that i can pick you up at the station " [X_SEP] # person1 # says " in case you don't have my number, it's 7807842 "
+# person1 # invited # person2 # to go to the theatre with him. [X_SEP] # person2 # said " i'd like to, but i'm afraid i can't " [X_SEP] # person1 # said " how about giving me a ring, then? " [X_SEP] # person2 # said " because i don't think my husband would like it "
+# person1 # found out that her husband is cheating on her. [X_SEP] # person2 # was at home when the telephone rang and a girl asked to talk to mark. [X_SEP] # person2 # pressed him on it, and so he gave me a lame excuse, and so i pressed him on it, and so i pressed him on it, and then he broke down and admitted to a small indiscretion, and then broke down and admitted to a small indiscretion,
+# person1 # asks # person2 # if they know what time it is. [X_SEP] # person2 # says it's almost eleven twenty. [X_SEP] # person1 # and # person2 # share an umbrella.
+# person1 # is flying to florida tomorrow to visit her grandmother. [X_SEP] she will take # person1 # to disney world.
+# person1 # asks # person2 # for stamps for a letter. [X_SEP] # person2 # says # person1 #'s letter is five grams over weigh. [X_SEP] # person1 # says # person2 #'s letter is registered. # person2 # gives # person1 # a 10 - dollar bill and a receipt.
+# person1 # loses # person1 #'s job over one mistake. [X_SEP] # person2 # : one small mistake can cost the company millions. [X_SEP] # person1 # : " my supervisor is very dishonest, and there's no reason he needs to tell our boss the truth " [X_SEP] # person1 # : " i have enough to live off of for about 3 months, but i don't want to spend my life savings on just living "
+# person1 # was at home with his parents in new york city on 9 - 11. [X_SEP] # person2 # asked # person1 # if he saw the hijacked planes crash into and destroy the twin towers. [X_SEP] # person1 # said " i didn't see the crash itself, but i did see the smoke and everything afterwards from my parents'apartment building " [X_SEP] # person1 # said " unfortunately, my uncle's firm had an office in one of the towers
+# person1 # sends # person1 # the information about the evening classes i sent off for. [X_SEP] # person1 # is shocked # person1 # can't afford the $ 280 course. [X_SEP] # person2 # offers # person2 # a $ 400 web design course for beginners.
+# person1 # says " happy birthday, this is for you, brian " [X_SEP] # person2 # says " i'm so happy you remember, please come in and enjoy the party " [X_SEP] # person1 # says " i hope my necklace goes with my dress, and they both make me look good i feel "
+# person1 # said " it looks like some kind of primitive form of torture " [X_SEP] # person2 # said " you're such a wimp! " [X_SEP] # person1 # said " well, you might pinch your eyelid! "
+# person1 # asked catherine if she had seen the movie fast food nation. [X_SEP] # person2 # said it was inspired by a new york times best - seller of the same name. [X_SEP] # person1 # said " it's very thought - provoking, isn't it? " [X_SEP] # person2 # said " people just don't care whether it is healthy or not "
+# person1 # asks # person2 # to tell him how to get to the school clinic. [X_SEP] # person2 # tells # person1 # to go straight ahead to the traffic lights, left and then right.
+# person1 # said " we have a reservation, for three nights " [X_SEP] # person2 # said " could you fill up these forms, please? " to fill up the form. [X_SEP] # person1 # said " the reservation was for a double, for three nights, " to fill up the form.
+# person1 # asks # person2 # to order a double cheeseburger. [X_SEP] # person2 # says " i would like everything on it, thank you " [X_SEP] # person1 # gets the double cheeseburger and fries.
+# person2 # says the agreement hasn't been fully prepared. [X_SEP] # person1 # says " it contains basically all we have agreed upon " [X_SEP] # person2 # will type the agreement this evening and have it duplicated for signatures.
+# person1 # says " i'm going to cut out all that junk i eat " [X_SEP] # person1 # says " i'm going to be a new man in one year's time! "
+# person2 # ordered a turkey sandwich. [X_SEP] # person1 # ordered soup, a salad and a medium drink.
+# person2 #'s father found a teacher for him who is from the uk. [X_SEP] # person2 # goes to her home every saturday. [X_SEP] # person1 # says # person2 #'s teacher is excellent and has won many awards.
+tom waits for 20 minutes for his sandwich, and when he finally got it the chicken was underdone, " # person1 # says. [X_SEP] # person2 # says # person1 # must feel right at home here as we get as many fast food restaurants as we do in america. [X_SEP] # person1 # says " i personally don't like then because i don't believe they are healthy "
+# person1 # said " linda, i can't find my cellphone anywhere in this hotel room! " to find the cellphone. [X_SEP] # person1 # left it in the bakery where they ate breakfast. [X_SEP] # person2 # said " if the bakery is still open, maybe we can pick it up before we go to the wedding, maybe we can pick it up before we go to the wedding. "
+# person1 # said " the feeling was all wrong, mike, " the personx cries. [X_SEP] # person1 # said " that's not how your character would act in this situation " [X_SEP] # person2 # said " don't you think his reaction would be one of both anger and sadness? " [X_SEP] # person1 # said " i think he would react the way most guys would and then later on, we would see his real feelings "
+# person1 # and # person2 # are thinking of going to xi'an in the summer. [X_SEP] # person1 # wants # person2 # and # person2 # to go with them. [X_SEP] # person1 # and # person2 # decide # person1 # and # person2 # should go together.

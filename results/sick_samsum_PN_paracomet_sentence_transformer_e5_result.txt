@@ -1,0 +1,88 @@
+num_beams: 20
+ rouge1: 34.80637241144664
+ rouge2: 13.90724599397515
+ rougeL: 27.335713741791956
+ rougeLsum: 31.631589255746658
+ bert-score: 0.5406660040219625
+
+clay was off the seat the moment he chopped the ball back to his right foot. [X_SEP] richie said " this season he's more mature " to be mature. [X_SEP] clay said " he really deserved to score after his first 60 minutes "
+everyone has their problems, the question is are ya doin sth about them, the question is are ya doin sth about them? [X_SEP] lincoln said " everyone has it, you have good childhood, nice parents, you have no idea " to be a good person. [X_SEP] fatima said " you are so cruel at times, o. o " to hurt someone. [X_SEP] lincoln said " youll not understand, you had good childhood, nice parents, you have no idea " to be a good
+the nagoro village in japan is similar to kelly's place in finnland. [X_SEP] in the same village you have human - sized figures living in it. [X_SEP] ollie said " it's just creepy as hell. it's similar to kelly's place in japan, but similar to kelly's place in finnland. [X_SEP] kelly said " it's not the sculptures, it's the amount of them and their faces! " to show off their beauty.
+charles and camilla are going to visit the german markets this weekend. [X_SEP] they will serve sausage, beer and mulled wine.
+abby's father came from albania to the us in the early 1990s. [X_SEP] he speaks only albanian with his parents. [X_SEP] abby met his father yesterday at a party.
+shaldona said " gonna get married " [X_SEP] piper said " you haven't sent me any messages for a few years " [X_SEP] shaldona said " i had no enough time to meet everybody and give this in person "
+emily wants to go to the pub x at the central station at 5. 30. [X_SEP] kate said she may be closer to 6, traffic on my way. [X_SEP] marta said " see you then, ladies! "
+harry said " can you call ela and tell her i need to talk urgent please pick my call " [X_SEP] cindy said " an other fight : o " [X_SEP] harry said " you guys... am i some kind of a messenger service here? "
+val and candy are going to be wet. [X_SEP] candy said " see if stops " to stop something. [X_SEP] val said " let's wait half h and than see "
+randolph said " buy me some earplugs please " [X_SEP] maya said " buy me some earplugs please " [X_SEP] randolph said " 4 or 5 packs " of earplugs. [X_SEP] maya said " i'll get you 5 "
+facebook is constantly non stop suggesting patrick. [X_SEP] demi said " patrick's a god. " to be a god. [X_SEP] tina said " i have to learn how to transfer from hating men to screwing them "
+jeremy and tomas haven't received the grant yet. [X_SEP] tomas is checking his bank account every hour to have a good time. [X_SEP] sierra said " if you need money i can lend you some, don't worry "
+blair and chuck are meeting wedding planner nonna rita after work. [X_SEP] chuck wants to order seafood tagliatelle from nonna rita's. [X_SEP] blair and chuck remmber the spaghetti pomodoro disaster from their last meeting with diane.
+tom and ben will make a decision at 2pm in the oval room. [X_SEP] tom said " take all your papers, it's going to be a fight! " [X_SEP] ben becomes a murderer. [X_SEP] tom said " we will, the justice is on our side "
+a small but interested audience is better than random bored people, milena said. [X_SEP] regina said " 3 but we new it will be very cosy, friendly thing " [X_SEP] milena said " sometimes a small but interested audience is better than random bored people "
+javier asked judie if she had had a tattoo done at warsaw ink. [X_SEP] judie said " my gf has but my gf has " [X_SEP] javier said " let me just get a tatttoo back in colombia then, thx "
+jack said may may be a little tightly strung today. [X_SEP] jack said " a little drink will help! " [X_SEP] may said " a little drink will help! "
+mary is broke and lends a few boxes to carter at the train station. [X_SEP] carter gives mary an hour to get to the train station.
+flo can't get into the salon until the 6th. [X_SEP] gina says " get you a touch - up kit at tesco! "
+jessica went to the second hand shop downtown. [X_SEP] she bought a table, six chairs, a vase, a pile of clothes. [X_SEP] jessica paid only 70 euros for all of that.
+christine said " got the flu, i think. " [X_SEP] annie said " oh noes! " to find out what happened. [X_SEP] christine said " i'm not high, i'm not running a fever or anything " [X_SEP] annie said " i think i probably had it already, but you might be sleeping. [X_SEP] christine said " if the light in my room is on, call if you want "
+mario said " i've landed in every airport in europe today - completely whacked out dude " [X_SEP] moe said " weather was good for flying everywhere " otherwise it would have been trains everywhere. [X_SEP] mario said " i've landed in every airport in europe today - completely whacked out dude "
+jake said " dude, i just pulled a totw " [X_SEP] tom said " i'll try him in one or two matches " [X_SEP] jake said " i got lucky with this one " to be lucky. [X_SEP] tom said " not a single great player " to be a good player.
+bella was astounded by her boss's reaction to dismissing a client's request. [X_SEP] eric said " he actually appreciated on our brave deccision to dismiss the request of client.. " [X_SEP] eric said " he was looking forward to bringing in new clients which were our current client's competitor "
+higuain scored twice against chelsea. [X_SEP] damian is happy for higuain.
+lily said " i spent an amazing night with this guy " [X_SEP] kate said " i expected him to be more banal and boring " [X_SEP] lily said " i've had so much pleasure that i have a headache "
+julia's parents are having a fight over where to eat. [X_SEP] julia doesn't want to eat with them anymore. [X_SEP] julia can see the giraffe from skittles comercial.
+hannah and james are watching the game. [X_SEP] james is heading to work.
+sean : " after much thought i've decided that my spirit animal is a tortoise " [X_SEP] sean : " after many days of thinking about i finally decided that i am in fact a tortoise "
+rodney said " as far as i know the assailant had a mask on " [X_SEP] truman said " it's easy to get on campus without being detected " [X_SEP] rodney said " as far as i know the assailant had a mask on "
+desiree and lucian are both at home. [X_SEP] lucian said " i've just got ur msg " [X_SEP] desiree said " keep my pasta in the microwave "
+at night the temps fall to - 3 in the tropics. [X_SEP] thomas said " nice white ground frost in the morning " [X_SEP] zoey said " it's pretty, but we're happy to give these views a miss for a while : ) "
+gyle said " you better come home " [X_SEP] brook said " something happened yesterday, you need to come and see "
+tom said " party at in - laws " to tell someone. [X_SEP] dan said " i need to be home at 2 and ready to drive on sunday noon " [X_SEP] tim said " guys you sound like 60 yos "
+max : " i like browsing, trying on, looking in the mirror and seeing how i look, but not always buying, but not always buying. " [X_SEP] payton : " if i bought everything i liked, i'd have nothing left to live on ; ) " [X_SEP] max : " if i bought everything i liked, i'd have nothing left to live on ; ) "
+ainsley said " i've got a cold and i'm sneezing like a little bitch every 2 seconds " [X_SEP] jane said " hope u will get better soon... "
+simon will be free at 5. [X_SEP] adrian said " i'll be free at 5 "
+bart bombed his economy final and ended up with a bad score. [X_SEP] adrian said " that must hurt. " bart said " it's my fault because i didn't study as much as i should have " [X_SEP] bart said " i'm not going to play games during school anymore "
+daisy said " please be back before 11 pm " [X_SEP] lisa said " not yet "
+ken said " i want my money back " [X_SEP] greg said " was your account hacked by some prankster? " [X_SEP] ken said " i'm the prankster, just having a laugh at your expense "
+peter said he doesn't have much of weight to lose, just want to improve his health. [X_SEP] lisa said " besides exercises, i think i need to eat better to help me keep in shape " [X_SEP] peter said " another major requirement for good health is sleep "
+mae said " hope to have it soon " [X_SEP] cael said " not yet " [X_SEP] mae said " hope to have it soon "
+natalie told us in confidence, i don't think we should share it with others, " jane said. [X_SEP] tom said " you're such a gossip girl, sally! " to be a gossip girl. [X_SEP] sally said " guess who's the father!!! " to be a good father. [X_SEP] henriette said " i knew it! " to be a good father. [X_SEP] greg said " that's insane! " to make a mistake.
+elliot and jordan are going to a colleague's funeral. [X_SEP] elliot said " i'm so sorry man, i hope " [X_SEP] jordan said " my colleague's, brad, had a liver cancer "
+the readings for the next session of stephen's seminar were not yet there on monday. [X_SEP] chae - yeong said " the only thing i know is that they were not yet there on monday " [X_SEP] arthur said " yer, i've made the mistake of going on monday as well and i can confirm the texts were not there and the staff was as rude as always "
+david says jacky was right about taking the blame. [X_SEP] jacky says he will call david when he gets home.
+steve said " yes they did a good job " to do a good job. [X_SEP] mum said " not that i ever have 12 for dinner lol " to satisfy his hunger. [X_SEP] steve said " i am glad you are pleased with it " to express his gratitude.
+ellie said " cheer up! " [X_SEP] cindy said " it's viral on the internet " [X_SEP] cindy said " it's viral on the internet "
+cass asked jordan for his birthday card and money on time. [X_SEP] jordan said " sorry i didn't ring you before " [X_SEP] cass said " you still like thomas the tank engine don't you? " [X_SEP] jordan said " next time, get me a football one or something "
+" i'll be home at 10 - 11, " says rebecca. [X_SEP] " i'll wait in the coffee shop, " says conrad.
+joseph sent a photo. [X_SEP] ella said " baby cows?? ( / / ( / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / /
+the name of the rose is really difficult for a foreign speaker of italian, you know. [X_SEP] stefano said " the name of the rose is really difficult for a foreign speaker of italian, you know. " [X_SEP] josie read salman rushdie's review of pendulum, published in the 80s, and said that he hated it and said that it's not a novel, but rather a computer game.
+rob will start with 30 min of activity every day. [X_SEP] anna will be doing walking, biking, swimming whatever you enjoy. [X_SEP] anna will need lots of support from you guys!
+martin bought two milks yesterday. [X_SEP] alex said " i'm just craving milk lately, i'm just craving milk lately " [X_SEP] martin said " you're lucky that i love you, two milks coming up in couple of hours, i gotta finish the project "
+lia said " i'm too tired after hiking " to not be tired. [X_SEP] mico said " i'd like to go, there may be some hot boys! " [X_SEP] jim said " who doesn't even speak english? " [X_SEP] mico said " yes, the dummer, the better "
+jill can't do more than 3 - 4 per day. [X_SEP] ally asked jill how many hours she had done so far. [X_SEP] jill said " i can't do more than 20 or 30 "
+sebastian said " this russian circus will never end... " [X_SEP] ryan said " i hope the leaders of of nations will react somehow to this shit "
+cole and luis are in the same damn room. [X_SEP] cole said " pass me my pillow xd " to have a pillow. [X_SEP] luis said " im not gonna text an idiot who's practically sitting just a few inches from me - _ - " to not be overheard.
+jerry is coming home in 40 minutes. [X_SEP] janet said it was ok but her boss is a pain in the ass sometimes. [X_SEP] jerry said " i know, she can be a bitch : p "
+ed said " sex is for married people " [X_SEP] valerie said " double sin if it's anything but missionary style! " [X_SEP] chris said " then you go get married & leave us all alone " [X_SEP] jessica said " and the only purpose for sex is to make babies!!! "
+simon said " poland though... " to go to war. [X_SEP] charlie said " berlin has put concrete blocks around christmas fair, belgium has soldiers running armed around cities and paris has mass demonstrations and car arsons happening all over the city " [X_SEP] simon said " there will be time when only poland will have power to fight with internal problems of europe "
+cafe kohaku near covent garden has been closed for good. [X_SEP] julia hopes the owners will reopen somewhere else. [X_SEP] henry and julia went to the lilly's in the end, but it's not the same.
+marleen will be leaving in half an hour to go to town. [X_SEP] barry said " but i've got none! " like a fool. [X_SEP] marleen said " lovely silk kerchiefs "
+nora said " sorry i missed something " [X_SEP] catherine said " miranda!!! " to find out what happened. [X_SEP] anne said " she wants to take tom away from me " [X_SEP] nora said " she's not his type! "
+kate and george are at the grocery store. [X_SEP] kate wants some fruits for school tomorrow. [X_SEP] george wants tangerines but kate has already asked for a date.
+linda and linda will go to an italian restaurant in tommorow. [X_SEP] linda will taste their pasta and a brownie.
+adele said " got a new dog, " a puppy biscuit lab. [X_SEP] lola said " can't wait to see him. " adele said " speedy wants to play " [X_SEP] adele said " girls like to fight, and girls like to fight like crazy "
+dolph will be getting a passport tomorrow. [X_SEP] ziggler will be excited to get a passport.
+alice didn't go to school today. [X_SEP] mary stayed at home.
+carly said " she's so stupid < lol > " [X_SEP] cindy said " she really asked him : d "
+i'm in a huge trouble, my laptop is broken and i have to deliver a translation tomorrow @ 9 " [X_SEP] dima said " the stupid cat spilled coffee on it i'm freaking out! " [X_SEP] nada said " if it weren't for trados, i wouldn't be panicking : ( " [X_SEP] dima said " if it weren't for trados, i wouldn't be panicking : ( "
+zadie and finn will visit a neighborhood called elephant and castle tomorrow. [X_SEP] it's apparently full of latin american stuff. [X_SEP] zadie said " can't wait to taste this cuisine of unspecified latino origin lol " to taste the cuisine.
+adelle cleans the hamster cage. [X_SEP] pete cleans the hamster cage. [X_SEP] after school, no excuses.
+chloe has no idea where the next aseees conference takes place. [X_SEP] james said he's heard somewhere in california. [X_SEP] chloe said " not bad, but i really hoped for hawaii " [X_SEP] james said " the last conference there in 1993 was criticised for the high costs of traveling to the place "
+jake sent jake a photo of his dreams coming true. [X_SEP] mike said " dreams coming true! "
+tom and camilla are going to dublin for the weekend. [X_SEP] the weather forecast is great.
+i'd love to meet you in real life. [X_SEP] kat said " i don't meet strange men from the internet. " [X_SEP] gab said " but it would be so much nicer to do this cuddled up right next to you... "
+jason was absent today. [X_SEP] susy said he had a dentist appointment.
+ben and catherine are going to visit uncle steve. [X_SEP] ben is not fond of such visits because they stress him out. [X_SEP] the boys want to see him and play with them some other day. [X_SEP] ben said " all he ever does is bothering me with stupid questions about my private life " [X_SEP] catherine said " maybe that's his way of showing that he cares about you " to show he cares about you.
+jake has 3 tickets for tomorrow, 7 pm. [X_SEP] he has some workplace discount on them.
+william and olivia are making spaghetti. [X_SEP] william wants to buy some fresh tomatoes for the dinner. [X_SEP] he wants some chocolate for after the dinner.
