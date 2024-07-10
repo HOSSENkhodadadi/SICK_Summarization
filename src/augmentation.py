@@ -9,8 +9,9 @@ def dialogue2sentences(dialogue):
     sentences = []
 
     for idx, sentence in enumerate(dialogue.split('\r\n')):
-        person, sentence = sentence.split(': ')
-        sentences.append([idx, person, sentence])
+        if sentence != '':
+            person, sentence = sentence.split(': ')
+            sentences.append([idx, person, sentence])
 
     return sentences
 
