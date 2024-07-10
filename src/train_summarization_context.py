@@ -177,7 +177,7 @@ if args.dataset_name=='samsum':
     
     train_dataset = total_dataset.getTrainData()
     if args.data_augmentation:
-        train_dataset = augmentation_on_dataset(train_dataset)
+        train_dataset = augmentation_on_dataset('samsum', train_dataset)
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
 
@@ -193,6 +193,8 @@ elif args.dataset_name=='dialogsum':
                                            roberta=args.use_roberta)
     
     train_dataset = total_dataset.getTrainData()
+    if args.data_augmentation:
+        train_dataset = augmentation_on_dataset('dialoguesum', train_dataset)
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
 
