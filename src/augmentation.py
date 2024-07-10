@@ -1,3 +1,5 @@
+import warnings
+warnings.filterwarnings("ignore")
 import nlpaug.augmenter.word as naw
 import emoji
 import random
@@ -84,7 +86,7 @@ def translation(dialogue):
 def augmentation_on_dataset(dataset):
     print('======================== Performing augmentation on the dataset ========================')
     for i, dialogue in tqdm(enumerate(dataset.data['dialogue'])):
-        # print(dialogue)
+        print(dialogue)
         if random.random() <= 0.1:
             dataset.data['dialogue'][i] = word_level_augmentation(dialogue)
         else:
