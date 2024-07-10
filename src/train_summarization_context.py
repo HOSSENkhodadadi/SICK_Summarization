@@ -14,7 +14,7 @@ from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
 from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total
 import argparse
-
+from augmentation import augmentation_on_dataset
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
@@ -125,6 +125,7 @@ parser.add_argument('--dataset_directory',type=str, default='./data')
 parser.add_argument('--test_output_file_name',type=str, default='samsum_context_trial2.txt')
 parser.add_argument('--relation',type=str,default="xReason")
 parser.add_argument('--supervision_relation',type=str,default='isAfter')
+parser.add_argument('--data_augmentation',type=bool,required=True)
 
 args = parser.parse_args()
 
@@ -175,6 +176,8 @@ if args.dataset_name=='samsum':
                                         sentence_transformer=args.use_sentence_transformer)
     
     train_dataset = total_dataset.getTrainData()
+    if args.data_augmentation:
+        train_dataset = augmentation_on_dataset(train_dataset)
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
 
