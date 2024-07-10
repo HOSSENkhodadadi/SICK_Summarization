@@ -12,7 +12,7 @@ def dialogue2sentences(dialogue):
 
     for idx, sentence in enumerate(dialogue.split('\r\n')):
         if sentence != '':
-            person, sentence = sentence.split(': ')
+            person, sentence = sentence.split(': ', 1)
             sentences.append([idx, person, sentence])
 
     return sentences
@@ -86,7 +86,7 @@ def translation(dialogue):
 def augmentation_on_dataset(dataset):
     print('======================== Performing augmentation on the dataset ========================')
     for i, dialogue in tqdm(enumerate(dataset.data['dialogue'])):
-        print(dialogue)
+        # print(dialogue)
         if random.random() <= 0.1:
             dataset.data['dialogue'][i] = word_level_augmentation(dialogue)
         else:
