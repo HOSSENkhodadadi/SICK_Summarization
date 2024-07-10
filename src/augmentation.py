@@ -9,10 +9,10 @@ import random
 from tqdm import tqdm
 
 
-def dialogue2sentences(dialogue):
+def dialogue2sentences(dialogue, splitter):
     sentences = []
 
-    for idx, sentence in enumerate(dialogue.split('\r\n')):
+    for idx, sentence in enumerate(dialogue.split(splitter)):
         sentence = sentence.strip()
         if sentence != '':
             person, sentence = sentence.split(': ', 1)
@@ -46,9 +46,9 @@ def random_word_deletion(text):
     aug = naw.RandomWordAug()
     return aug.augment(text)[0]
 
-def word_level_augmentation(dialogue):
+def word_level_augmentation(dialogue, splitter):
     
-    sentences = dialogue2sentences(dialogue)
+    sentences = dialogue2sentences(dialogue, splitter)
     for i in range(len(sentences)):
         if not contains_emoji(sentences[i][-1]):
             augmentations = i % 5
@@ -71,10 +71,10 @@ def word_level_augmentation(dialogue):
 
     return dialogue
 
-def translation(dialogue):
+def translation(dialogue, splitter):
     aug = naw.BackTranslationAug(from_model_name='facebook/wmt19-en-de',to_model_name='facebook/wmt19-de-en')
     
-    sentences = dialogue2sentences(dialogue)
+    sentences = dialogue2sentences(dialogue, splitter)
     for i in range(len(sentences)):
         if not contains_emoji(sentences[i][-1]):
             sentences[i][-1] = aug.augment(sentences[i][-1])[0]
@@ -86,17 +86,22 @@ def translation(dialogue):
 
     return dialogue
 
-def augmentation_on_dataset(dataset):
+def augmentation_on_dataset(dataset_name, dataset):
+    if dataset_name == 'samsum':
+        splitter = '\r\n'
+    else:
+        splitter = '\n'
+
     counter = 0
     print('======================== Performing augmentation on the dataset ========================')
     for i, dialogue in tqdm(enumerate(dataset.dialogue), total=len(dataset.dialogue)):
         # print(dialogue)
         if random.random() <= 0.1:
-            dataset.dialogue[i] = word_level_augmentation(dialogue)
+            dataset.dialogue[i] = word_level_augmentation(dialogue, splitter)
             counter += 1
         else:
             if random.random() <= 0.1:
-                dataset.dialogue[i] = translation(dialogue)
+                dataset.dialogue[i] = translation(dialogue, splitter)
                 counter +=1
 
     print('Data augmentation is finished')
