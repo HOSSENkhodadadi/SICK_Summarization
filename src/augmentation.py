@@ -13,6 +13,7 @@ def dialogue2sentences(dialogue):
     sentences = []
 
     for idx, sentence in enumerate(dialogue.split('\r\n')):
+        sentence = sentence.strip()
         if sentence != '':
             person, sentence = sentence.split(': ', 1)
             sentences.append([idx, person, sentence])
@@ -86,13 +87,18 @@ def translation(dialogue):
     return dialogue
 
 def augmentation_on_dataset(dataset):
+    counter = 0
     print('======================== Performing augmentation on the dataset ========================')
     for i, dialogue in tqdm(enumerate(dataset.dialogue), total=len(dataset.dialogue)):
         # print(dialogue)
         if random.random() <= 0.1:
             dataset.dialogue[i] = word_level_augmentation(dialogue)
+            counter += 1
         else:
             if random.random() <= 0.1:
                 dataset.dialogue[i] = translation(dialogue)
+                counter +=1
 
+    print('Data augmentation is finished')
+    print(f'The number of augmented dialogues is: {counter}')
     return dataset
