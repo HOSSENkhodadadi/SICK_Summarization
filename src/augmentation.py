@@ -1,5 +1,7 @@
 import warnings
 warnings.filterwarnings("ignore")
+import os
+os.environ['TOKENIZERS_PARALLELISM'] = 'true'
 import nlpaug.augmenter.word as naw
 import emoji
 import random
