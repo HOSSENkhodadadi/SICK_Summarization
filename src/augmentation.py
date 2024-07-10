@@ -87,12 +87,12 @@ def translation(dialogue):
 
 def augmentation_on_dataset(dataset):
     print('======================== Performing augmentation on the dataset ========================')
-    for i, dialogue in tqdm(enumerate(dataset.data['dialogue']), total=len(dataset.data['dialogue'])):
+    for i, dialogue in tqdm(enumerate(dataset.dialogue), total=len(dataset.dialogue)):
         # print(dialogue)
         if random.random() <= 0.1:
-            dataset.data['dialogue'][i] = word_level_augmentation(dialogue)
+            dataset.dialogue[i] = word_level_augmentation(dialogue)
         else:
             if random.random() <= 0.1:
-                dataset.data['dialogue'][i] = translation(dialogue)
+                dataset.dialogue[i] = translation(dialogue)
 
     return dataset
