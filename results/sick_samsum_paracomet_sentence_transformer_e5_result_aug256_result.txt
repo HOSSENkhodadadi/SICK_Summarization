@@ -1,0 +1,88 @@
+num_beams: 20
+ rouge1: 32.61517999349446
+ rouge2: 9.951973080397005
+ rougeL: 26.2521756115549
+ rougeLsum: 28.249382821239777
+ bert-score: 0.5636531813645068
+
+Clay said "Pogba's off the seat the moment he chopped the ball back to his right foot".
+Lincoln said "I talked to Jenson, he’s not too happy".
+Ollie said "It's a sculpture in Finnland."
+Charles and Camilla are going to the German markets this weekend.
+Dylan said "really, I had no idea he is Albanian"  and his father speaks only Albanian with his parents.
+Shaldona and Piper are getting married.
+Kate and Emily are having a drink after work today.
+Harry said "Can you call Ela and tell her i need to talk urgent please pick my call? ".
+Candy and Val are going to the park.
+Maya asked for earplugs from the pharmacy.
+Tina said "I think I have to catch a bit of your approach" as soon as possible.
+Tomas said "I'm completely broke" when asked about the grant he received.
+Blair said "Remember we are seeing the wedding planner after work" after work.
+Tom said "Take all your papers, it's going to be a fight!" Ben said "I'll be there at 2pm in the Oval Room".
+Milena's presentation was well received.
+Judie gets a tattoo in Poland.
+Jack said "Cocktails later?" May said "YES!!!" Jack said "Maybe two! ".
+Mary borrowed a box of chocolates from Carter to go to the train station.
+Gina has to go to the salon for a touch-up kit.
+Jessica went to the second hand shop downtown and bought a pile of clothes.
+Annie said "Are you going to be at school" when asked if she's well.
+Mario said "I’ve landed in every airport in Europe today - completely whacked out dude".
+Jake said "dude, I just pulled a TOTW"  in front of Tom.
+Eric said "Hey Bella, What happened today in boss's room?"
+Mason was busy all afternoon.
+Lily said "I've had so much pleasure that I have a headache"  and Kate has a headache.
+Ronald said "I've got something to tell you, and I'm sure you're gonna piss rainbows".
+Hannah asked James if he was watching the football.
+Sean said "After many days of thinking about I finally decided that my spirit animal is a tortoise".
+Rodney said "Have you heard a guy got beaten and mugged on campus?"
+Desiree said "Keep my pasta in the microwave", Lucian said "I haven't cooked anything".
+Zoey said "Hello dear friends, here something to cheer you up on a cold day. ".
+Gyle is on his way home from school.
+Dan and Tom are going on a date on Sunday.
+Max said "Know any good sites to buy clothes from?" pleasantly surprised Payton sent a file.
+Ainsley has a cold and she's sneezing like a little bitch every 2 seconds.
+Adrian and Simon were talking on the phone.
+Adrian said "I ended up with a reasonable grade" despite not studying as much as he should have.
+Daisy said "please be back before 11 pm" and Lisa said "ok" and went home.
+Ken said "Fuck you, you pimp" to Greg to express his anger.
+Peter and Lisa are having a late night's sleep.
+Mae and Cael are waiting for Cael to wear his wedding dress.
+Sally said "Hi guys have you heard about Natalie? ".
+Elliot said "i can't talk rn, i'm rly busy" before going to a funeral.
+Mariana and Rita went to the print shop on Tuesday.
+Jacky said "I'll call you when I get home." David will call me when he gets home.
+Mum and dad installed a dishwasher for Steve.
+Cindy sent a video to make a viral video.
+Jordan got a £20 birthday card and £20 from Nanna.
+Conrad said "I'm outside the house" before going back to bed.
+Joseph sent a photo of baby cows to Ella.
+Stefano and Josie are talking about Foucault's Pendulum.
+Rob has started a challenge to get off the couch.
+Alex was craving milk, so he asked Martin to buy some for him.
+Jeff and Lia are going to the village party.
+Ally asked Jill how many times she could do 4 push-ups in a day.
+Sebastian and Ryan have been talking about Ukraine.
+Luis and Cole are in the same room.
+Jerry said "Hi sweetie" to Janet.
+Ed said "I don’t even look on the direction of another man" before sex.
+Charlie and Simon sent a photo.
+Henry said "It's always awfully crowded and there are more tourists than normal people like us".
+Marleen said "If you have any idea for a present for Rita let me know".
+Catherine and Anne are dating.
+Kate asked George to get her an apple for school tomorrow.
+Laura said "where will we go tommorow" before going to bed.
+Lola got a new dog.
+Dolph Ziggler is getting a passport.
+Mary and Alice went to school today but Alice stayed home.
+Carly said "She's so stupid" to Cindy.
+Dima said "I'm in a huge trouble, my laptop is broken and I have to deliver a translation tomorrow @9," and asked for a loan to fix it.
+Finn said "Look, I was thinking of going to this neighborhood called Elephant and Castle tomorrow, it's apparently full of Latin American stuff."
+Pete said "Did you clean the hamster cage?" Adelle said "No".
+Emily said "Does anybody now where the next ASEEES conference takes place?"
+Jake said "Maaaan!" to say hello to Mike.
+Tom and Camilla are going to Dublin this weekend.
+Gab said "So when can we meet up for a drink?" Kat said "I'd love to meet you in real life".
+Megan said "Any word from Jason?" Nathan said "He was absent today".
+Catherine and Ben are going to visit uncle Steve's family.
+Bob said "did you reserve the tickets for tomorrow? ", and Jake said "we got a 30% discount on them too".
+William said "could you please buy some fresh tomatoes" as he's making spaghetti.

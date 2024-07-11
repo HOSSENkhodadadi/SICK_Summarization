@@ -1,0 +1,71 @@
+num_beams: 20
+ rouge1: 26.966486424942143
+ rouge2: 7.875740112628884
+ rougeL: 21.653932735653687
+ rougeLsum: 24.511407444864904
+ bert-score: 0.5608263987302781
+
+num_beams: 20
+ rouge1: 26.73417144475454
+ rouge2: 6.849232935291588
+ rougeL: 21.253567941743665
+ rougeLsum: 24.307821828590697
+ bert-score: 0.5602041667699814
+
+num_beams: 20
+ rouge1: 26.062904626023943
+ rouge2: 6.966550077422823
+ rougeL: 20.540784490897142
+ rougeLsum: 23.243705168137147
+ bert-score: 0.5542957365512848
+
+#Person1# said "I'm sorry, but it really is your responsibility to check the goods when you buy them. "#Person2# says "Well, I suppose we could exchange it for another model, if you really aren't happy with it."
+#Person1# and #Person2# are talking on the phone at the International Student Office.
+#Person2# said "I know my father will kill me if I fail, he'll kill me"  after being caught cheating. #Person1# gets fired.
+#Person2# said "Having a father figure in my baby's life is important to me because I missed out on that. I probably wouldn't normally, but I now have a responsibility to my baby."
+#Person2# said "We'll go to the doctor first thing in the morning! "#Person1# was working day and night, trying to prevent the blaze from spreading across the room.#Person3# was in the middle of the night, but decided to put out some major forest fires!
+#Person1# and #Person2# know each other.
+#Person1# said "Please tell us the exact time when the big fire broke out. "#Person2# said it was about 10 o'clock.
+#Person2# said "My husband and I moved to London, and so I managed to find a new job in York called the York Herald."
+#Person1# said "I am happy I started carrying the credit card that the bank gave us." Kate thanked #Person2# for using it.
+#Person1# said "How long does it take to get to the destination from here? "#Person2# said it takes 15 minutes.
+#Person2# said "Are you worried about working for a big newspaper like the Chicago Tribune? ".
+#Person2# said "It's a tradition to solve the puzzles on the lanterns during the Lantern Festival."
+#Person1# said "Please put down the table in front of you, I'd like to have Chinese food. "#Person2# says "It's more comfortable that way." #Person2 # said "Oh, thank you."
+#Person1# said "Buying a house near our company can be expensive, but there are ways to save money."
+#Person1# asked #Person2# what kind of infection you have.
+#Person1# said "I have spoken my mind, and can go anywhere now." #Person2# has said "No, you must stay!"
+#Person1# said "Just pull on this strip. ".
+#Person2# said "I didn't receive it!" #Person1# says "She sent an email about it." #Person2 # says "I saw the news from her twitter".
+#Person1# said "Well, I appreciate the weekend work. "#Person2# is thanked for cleaning up the yard.
+#Person2# said "I already tried to register for it by phone, but the computer won't let me. "#Person1# says "I'm sorry, but that class is already full".
+#Person2# said "Have you given much thought to what you want to do next?" #Person1# says "I just need to keep a roof over my head."
+#Person1# and #Person2# are talking about Mary getting married.
+#Person1# said "John dates her seven times a week. "#Person2# has a girlfriend.
+#Person1# said "I must catch the nine-thirty train. "#Person2# said it's ten to nine by my watch.
+#Person1# and #Person2# went to Wenchuan earthquake in China to learn more about China's long history of destructive earthquakes.
+#Person2# said "I can help you figure it out. "#Person1# has a problem with the ATM.
+#Person2# said "I received some leaflets in the post from you, one of them talked about a new service you have where you can transfer money between this bank and securities companies. ".
+#Person1# said "I think that is the first time that you will have come to visit us after your marriage. ".
+#Person1# said "Would you like to come out with me tonight? "#Person2 # said "I'd like to."
+#Person1# said "I picked it up and a girl asked to talk to Mark, and I said no, I was his wife. "#Person2# says "He gave me a lame excuse, and so I pressed him on it".
+#Person1# said "Excuse me," when asked what time it is.
+#Person1# said "She's going to take me to Disney World."
+#Person1# said "Can I help you?" and #Person2# responded "I need some stamps for this letter."
+#Person1# said "It's going to be impossible to make ends meet if I lose my job!"
+#Person1# said "I didn't see the crash itself, but I did see the smoke and everything afterwards from my parents' apartment".
+#Person1# said "I wonder why it's so expensive to ask personx why.
+#Person1# and #Person2# are at a party to celebrate #Person1's birthday.
+#Person1# and #Person2# have a conversation about curling their eyelashes.
+#Person1# and #Person2# are at a fast food restaurant.
+#Person1# said "Excuse me, could you tell me how to get to the school clinic?"
+#Person1# and #Person2# have a reservation for three nights in a row at a hotel in New York.
+#Person1# and #Person2# are at a restaurant in New York.
+#Person1# and #Person2# are signing an agreement.
+#Person1# has decided to go on a diet.#Person2# has a new man.
+#Person1# said "Welcome to Danny's, may I take your order please? "#Person2# ordered a turkey sandwich.
+#Person2# said "I began to play the piano when I was 7. "#Person1# says "No wonder you can play so well."
+#Person2# said "I thought you must feel right at home here as we get as many fast food restaurants as you do in America." #Person1# goes to McDonald's.
+#Person1# said "I can't find my phone anywhere in this hotel room!" #Person2# found it in the bakery where we ate breakfast.
+#Person1# said "I think he would react the way most guys would and then later on, we would see his real feelings".
+#Person1# said "I don't know if you've heard of it, Peter, but some of us are thinking of going to Harbin for the summer."
