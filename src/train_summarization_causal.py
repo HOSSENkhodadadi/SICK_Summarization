@@ -53,7 +53,7 @@ parser.add_argument('--val_batch_size',type=int, default=4)
 parser.add_argument('--test_batch_size',type=int,default=1)
 
 # Model hyperparameters
-parser.add_argument('--model_name',type=str, default='openai/gpt2-medium')
+parser.add_argument('--model_name',type=str, default='openai-community/gpt2-medium')
 
 # Optimizer hyperparameters
 parser.add_argument('--init_lr',type=float, default=3e-6)
@@ -156,13 +156,14 @@ print(len(test_dataset))
 print()
 
 # Loading checkpoint of model
-model = GPT2LMHeadModel.from_pretrained(args.model_name)
-model.resize_token_embeddings(len(tokenizer))
-model.gradient_checkpointing_enable()
-model = model.to(device)
-print('***** Setting up pretrained model *****')
-print("The number of model's parameters is : ", model.num_parameters())
-print()
+if False:
+    model = GPT2LMHeadModel.from_pretrained(args.model_name)
+    model.resize_token_embeddings(len(tokenizer))
+    model.gradient_checkpointing_enable()
+    model = model.to(device)
+    print('***** Setting up pretrained model *****')
+    print("The number of model's parameters is : ", model.num_parameters())
+    print()
 
 # Set Training Arguments
 training_args = TrainingArguments(
@@ -190,7 +191,6 @@ training_args = TrainingArguments(
     fp16=True,
     seed=516,
     load_best_model_at_end=True,
-    predict_with_generate=True,
     prediction_loss_only=False,
     generation_max_length=args.decoder_max_len,
     generation_num_beams=5,
