@@ -192,7 +192,6 @@ training_args = TrainingArguments(
     seed=516,
     load_best_model_at_end=True,
     prediction_loss_only=False,
-    generation_max_length=args.decoder_max_len,
     generation_num_beams=5,
     metric_for_best_model='eval_rouge1',
     greater_is_better=True,
