@@ -153,7 +153,7 @@ print()
 
 
 # Set metric
-metric = load_metric("./utils/rouge.py")
+metric = load_metric("./utils/rouge.py", trust_remote_code=True)
 
 # Load Tokenizer associated to the model
 tokenizer = AutoTokenizer.from_pretrained(args.model_name)
