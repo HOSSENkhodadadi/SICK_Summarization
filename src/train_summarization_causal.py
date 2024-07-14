@@ -112,58 +112,58 @@ special_tokens_dict = {'additional_special_tokens':['<I>','</I>']}
 tokenizer.add_special_tokens(special_tokens_dict)
 
 # Set dataset
-if args.dataset_name == 'samsum':
-    total_dataset = SamsumDataset_total(args.encoder_max_len,
-                                        args.decoder_max_len,
-                                        tokenizer,
-                                        extra_context=True,
-                                        paracomet=args.use_paracomet,
-                                        relation=args.relation,
-                                        supervision_relation=args.supervision_relation,
-                                        roberta=args.use_roberta,
-                                        sentence_transformer=args.use_sentence_transformer)
+# if args.dataset_name == 'samsum':
+#     total_dataset = SamsumDataset_total(args.encoder_max_len,
+#                                         args.decoder_max_len,
+#                                         tokenizer,
+#                                         extra_context=True,
+#                                         paracomet=args.use_paracomet,
+#                                         relation=args.relation,
+#                                         supervision_relation=args.supervision_relation,
+#                                         roberta=args.use_roberta,
+#                                         sentence_transformer=args.use_sentence_transformer)
     
-    train_dataset = total_dataset.getTrainData()
-    if args.data_augmentation:
-        train_dataset = augmentation_on_dataset('samsum', train_dataset)
-    eval_dataset = total_dataset.getEvalData()
-    test_dataset = total_dataset.getTestData()
+#     train_dataset = total_dataset.getTrainData()
+#     if args.data_augmentation:
+#         train_dataset = augmentation_on_dataset('samsum', train_dataset)
+#     eval_dataset = total_dataset.getEvalData()
+#     test_dataset = total_dataset.getTestData()
 
-elif args.dataset_name == 'dialogsum':
-    total_dataset = DialogsumDataset_total(args.encoder_max_len,
-                                           args.decoder_max_len,
-                                           tokenizer,
-                                           extra_context=True,
-                                           paracomet=args.use_paracomet,
-                                           relation=args.relation,
-                                           supervision_relation=args.supervision_relation,
-                                           sentence_transformer=args.use_sentence_transformer,
-                                           roberta=args.use_roberta)
+# elif args.dataset_name == 'dialogsum':
+#     total_dataset = DialogsumDataset_total(args.encoder_max_len,
+#                                            args.decoder_max_len,
+#                                            tokenizer,
+#                                            extra_context=True,
+#                                            paracomet=args.use_paracomet,
+#                                            relation=args.relation,
+#                                            supervision_relation=args.supervision_relation,
+#                                            sentence_transformer=args.use_sentence_transformer,
+#                                            roberta=args.use_roberta)
     
-    train_dataset = total_dataset.getTrainData()
-    if args.data_augmentation:
-        train_dataset = augmentation_on_dataset('dialogsum', train_dataset)
-    eval_dataset = total_dataset.getEvalData()
-    test_dataset = total_dataset.getTestData()
+#     train_dataset = total_dataset.getTrainData()
+#     if args.data_augmentation:
+#         train_dataset = augmentation_on_dataset('dialogsum', train_dataset)
+#     eval_dataset = total_dataset.getEvalData()
+#     test_dataset = total_dataset.getTestData()
 
-print('***** Setting up Dataset *****')
-print('Training Dataset Size is : ')
-print(len(train_dataset))
-print('Validation Dataset Size is : ')
-print(len(eval_dataset))
-print('Test Dataset Size is : ')
-print(len(test_dataset))
-print()
+# print('***** Setting up Dataset *****')
+# print('Training Dataset Size is : ')
+# print(len(train_dataset))
+# print('Validation Dataset Size is : ')
+# print(len(eval_dataset))
+# print('Test Dataset Size is : ')
+# print(len(test_dataset))
+# print()
 
 # Loading checkpoint of model
-if False:
-    model = GPT2LMHeadModel.from_pretrained(args.model_name)
-    model.resize_token_embeddings(len(tokenizer))
-    model.gradient_checkpointing_enable()
-    model = model.to(device)
-    print('***** Setting up pretrained model *****')
-    print("The number of model's parameters is : ", model.num_parameters())
-    print()
+
+model = GPT2LMHeadModel.from_pretrained(args.model_name)
+model.resize_token_embeddings(len(tokenizer))
+model.gradient_checkpointing_enable()
+model = model.to(device)
+print('***** Setting up pretrained model *****')
+print("The number of model's parameters is : ", model.num_parameters())
+print()
 
 # Set Training Arguments
 training_args = TrainingArguments(
