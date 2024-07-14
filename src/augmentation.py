@@ -15,8 +15,11 @@ def dialogue2sentences(dialogue, splitter):
     for idx, sentence in enumerate(dialogue.split(splitter)):
         sentence = sentence.strip()
         if sentence != '':
-            person, sentence = sentence.split(': ', 1)
-            sentences.append([idx, person, sentence])
+            if ': ' in sentence:
+                person, sentence = sentence.split(': ', 1)
+                sentences.append([idx, person, sentence])
+            else:
+                print(f"Skipping sentence due to unexpected format: {sentence}")
 
     return sentences
 
