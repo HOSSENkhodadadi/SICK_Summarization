@@ -39,7 +39,7 @@ class SamsumDataset(Dataset):
         # print(self.relation)
         ##################################################
         
-        self.data = load_dataset('samsum',split=split_type)
+        self.data = load_dataset('samsum',split=split_type, trust_remote_code=True)
         total = [i for i in range(len(self.data))]
         random.seed(42)
         random_sampled = random.sample(total, len(self.data) // 10)
@@ -327,7 +327,7 @@ class SamsumDataset_total:
         return self.test_dataset
 
 
-def custom_load_dataset(type,split):
+def custom_load_dataset(type,split, trust_remote_code=True):
     if type == "dialogsum":
         dir = f"data/DialogSum_Data/dialogsum.{split}.jsonl"
         data = {'dialogue': [],'summary':[],'id':[]}
@@ -392,7 +392,7 @@ class DialogsumDataset(Dataset):
 
         ##################################################
 
-        self.data = custom_load_dataset('dialogsum', split=split_type)
+        self.data = custom_load_dataset('dialogsum', split=split_type, trust_remote_code=True)
 
         total = [i for i in range(len(self.data['id']))]
         random.seed(42)
@@ -800,7 +800,7 @@ class SamsumDataset_low(Dataset):
         print(self.relation)
         ##################################################
 
-        self.data = load_dataset('samsum',split=split_type)
+        self.data = load_dataset('samsum',split=split_type,trust_remote_code=True)
         total = [i for i in range(len(self.data))]
         low_res = random.sample(total,len(self.data)//10)
         whole_dialogue = self.data['dialogue']
