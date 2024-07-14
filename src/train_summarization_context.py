@@ -173,8 +173,8 @@ if args.dataset_name=='samsum':
                                         relation=args.relation,
                                         supervision_relation=args.supervision_relation,
                                         roberta=args.use_roberta,
-                                        sentence_transformer=args.use_sentence_transformer,
-                                        trust_remote_code=True)
+                                        sentence_transformer=args.use_sentence_transformer
+                                        )
     
     train_dataset = total_dataset.getTrainData()
     if args.data_augmentation:
@@ -191,8 +191,7 @@ elif args.dataset_name=='dialogsum':
                                            relation=args.relation,
                                            supervision_relation=args.supervision_relation,
                                            sentence_transformer=args.use_sentence_transformer,
-                                           roberta=args.use_roberta,
-                                           trust_remote_code=True)
+                                           roberta=args.use_roberta)
     
     train_dataset = total_dataset.getTrainData()
     if args.data_augmentation:
