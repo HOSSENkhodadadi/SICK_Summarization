@@ -120,10 +120,10 @@ metric = load_metric("./utils/rouge.py")
 metric2 = load_metric("./utils/rouge.py")
 metric3 = load_metric("./utils/rouge.py")
 
-bertscore_metric = load_metric("bertscore",lang='en',model_type='bert-base-uncased')
+bertscore_metric = load_metric("bertscore",lang='en',model_type='bert-base-uncased', trust_remote_code=True)
 if args.dataset_name=='dialogsum':
-    bertscore_metric2 = load_metric("bertscore",lang='en',model_type='bert-base-uncased')
-    bertscore_metric3 = load_metric("bertscore",lang='en',model_type='bert-base-uncased')
+    bertscore_metric2 = load_metric("bertscore",lang='en',model_type='bert-base-uncased', trust_remote_code=True)
+    bertscore_metric3 = load_metric("bertscore",lang='en',model_type='bert-base-uncased', trust_remote_code=True)
 
 
 # Load Tokenizer associated to the model
