@@ -47,7 +47,8 @@ model_checkpoint_list = [
     "google/peagsus-xsum",
     "google/t5-large-lm-adapt", 
     "google/t5-v1_1-large",
-    'microsoft/prophetnet-large-uncased-cnndm'
+    'microsoft/prophetnet-large-uncased-cnndm',
+    "google-t5/t5-base"
 ]
 tokenizer_list = {
     "facebook/bart-large":"RobertaTokenizer",
@@ -56,6 +57,7 @@ tokenizer_list = {
     "google/peagsus-xsum":"PegasusTokenizer",
     "google/t5-large-lm-adapt":"T5Tokenizer", 
     "google/t5-v1_1-large":"T5Tokenizer",
+    "google-t5/t5-base": "T5Tokenizer",
     'microsoft/prophetnet-large-uncased-cnndm':'ProphetNetTokenizer'
 }
 max_len_list ={
@@ -65,6 +67,7 @@ max_len_list ={
     "google/peagsus-xsum":512,
     "google/t5-large-lm-adapt":512, 
     "google/t5-v1_1-large":512,
+    "google-t5/t5-base":512,
     'microsoft/prophetnet-large-uncased-cnndm':512
 }
 vocab_size_list={
@@ -74,6 +77,7 @@ vocab_size_list={
     "google/peagsus-xsum":96103,
     "google/t5-large-lm-adapt":32128, 
     "google/t5-v1_1-large":32128,
+    "google-t5/t5-base":32128,
     'microsoft/prophetnet-large-uncased-cnndm':30522
 }
 dataset_list = [
