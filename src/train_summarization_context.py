@@ -50,7 +50,8 @@ model_checkpoint_list = [
     'microsoft/prophetnet-large-uncased-cnndm',
     "google-t5/t5-base",
     "microsoft/unilm-large-cased",
-    "openai-community/gpt2-medium"
+    "openai-community/gpt2-medium",
+    "allenai/led-large-16384"
 ]
 tokenizer_list = {
     "facebook/bart-large":"RobertaTokenizer",
@@ -63,6 +64,7 @@ tokenizer_list = {
     'microsoft/prophetnet-large-uncased-cnndm':'ProphetNetTokenizer',
     "microsoft/unilm-large-cased":"BertTokenizer",
     "openai-community/gpt2-medium": "GPT2Tokenizer",
+    "allenai/led-large-16384": "LongformerTokenizer"
 }
 max_len_list ={
     "facebook/bart-large":1024,
@@ -74,7 +76,8 @@ max_len_list ={
     "google-t5/t5-base":512,
     'microsoft/prophetnet-large-uncased-cnndm':512,
     "microsoft/unilm-large-cased":512,
-    "openai-community/gpt2-medium": 1024
+    "openai-community/gpt2-medium": 1024,
+    "allenai/led-large-16384":16384
 }
 vocab_size_list={
     "facebook/bart-large":50265,
@@ -86,7 +89,8 @@ vocab_size_list={
     "google-t5/t5-base":32128,
     'microsoft/prophetnet-large-uncased-cnndm':30522,
     "microsoft/unilm-large-cased": 30522,
-    "openai-community/gpt2-medium":50257
+    "openai-community/gpt2-medium":50257,
+    "allenai/led-large-16384":50256
 }
 dataset_list = [
     "samsum",
