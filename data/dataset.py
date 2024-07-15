@@ -42,7 +42,7 @@ class SamsumDataset(Dataset):
         self.data = load_dataset('samsum',split=split_type, trust_remote_code=True)
         total = [i for i in range(len(self.data))]
         random.seed(42)
-        random_sampled = random.sample(total, len(self.data) // 100)
+        random_sampled = random.sample(total, len(self.data) // 1000)
 
         whole_dialogue = self.data['dialogue']
         whole_summary = self.data['summary']
