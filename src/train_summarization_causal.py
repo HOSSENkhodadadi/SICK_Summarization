@@ -106,6 +106,7 @@ metric = load_metric("./utils/rouge.py", trust_remote_code=True)
 
 # Load Tokenizer associated to the model
 tokenizer = GPT2Tokenizer.from_pretrained(args.model_name)
+tokenizer.pad_token = tokenizer.eos_token
 
 # Add special token
 special_tokens_dict = {'additional_special_tokens':['<I>','</I>']}
