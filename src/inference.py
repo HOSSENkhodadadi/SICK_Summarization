@@ -15,7 +15,7 @@ import argparse
 import torch
 # import transformers
 from torch.utils.data import DataLoader, Dataset
-from transformers import BartForConditionalGeneration, ProphetNetForConditionalGeneration,T5ForConditionalGeneration, AutoTokenizer
+from transformers import BartForConditionalGeneration, ProphetNetForConditionalGeneration,T5ForConditionalGeneration,LEDForConditionalGeneration, AutoTokenizer
 from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total, MediasumDataset_total, TweetsummDataset_total
 from models.bart import BartForConditionalGeneration_DualDecoder, BartForConditionalGeneration_DualHead
@@ -92,6 +92,9 @@ elif args.train_configuration == "context":
         finetune_model = ProphetNetForConditionalGeneration.from_pretrained(args.model_checkpoint)
     elif args.model_name == 'google-t5/t5-base':
         finetune_model = T5ForConditionalGeneration.from_pretrained(args.model_checkpoint)
+
+    elif args.model_name == 'allenai/led-large-16384':
+        finetune_model = LEDForConditionalGeneration.from_pretrained(args.model_checkpoint)
     extra_context = True
 elif args.train_configuration == "supervision":
     finetune_model = BartForConditionalGeneration_DualDecoder.from_pretrained(args.model_checkpoint)
