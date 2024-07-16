@@ -14,7 +14,7 @@ from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
 from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total
 import argparse
-from augmentation import augmentation_on_dataset
+# from augmentation import augmentation_on_dataset
 from pronoun_resolution import resolve_references_in_dialogue
 import spacy
 
@@ -144,8 +144,8 @@ parser.add_argument('--dataset_directory',type=str, default='./data')
 parser.add_argument('--test_output_file_name',type=str, default='samsum_context_trial2.txt')
 parser.add_argument('--relation',type=str,default="xReason")
 parser.add_argument('--supervision_relation',type=str,default='isAfter')
-parser.add_argument('--data_augmentation',type=bool,required=True)
-parser.add_argument('--coref',type=bool,required=True)
+parser.add_argument('--data_augmentation',type=bool,default=False)
+parser.add_argument('--coref',type=bool,default=False)
 
 args = parser.parse_args()
 
@@ -193,7 +193,8 @@ if args.dataset_name=='samsum':
                                         relation=args.relation,
                                         supervision_relation=args.supervision_relation,
                                         roberta=args.use_roberta,
-                                        sentence_transformer=args.use_sentence_transformer
+                                        sentence_transformer=args.use_sentence_transformer,
+                                        coref=args.coref
                                         )
     
     train_dataset = total_dataset.getTrainData()
@@ -218,7 +219,9 @@ elif args.dataset_name=='dialogsum':
                                            relation=args.relation,
                                            supervision_relation=args.supervision_relation,
                                            sentence_transformer=args.use_sentence_transformer,
-                                           roberta=args.use_roberta)
+                                           roberta=args.use_roberta,
+                                           coref=args.coref
+                                           )
     
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()

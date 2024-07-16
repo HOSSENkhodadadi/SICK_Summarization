@@ -16,7 +16,7 @@ class SamsumDataset(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type, 
                  tokenizer, extra_context=False, extra_supervision=False, 
                  paracomet=False,relation = "xReason", supervision_relation="xIntent", 
-                 roberta=False, sentence_transformer=False):
+                 roberta=False, sentence_transformer=False, coref=False):
         self.encoder_max_len = encoder_max_len
         self.decoder_max_len = decoder_max_len
         self.split_type = split_type
@@ -39,18 +39,38 @@ class SamsumDataset(Dataset):
         # print(self.relation)
         ##################################################
         
-        self.data = load_dataset('samsum',split=split_type, trust_remote_code=True)
-        total = [i for i in range(len(self.data))]
-        random.seed(42)
-        random_sampled = random.sample(total, len(self.data) // 10)
+        if coref:
+            if split_type == 'train':
+                with open('data/samsum_train_coref.json', 'r') as json_file:
+                    js = json.load(json_file)
+                    self.dialogue = js['dialogue']
+                    self.summary = js['summary']
+                    self.id = js['id']
+            elif split_type == 'validation':
+                 with open('data/samsum_eval_coref.json', 'r') as json_file:
+                    js = json.load(json_file)
+                    self.dialogue = js['dialogue']
+                    self.summary = js['summary']
+                    self.id = js['id']               
+            elif split_type == 'test':
+                with open('data/samsum_test_coref.json', 'r') as json_file:
+                    js = json.load(json_file)
+                    self.dialogue = js['dialogue']
+                    self.summary = js['summary']
+                    self.id = js['id']
+        else:
+            self.data = load_dataset('samsum',split=split_type, trust_remote_code=True)
+            total = [i for i in range(len(self.data))]
+            random.seed(42)
+            random_sampled = random.sample(total, len(self.data) // 10)
 
-        whole_dialogue = self.data['dialogue']
-        whole_summary = self.data['summary']
-        whole_id = self.data['id']
+            whole_dialogue = self.data['dialogue']
+            whole_summary = self.data['summary']
+            whole_id = self.data['id']
 
-        self.dialogue = [whole_dialogue[i] for i in random_sampled]
-        self.summary = [whole_summary[i] for i in random_sampled]
-        self.id = [whole_id[i] for i in random_sampled]
+            self.dialogue = [whole_dialogue[i] for i in random_sampled]
+            self.summary = [whole_summary[i] for i in random_sampled]
+            self.id = [whole_id[i] for i in random_sampled]
 
         self.nlp = spacy.load('en_core_web_sm')
         
@@ -312,10 +332,10 @@ class SamsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer, 
                  extra_context=False, extra_supervision=False, paracomet=False,
                  relation="xReason", supervision_relation='isAfter',
-                 roberta=False, sentence_transformer=False):
-        self.train_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'train',tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer)
-        self.eval_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer)
-        self.test_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer)
+                 roberta=False, sentence_transformer=False, coref=False):
+        self.train_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'train',tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref)
+        self.eval_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref)
+        self.test_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref)
     
     def getTrainData(self):
         return self.train_dataset
@@ -362,7 +382,7 @@ def custom_load_dataset(type,split, trust_remote_code=True):
 
 
 class DialogsumDataset(Dataset):
-    def __init__(self, encoder_max_len, decoder_max_len, split_type, tokenizer, extra_context=False, extra_supervision=False, paracomet=False, relation="xReason", supervision_relation="isAfter", roberta=False, sentence_transformer=False):
+    def __init__(self, encoder_max_len, decoder_max_len, split_type, tokenizer, extra_context=False, extra_supervision=False, paracomet=False, relation="xReason", supervision_relation="isAfter", roberta=False, sentence_transformer=False, coref=False):
         self.encoder_max_len = encoder_max_len
         self.decoder_max_len = decoder_max_len
         self.split_type = split_type
@@ -393,25 +413,46 @@ class DialogsumDataset(Dataset):
         ##################################################
 
         self.data = custom_load_dataset('dialogsum', split=split_type, trust_remote_code=True)
+        if coref:
+            if split_type == 'train':
+                with open('data/dialogsum_train_coref.json', 'r') as json_file:
+                    js = json.load(json_file)
+                    self.dialogue = js['dialogue']
+                    self.summary = js['summary']
+                    self.id = js['id']
+            elif split_type == 'validation':
+                 with open('data/dialogsum_eval_coref.json', 'r') as json_file:
+                    js = json.load(json_file)
+                    self.dialogue = js['dialogue']
+                    self.summary = js['summary']
+                    self.id = js['id']               
+            elif split_type == 'test':
+                with open('data/dialogsum_test_coref.json', 'r') as json_file:
+                    js = json.load(json_file)
+                    self.dialogue = js['dialogue']
+                    self.summary = js['summary']
+                    self.summary2 = js['summary2']
+                    self.summary3 = js['summary3']
+                    self.id = js['id']
+        else:
+            total = [i for i in range(len(self.data['id']))]
+            random.seed(42)
+            random_sampled = random.sample(total, len(total) // 10)
 
-        total = [i for i in range(len(self.data['id']))]
-        random.seed(42)
-        random_sampled = random.sample(total, len(total) // 10)
+            whole_dialogue = self.data['dialogue']
+            whole_summary = self.data['summary']
+            whole_id = self.data['id']
 
-        whole_dialogue = self.data['dialogue']
-        whole_summary = self.data['summary']
-        whole_id = self.data['id']
+            self.dialogue = [whole_dialogue[i] for i in random_sampled]
+            self.summary = [whole_summary[i] for i in random_sampled]
+            self.id = [whole_id[i] for i in random_sampled]
 
-        self.dialogue = [whole_dialogue[i] for i in random_sampled]
-        self.summary = [whole_summary[i] for i in random_sampled]
-        self.id = [whole_id[i] for i in random_sampled]
+            if split_type == "test":
+                whole_summary2 = self.data['summary2']
+                whole_summary3 = self.data['summary3']
 
-        if split_type == "test":
-            whole_summary2 = self.data['summary2']
-            whole_summary3 = self.data['summary3']
-
-            self.summary2 = [whole_summary2[i] for i in random_sampled]
-            self.summary3 = [whole_summary3[i] for i in random_sampled]
+                self.summary2 = [whole_summary2[i] for i in random_sampled]
+                self.summary3 = [whole_summary3[i] for i in random_sampled]
 
         self.nlp = spacy.load('en_core_web_sm')
         
@@ -749,10 +790,10 @@ class DialogsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer, 
                  extra_context=False, extra_supervision=False, paracomet=False, 
                  relation="xReason",roberta=False,supervision_relation='isAfter', 
-                 sentence_transformer=False):
-        self.train_dataset = DialogsumDataset(encoder_max_len, decoder_max_len, 'train',tokenizer,extra_context,extra_supervision,paracomet=paracomet,relation=relation,roberta=roberta,supervision_relation=supervision_relation, sentence_transformer=sentence_transformer)
-        self.eval_dataset = DialogsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,extra_context,extra_supervision,paracomet=paracomet,relation=relation,roberta=roberta,supervision_relation=supervision_relation, sentence_transformer=sentence_transformer)
-        self.test_dataset = DialogsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,extra_context,extra_supervision,paracomet=paracomet,relation=relation,roberta=roberta,supervision_relation=supervision_relation, sentence_transformer=sentence_transformer)
+                 sentence_transformer=False, coref=False):
+        self.train_dataset = DialogsumDataset(encoder_max_len, decoder_max_len, 'train',tokenizer,extra_context,extra_supervision,paracomet=paracomet,relation=relation,roberta=roberta,supervision_relation=supervision_relation, sentence_transformer=sentence_transformer, coref=coref)
+        self.eval_dataset = DialogsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,extra_context,extra_supervision,paracomet=paracomet,relation=relation,roberta=roberta,supervision_relation=supervision_relation, sentence_transformer=sentence_transformer, coref=coref)
+        self.test_dataset = DialogsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,extra_context,extra_supervision,paracomet=paracomet,relation=relation,roberta=roberta,supervision_relation=supervision_relation, sentence_transformer=sentence_transformer, coref=coref)
         print(self.train_dataset.data_len)
     def getTrainData(self):
         return self.train_dataset
