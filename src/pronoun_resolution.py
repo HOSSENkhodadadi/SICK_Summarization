@@ -45,7 +45,7 @@ def resolve_references(doc) -> str:
     return output_string
 
 def resolve_references_in_dialogue(nlp, dataset_name, dataset):
-    if dataset_name == 'samsum':
+    if 'samsum' in dataset_name:
         splitter = '\r\n'
     else:
         splitter = '\n'
@@ -71,35 +71,41 @@ def resolve_references_in_dialogue(nlp, dataset_name, dataset):
         for person, sentence in zip(persons, text.split('\n')):
             output += f'{person}: {sentence}{splitter}'
 
-    dataset['dialogue'][i] = output
+        dataset['dialogue'][i] = output
 
-def convert2json(dataset_name, dataset):
     with open(f'data/{dataset_name}_coref.json', 'w') as json_file:
         json.dump(dataset, json_file, indent=4)
 
 
 for file_name in os.listdir('data/'):
     if file_name.endswith('raw.json'):
-        if 'samsum' in file_name:
-            name = 'samsum'
-            with open(file_name, 'r') as json_file:
-                df = pd.DataFrame(json_file)
+        with open('data/'+file_name, 'r') as json_file:
+            data = json.load(json_file)
+            if 'samsum' in file_name:
+                df = pd.DataFrame(data)
                 data = {
                     'id': df['id'].tolist(),
                     'dialogue': df['dialogue'].tolist(),
                     'summary': df['summary'].tolist()
                 }
-        else:
-            name = 'dialoguesum'
-            df = pd.DataFrame(json_file)
-            data = {
-                'id': df['id'].tolist(),
-                'dialogue': df['dialogue'].tolist(),
-                'summary': df['summary'].tolist(),
-                'summary2': df['summary2'].tolist(),
-                'summary3': df['summary3'].tolist()
-            }
+            else:
+                if 'test' in file_name:
+                    df = pd.DataFrame(data)
+                    data = {
+                        'id': df['id'].tolist(),
+                        'dialogue': df['dialogue'].tolist(),
+                        'summary': df['summary'].tolist(),
+                        'summary2': df['summary2'].tolist(),
+                        'summary3': df['summary3'].tolist()
+                    }
+                else:
+                    df = pd.DataFrame(data)
+                    data = {
+                        'id': df['id'].tolist(),
+                        'dialogue': df['dialogue'].tolist(),
+                        'summary': df['summary'].tolist()
+                    }
 
-        nlp = spacy.load("en_coreference_web_trf")
-        data = resolve_references_in_dialogue(nlp, name, data)
+            nlp = spacy.load("en_coreference_web_trf")
+            data = resolve_references_in_dialogue(nlp, file_name.split('_raw')[0], data)
         

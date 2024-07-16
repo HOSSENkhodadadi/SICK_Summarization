@@ -11,14 +11,18 @@ from tqdm import tqdm
 
 def raw_data_to_json(dataset_name, dataset):
     data = []
-    if dataset_name == 'samsum':
+    if 'samsum' in dataset_name:
         for id_, dialogue, summary in tqdm( zip(dataset.id, dataset.dialogue, dataset.summary), total=len(dataset.id) ):
             temp = {'id': id_, 'dialogue': dialogue, 'summary': summary}
             data.append(temp)
     else:
-        if dataset_name == 'samsum':
-            for id_, dialogue, summary, summary2, summary3 in tqdm( zip(dataset.id, dataset.dialogue, dataset.summary, dataset.summar2, dataset.summar3), total=len(dataset.id) ):
+        if 'test' in dataset_name:
+            for id_, dialogue, summary, summary2, summary3 in tqdm( zip(dataset.id, dataset.dialogue, dataset.summary, dataset.summary2, dataset.summary3), total=len(dataset.id) ):
                 temp = {'id': id_, 'dialogue': dialogue, 'summary': summary, 'summary2': summary2, 'summary3': summary3}
+                data.append(temp)
+        else:
+            for id_, dialogue, summary in tqdm( zip(dataset.id, dataset.dialogue, dataset.summary), total=len(dataset.id) ):
+                temp = {'id': id_, 'dialogue': dialogue, 'summary': summary}
                 data.append(temp)
 
     with open(f'data/{dataset_name}_raw.json', 'w') as json_file:
