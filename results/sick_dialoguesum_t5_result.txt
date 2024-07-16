@@ -1,0 +1,71 @@
+num_beams: 20
+ rouge1: 17.355133190955502
+ rouge2: 3.385967363486178
+ rougeL: 13.03883387567576
+ rougeLsum: 15.980401366688623
+ bert-score: 0.5025472843647003
+
+num_beams: 20
+ rouge1: 16.210329705344375
+ rouge2: 3.1534024936047502
+ rougeL: 11.870105566707977
+ rougeLsum: 14.327314040825915
+ bert-score: 0.4959359049797058
+
+num_beams: 20
+ rouge1: 16.234212909279478
+ rouge2: 3.479964030764811
+ rougeL: 12.442486672407355
+ rougeLsum: 14.802690160184001
+ bert-score: 0.49137832045555113
+
+"It's really embarrassing on the bus and underground." to show off their new headphones. #Person2# said "Thank you very much." to show off their new headphones. #Person2# said "Well, there is a slight problem about the receipt." personx is thanked. #Person2# said "Well." personx is surprised. #Person2# said "Well." ##
+"Good morning, Nathaniel." said "Good morning, Nathaniel." #Person1# said "Good morning, Nathaniel." #Person2# said "I'll be expecting you at 11:30 this morning." --------------------------------------------------------------------------------------------------------------------------
+"I have to do well." said "I have to do well." said "I have to do well." "I have to do well." personx gets reprimanded. #Person1# said "So long as you learn from your mistakes." personx gets fired. #Person1# said "So long as you learn from your mistakes." personx gets fired. # # #
+Vet, can you tell us what you usually do to deal with stress and depression? Vet, can you tell us what you usually do to deal with stress and depression? Vet, can you tell us what you usually do to deal with stress and depression? Vet, can you tell us what you usually do to deal with stress and depression? Vet, can you tell us what you usually do to deal with stress and depression? Vet
+in the middle of nowhere." said "I love you so much!" asked questions. said "I..." persoanex is asked questions. #Person2# said "I'm sorry." #Person2# said "I..." #Person2# to apologize. # said "I  # # said " # #Person2# said
+"Hi Angela, it's Dan." said "Hi Angela, it's Dan." asked to drive. said "Yes." asked to drive. #Person1# said "Yes." #Person1# said "Yes." to leave. #Person1# said "Yes." to leave  #Person2# said "No." # ## "Hi Angela
+"It was about 10 o'clock." "What time?" "Oh, I remember." "Oh, I remember." to know the time. #Person2# said "Oh, I remember." personx gets tired. personx gets tired. personx gets tired. #Person2# said "What time?" to know the time. #Person2# said "The exact time?"
+a journalist." #Person1# said "Yes, that's right." applauded. #Person2# said "Yes." asked questions. #Person2# said "Yes." #Person2# said "Yes." asked questions. #Person2# said "Yes." to leave. # #Person2# said "Yes." # # said "
+I didn't have any cash with me." #Person1# said "I am glad I started carrying the credit card." #Person1# said "I'll remember that." #Person1# said "I'll remember that." to get a card. #Person1# said "I'll remember that."
+15 minutes." "How long does it take to get to downtown from here?" said "It is 15 minutes'drive." "Do we have our own staff restaurant?" "Yes, at the end of the hall." to leave the building. to leave the building. #Person1# said "Yes." "   "
+I'll be back in a few months, in time for the first day of school." smiles. smiles. #Person2# said "I'll miss you too, mom." personx gets hired. #Person2# said "Thank you." #Person2# " personx. # # # # " " # #Person2# said "
+there are so many lanterns to appreciate." to be a lantern. to be a lantern. to be a lantern. #Person2# said "Oh, no." personx is asked questions. #Person2# said "No." # to write a poem. to be a lantern "
+I'm sorry to bother you." said "Oh, sorry to bother you." is thanked. #Person2# said "Thanks a lot." personx is thanked. #Person2# said "You are welcome." personx is thanked.# said "Thank you." personx is thanked. ## said " ## than ## said ".
+she died." #Person2# said "Have you ever thought of moving, Sarah?". #Person1# said "Is it in a good location?" about the location. #Person1# said "Yes." #Person1# said "Yes." # # # # #. # # a house. #Person1# said "
+I'm going to prescribe some antibiotics and some cream to ease the itching and burning. "# said "Well, Mr. Smith." said "Well, Mr. Smith." #Person2# said "I'm going to prescribe some antibiotics, and some cream to ease the itching and burning." #Person2# said "I'm going to prescribe some antibiotics, and some cream to ease the
+"I swear it, and the oath shall be kept." said "I swear it, and the oath shall be kept." #Person2# said "I'll never again come to your side ; I am turn away now and can't return." #Person2# said "To be my second self and best earthly companion." #Person2# said "To be my second self and best earthly
+"Yeah." #Person1# said "You mean your friends." said "Yeah." said "Hurry!" #Person2# said "Hurry!" #Person2# said "I knew you'd come around." said "  #Person2# said "  #Person1# said "You mean your friends." #
+"Don't you know that?" said "Yes, me too." asked questions. said "What?" asked questions. said "Yes, a pair of wineglasses and a card to wish her happy marriage." personx is asked questions. #Person2# said "Yes." "   "  " " " " " #Person2# said "
+personx is thanked. #Person1# said "I'm so happy you can come on Saturdays." personx is thanked. #Person1# said "I'm away next weekend visiting my grandfather." personx is thanked. #Person1# said "Oh, thank you." "  # # #Person2# said "Thank you." # #
+in the department office." to ask personx questions. #Person2# said "Yes, that's right." to ask personx questions. asked "What is your major?" to ask personx questions. #Person1# said "So you think I'll be able to get in with this?" personx is thanked. că
+"What's up with you?" #Person2# said "What's up with you?" #Person2# said "What's up with you?" #Person2# said "I read about that, and the position sounded great!" #Person2# said "Let's go see how we can apply for those positions." #Person2# said "Let's go see how we can
+"She's going to live in Paris. "# said "She's going to live in Paris. "2# said "I'm surprised." #Person2# said "I'm surprised." #Person2# said "I can't believe it!" #Person2# said "I'm surprised." said "Yes." #Person2# said "Yes." personx gets fired.
+seven times a week." said "That's a straw in the wind." cries. said "I think so." asked questions.2# said "Right." personx is asked questions.2# said "Really? "x is complimented. #Person2# said "Right." #Person2# said "I think so.". # said "
+Tom? "What time is it, Tom?" pentru a minute. said "I must be off now." pentru a minute. said "I must be off now." pentru a minute. #Person2# said "It won't take more than twenty minutes to get there." pentru a minute. #Person2# said "I must be off now." pentru a minute. #Person2# said "
+China is located on the Eurasia plate, where earthquakes happen frequently due to the earth's plates knocking against each other." pentru a evita disaster. #Person1# said "Terrible." pentru a evita disaster. #Person1# said "It seems that Typhoon is not as bad as earthquake in Wenchuan." to love people. #Person1# said "That's great."
+"I need to use the ATM." #Person1# said "I need to use the ATM." answered. said "I can help you figure it out." #Person2# said "Thank you!" to make a choice. #Person2# said "Thank you!" #Person2# said " " personx gets hurt. ## said "
+you are a stock investor." answered. said "Yes, Sir." #Person1# said "Yes." personx answers. personx answers.# said "Yes, Sir." personx is thanked. #Person1# said "Yes." to go to the branch. #Person1# said "Yes.".. #Person1# said "Yes."
+Sally. #Person1# said "Thanks for your letter." personx gets married. #Person1# said "Yours, Tom." personx is thanked. #Person1# said "Yours, Tom." to meet personx.# said "Thanks." to meet personx. ## said "Thanks." #Person1# said "Thanks."
+"I'm afraid I can't." said "Tomorrow night, then?" said "I'm afraid I can't." #Person2# said "I don't think my husband would like it." #Person2# said "Thank you for inviting me anyway." #Person2# said "Thank you for inviting me anyway." #Person2# said "I'm afraid I can't."
+"What's the matter, Lisa?" to ask personx questions. #Person1# said "What's the matter, Lisa?" to ask personx questions. #Person1# is thanked. #Person1# said "I totally agree with what you did." personx is thanked. #Person1# said "I told him I would divorce him if he wouldn't tell me the truth or end
+"Sir, do you know what time it is?" said "I am going to the Garden Hotel." asked questions. said "I am going there, too." to go somewhere. #Person1# said "I am going there, too." to walk. to walk. to walk. to walk. #Person1# said "Thank you." #Person1# said "Thank you."
+my grandmother." said "She's going to take me to Disney World." said "She's going to take me to Disney World." "My grandmother goes every time someone visits her." said "She really knows her way around." to visit her grandmother. said "She really knows her way around." #Person1# said "She really knows her way around." #Person1# said "She really knows her way around."
+"I need some stamps for this letter." #Person1# said "I need some stamps for this letter." #Person1# said "Here's a 10 - dollar bill." #Person2# said "Good-bye." #Person2# said "Good-bye." #Person2# said "Good-bye." #Person2# said "Good-bye
+I don't know what I'm going to do!" to ask personx questions. #Person1# said "I don't know what I'm going to do." to be generous. #Person1# said "I guess losing my job would be a good thing." to be frugal. #Person1# said "Maybe losing my job would be a good thing!" to live on my own. #
+I was at home with my parents in New York City." to have a good day. #Person2# said "I was at home with my parents in New York City." to have a good day. #Person2# says "I'm sorry." to have a good day. #Person2# said "it must have been a nightmarish day for you and your family." #Person2# said "
+"What do you think?" #Person2# said "I don't want to see a computer in the evening." #Person2# said "I don't want to see a computer in the evening." #Person2# said "We can have our own Indian dinner parties."
+Happy Birthday, this is for you, Brian." said "Thanks, that's very kind of you to say." thanked. #Person2# said "Thanks, that's very kind of you to say." personx is thanked. personx is thanked. #Person2# said "." personx is thanked. #Person1# said "Thanks, that's very
+.Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!Gross!G
+Catherine, have you ever seen the movie Fast Food Nation? Catherine, have you ever seen the movie Fast Food Nation? Catherine, have you ever seen the movie Fast Food Nation? Catherine: Have you ever seen the movie Fast Food Nation? Catherine: Have you ever seen the movie Fast Food Nation? Catherine: Have you ever seen the movie Fast Food Nation? Catherine: Have you ever seen the movie Fast Food Nation? Catherine: Have you ever seen the movie Fast Food Nation?
+please, could you tell me how to get to the school clinic?" #Person1# said "I've lost my way." asked to go to the traffic light. #Person2# said "Thank you very much." #Person2# said "Thank you very much." #Person1# said "I've lost my way." #Person2# said "I've lost my way." #Person
+can I help you?" said "Hi, can I help you?" asked a question. said "Yes." asked a question. said "That's correct." personx is asked a question.# said "Yes." is thanked. #Person2# said "Yes." # said "Yes." #Person2# said "Yes." # says "Yes." ##
+"I would like to get a double cheeseburger." said "I would like to get a medium Pepsi." #Person1# said "That'll be all." #Person2# said "Thank you." personx is thanked. #Person2# said "Here you go."
+I'm here to sign the agreement." #Person1# said "I'm sorry." #Person1# said "I don't think so." #Person1# said "I don't think so." to read the agreement. to read the agreement. to read the agreement.
+"No more chips, no more soda, no more fried food." said "No more chips, no more soda, no more fried food." "No more chips, no more soda, no more fried food." #Person1# said "No more chips, no more soda, no more fried food."
+I'd like a turkey sandwich." #Person2# said "Yes, please and I'd like some other things to go with a sandwich for lunch." #Person1# said "Yes, please and I'll have beef with vegetables then and the Diet Coke." #Person2# said "I'll have beef with vegetables then and the Diet Coke." #Person1# said "Thank you."
+? Tina, how long have you been learning the piano? Pentru 8 years. pielea #Person2# said "No wonder you can play so well." persoanăx learns the piano. #Person2# said "I also want to learn from her." personx is thanked. #Person2# said "Thank you very much." personx gets a date. #Person2# said "Thank you very much."
+I brough lunch from home today." to be a popular person. #Person1# said "What's the matter?" to be a popular person. #Person1# said "Yes." to be a popular person. #Person2# said "I am wondering that you must believe that fast food is your lifestyle, don't you?" pentru a fi a popular person. pentru a vorbi. pentru a
+I can't find it anywhere in this hotel room." #Person2# said "Oh, no." "Oh, no!" to ask personx questions. #Person2# said "I'll call the bakery." to wait for the bakery. to ask someone. to ask someone. #Person2# said "  " # # #Person2# said "Oh, no?"
+"OK, that's a cut." #Person1# said "You're acting hurt and sad." #Person1# said "I'm not so sure about that." #Person1# said "After that, if it still doesn't feel right, we can try something else." to express their feelings. #Person1# said "You can see how you feel when you're saying your lines."
+I don't know if you've heard of it, but some of us are thinking of going to Xi'an in the summer." persoanex smiles. #Person2# said "I see." personx smiles. #Person2# said "I see." #Person2# said "Yes." # #Person2# said "That would be great." #Person2# said
