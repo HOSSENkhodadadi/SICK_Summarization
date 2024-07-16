@@ -204,11 +204,6 @@ if args.dataset_name=='samsum':
     if args.data_augmentation:
         train_dataset = augmentation_on_dataset('samsum', train_dataset)
 
-    if args.coref:
-        nlp = spacy.load("en_coreference_web_trf")
-        train_dataset = resolve_references_in_dialogue(nlp, 'samsum', train_dataset)
-        eval_dataset = resolve_references_in_dialogue(nlp, 'samsum', eval_dataset)
-        test_dataset = resolve_references_in_dialogue(nlp, 'samsum', test_dataset)
 
 elif args.dataset_name=='dialogsum':
     total_dataset = DialogsumDataset_total(args.encoder_max_len,
@@ -230,12 +225,6 @@ elif args.dataset_name=='dialogsum':
     if args.data_augmentation:
         train_dataset = augmentation_on_dataset('dialoguesum', train_dataset)
     
-    if args.coref:
-        nlp = spacy.load("en_coreference_web_trf")
-        train_dataset = resolve_references_in_dialogue(nlp, 'dialoguesum', train_dataset)
-        eval_dataset = resolve_references_in_dialogue(nlp, 'dialoguesum', eval_dataset)
-        test_dataset = resolve_references_in_dialogue(nlp, 'dialoguesum', test_dataset)
-
 
 print('***** Setting up Dataset *****')
 print('Training Dataset Size is : ')
