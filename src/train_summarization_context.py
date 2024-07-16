@@ -15,6 +15,9 @@ from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total
 import argparse
 from augmentation import augmentation_on_dataset
+from pronoun_resolution import resolve_references_in_dialogue
+import spacy
+
 
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
@@ -142,6 +145,7 @@ parser.add_argument('--test_output_file_name',type=str, default='samsum_context_
 parser.add_argument('--relation',type=str,default="xReason")
 parser.add_argument('--supervision_relation',type=str,default='isAfter')
 parser.add_argument('--data_augmentation',type=bool,required=True)
+parser.add_argument('--coref',type=bool,required=True)
 
 args = parser.parse_args()
 
@@ -193,10 +197,17 @@ if args.dataset_name=='samsum':
                                         )
     
     train_dataset = total_dataset.getTrainData()
-    if args.data_augmentation:
-        train_dataset = augmentation_on_dataset('samsum', train_dataset)
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
+
+    if args.data_augmentation:
+        train_dataset = augmentation_on_dataset('samsum', train_dataset)
+
+    if args.coref:
+        nlp = spacy.load("en_coreference_web_trf")
+        train_dataset = resolve_references_in_dialogue(nlp, 'samsum', train_dataset)
+        eval_dataset = resolve_references_in_dialogue(nlp, 'samsum', eval_dataset)
+        test_dataset = resolve_references_in_dialogue(nlp, 'samsum', test_dataset)
 
 elif args.dataset_name=='dialogsum':
     total_dataset = DialogsumDataset_total(args.encoder_max_len,
@@ -210,10 +221,18 @@ elif args.dataset_name=='dialogsum':
                                            roberta=args.use_roberta)
     
     train_dataset = total_dataset.getTrainData()
-    if args.data_augmentation:
-        train_dataset = augmentation_on_dataset('dialoguesum', train_dataset)
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
+
+    if args.data_augmentation:
+        train_dataset = augmentation_on_dataset('dialoguesum', train_dataset)
+    
+    if args.coref:
+        nlp = spacy.load("en_coreference_web_trf")
+        train_dataset = resolve_references_in_dialogue(nlp, 'dialoguesum', train_dataset)
+        eval_dataset = resolve_references_in_dialogue(nlp, 'dialoguesum', eval_dataset)
+        test_dataset = resolve_references_in_dialogue(nlp, 'dialoguesum', test_dataset)
+        
 
 print('***** Setting up Dataset *****')
 print('Training Dataset Size is : ')
