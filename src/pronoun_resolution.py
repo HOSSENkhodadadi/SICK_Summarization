@@ -10,7 +10,6 @@ nltk.download('punkt')
 from transformers import AutoTokenizer
 from data.dataset import SamsumDataset_total, DialogsumDataset_total
 import argparse
-from pronoun_resolution import resolve_references_in_dialogue
 import spacy
 import argparse
 from tqdm import tqdm
