@@ -14,7 +14,7 @@ from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer
 from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total
 import argparse
-# from augmentation import augmentation_on_dataset
+from augmentation import augmentation_on_dataset
 from pronoun_resolution import resolve_references_in_dialogue
 import spacy
 
