@@ -1,0 +1,88 @@
+num_beams: 20
+ rouge1: 28.64563501939521
+ rouge2: 8.30060027037315
+ rougeL: 23.30206497783035
+ rougeLsum: 25.39071046108703
+ bert-score: 0.5257482988598906
+
+Richie said "Pogba" when he chopped the ball back to his right foot.
+Lincoln and Fatima have a problem, Alene is troubled and Lincoln thinks he may have a depression.
+Ollie said "It's not the sculptures, it's the amount of them and their faces!"
+Camilla and Charles are having a day of nothingness this weekend.
+Dylan said "really, I had no idea he was Albanian".
+Shaldona sent a file to Shaldona and Piper.
+Emily said "fancy a drink after work today" before going to the pub.
+Harry said "heyyyy are you there?" Cindy said "Yes dear".
+Val said "we will be wet" when she got home from work.
+Randolph said "Buy me some earplugs please" and asked Maya to buy them.
+Tina sent a file to her new friend Patrick.
+Tomas said "Has anybody received the grant yet? "Sierra said "no, not yet" and asked for a reply.
+Blair said "Remember we are seeing the wedding planner after work" after work.
+Tom and Ben were sitting in the Oval Room.
+Milena said "How was the presentation?" to give the presentation.
+Javier said "have you had a tattoo done?" Judie sent a photo.
+Jack said "Possibly a little tightly strung today?" and asked May if she wanted a drink.
+Mary and Carter have been borrowing box after box from each other.
+Gina went to the salon to get her hair cut.
+Jessica said "I'm so happy with what I bought" Frank went to the second hand shop downtown.
+Annie said "I could do with some Theraflu" when asked if she had a cold.
+Mario said "I’ve landed in every airport in Europe today - completely whacked out dude".
+Jake said "dude, I just pulled a TOTW" at Tom.
+Bella and Eric were talking about what happened in boss's room today.
+Mason said "ha good luck with that" as Huddersfield beat Chelsea.
+Lily said "I spent an amazing night with this guy" Thomas.
+Julia said "My parents are having a fight over where should we eat" not event want to eat.Ronald said "Doesn't sound like you're enjoying it".
+Hannah asked James if he was going to work.
+Sean said "After much thought I’ve decided that my spirit animal is a tortoise".
+Rodney said "Have you heard a guy got beaten and mugged on campus?"
+Desiree asked Lucian to spend time with someone at home.
+Zoey sent a file, Thomas sent a photo.
+Gyle goes home from school and Brook is waiting for him.
+Dan said "I'm ready to go on a date" in the centre of the room.
+Max said "I absolutely love reading!" and "I like browsing, looking in the mirror and seeing how I look, but not always buying".
+Ainsley has a cold and is sneezing like a little bitch every 2 seconds.
+Adrian said "I'll be free at 5" and Simon said "Not really, anything important".
+Adrian said "I'm not going to play games during school anymore, can't pay attention for too long..." "I just pay attention during class, I don't study that much actually".
+Daisy asked Lisa when she was going home.
+Ken said "Fuck you, you pimp" to Greg to express his anger.
+Lisa said "What have you been doing off late? "Peter said "I’ve been working out a bit". Lisa said "Too much of work, huh?"
+Mae and Cael are waiting for Cael to wear his wedding dress.
+Sally said "Relax Jane, what's your problem?!" Jane was asked a question about Natalie.
+Elliot said "can i talk rn, i'm rly busy" because he's going to the funeral.
+Mariana asked Rita "Do you know if the readings for Stephen’s seminar are in the print shop?"
+Jacky said "I think you were right yesterday. "David said "What about?"
+Steve said "hiya the dishwasher has turned up" to wash dishes.
+Cindy said "I don’t want to talk about it…" Cindy sent a video.
+Jordan said "Yes, Nanna." Nanna said "I will always love him!" thanks for the £20.
+Conrad said "I'm outside the house" leave the house.
+Joseph said "It's fuzzy but I think you can recognize what's going on".
+Stefano said "So, what about Foucault's Pendulum?"
+Rob said "I wanna start with 30 min of activity every day" and get off the couch.
+Martin said "You're lucky that I love you, two milks coming up in couple of hours".
+Jeff said "Should we go to the village party? ", Lia said "I'd like to go, there may be some hot boys! ".
+Ally said "how many did you do so far?" to know how many. Jill said "like 20 or 30".
+Ryan said "I have a bad feeling about this" to Sebastian.
+Luis and Cole are in the same room.
+Jerry said "Hi sweetie, I'm coming home now".Janet said "Can't wait, can be a bitch".
+Ed said "I don’t even look on the direction of another man" when he sees another man.
+Simon and Charlie were talking about the EU's immigration policy.
+Julia said "I've been there last week and wanted to take my cousin's table, but I can't find a table anywhere near Covent Garden".
+Marleen said "Am at Kaiser's. "Marleen sent a photo of a present for Rita.
+Nora said "Sorry I missed something" and apologised to Anne.Anne said "She wants to take Tom away from me".
+Kate said "Do you like some fruits for school tomorrow? "George said "Oh yes please, an apple would be great".
+Laura and Linda are going to bed.
+Adele has a new dog, Lola got a new pet and Lulu has a puppy.
+Ziggler and Dolph Ziggler have been talking on the phone.
+Mary said "Hi my friend :*" to Alice.
+Cindy asked Carly to show off her skills.
+Dima said "the stupid cat spilled coffee on it".
+Zadie said "So apparently it's a place were random people from random countries from Latin America" (meaning fuck knows which countries) started running small businesses and restaurant, and a nice little community was formed.
+Pete said "Did you clean the hamster cage? "Adelle said "No".
+Emily said "Does anybody know where the next ASEEES conference takes place? "James said "I've heard somewhere in California".
+Jake said "Maaaan!" to say hello to Mike.
+Tom said "Have you ever been to Dublin?" to go to the beach.
+Gab said "Ah that's better." say something else.
+Megan said "Any word from Jason? "Susy said "He was absent today".
+Ben said "all he ever does is bothering me with stupid questions about my private life".
+Bob said "did you buy a ticket for tomorrow? "Melanie said "Jake promised me he will do that".
+William said "hey im making spaghetti" and Olivia made spaghetti.

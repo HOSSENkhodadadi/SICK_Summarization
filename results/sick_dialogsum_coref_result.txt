@@ -1,0 +1,71 @@
+num_beams: 20
+ rouge1: 27.076396553621528
+ rouge2: 9.430405238855416
+ rougeL: 22.173243794616972
+ rougeLsum: 25.17764823478721
+ bert-score: 0.5723775631189346
+
+num_beams: 20
+ rouge1: 26.68193640136408
+ rouge2: 8.249664550974767
+ rougeL: 23.156295328686905
+ rougeLsum: 24.53747711049823
+ bert-score: 0.5690095978975296
+
+num_beams: 20
+ rouge1: 25.421466362722988
+ rouge2: 7.498723935417481
+ rougeL: 21.528515347575066
+ rougeLsum: 23.45198861648117
+ bert-score: 0.5623571574687958
+
+#Person2# said "I really am not happy about this other thing." #Person1# bought a new model of personal stereo at your shop 3 days ago, and I want to exchange it for another model to make sure the goods are safe, if you really aren't happy with it." Person2# says "I'm sorry, but it really is your responsibility to check the goods when you buy them." #Person2 # said "Well, I
+#Person1# and #Person2# are on the phone.
+#Person1# said "Hi, Tony." #Person2# says hi.
+#Person1# said "Vet, can you tell us what you usually do to deal with stress and depression?"
+#Person2# said "I've always wanted to be a father!" and #Person1# says "I think I'm pregnant!" "I was away the first week of February at a training seminar! ".
+#Person1# and #Person2# are talking on the phone.
+#Person1# and #Person2# were trying to remember the exact time when the big fire broke out.
+#Person1# and #Person2# are interviewing a journalist for a job in York called the York Herald.
+#Person1# said "I am happy I started carrying the credit card that the bank gave us." Kate said "Did you use it to buy something?" #Person2# said yes.
+#Person1# said "How long does it take to get to downtown from here? "#Person2# said it takes 15 minutes.
+#Person2# said "I'm not afraid of hard work" when asked about working for the Chicago Tribune.
+#Person1# said "Now, I can see why it's called the Lantern Festival. ".
+#Person1# said "Are you going to have Chinese food or western food?"
+#Person1# said "Buying a house near our company can be expensive, but there are ways to find cheaper houses."
+#Person1# has a nasty infection, Doctor Smith says.
+#Person2# said "I ask you to pass through life at my side, and the oath shall be kept." #Person1# has spoken his mind, and can go anywhere now.
+#Person1# said "Just pull on this strip. ".
+#Person2# said "I will buy a tea set"  and buys tea.#Person1# says "Would you like to go to the party tonight?" Ruojia goes to party.
+#Person2# said "My daughter Leah helps out on Mondays and Tuesdays and my son Robbie on Thursdays, but I'm so happy you can come on Saturdays. "#Person1# says "Will you still be able to work for me after you get your bike?"
+#Person1# said "Hello." personx says hello.
+#Person1# and #Person2# are talking to each other.
+#Person2# is asked questions about Mary getting married.
+#Person1# said "John dates her seven times a week. "#Person2# says "Maybe he's fallen for her."
+#Person1# said "I must catch the nine-thirty train. "#Person2# says "You've plenty of time yet."
+#Person1# and #Person2# are discussing the earthquake in Wenchuan, China.
+#Person1# said "I need to use the ATM. "#Person2# asked "What's stopping you from using the ATM?"
+#Person1# and #Person2# were talking on the phone.
+#Person1# gets a letter from Sally.
+#Person2# and #Person1# were sitting in the theatre.
+#Person2# said "It seems that he's been seeing someone else for about two months, and he first said it was someone from work, and then gave me a lame excuse, and so I pressed him on it."
+#Person1# said "Excuse me," when asked what time it is.
+#Person1# said "She's going to take me to Disney World."
+#Person1# said "Can I help you?" to help personx.
+#Person1# said "It's going to be impossible to make ends meet if I lose my job!"
+#Person1# asked "do you remember where you were for the terrorist attacks on 9-11? "#Person2# said "did you know anyone who worked in the World Trade Center?"
+#Person1# said "You sit in front of the TV watching baseball for 3 hours every Saturday. "#Person2# says "I'll call him tomorrow to see if there are still spaces available."
+#Person1# said "I hope my necklace goes with my dress, and they both make me look good I feel." #Person2# is wearing the necklace.
+#Person1# said "Gross!" personx gets dirty.
+#Person1# and #Person2# are watching a movie called Fast Food Nation.
+#Person1# said "Excuse me, could you tell me how to get to the school clinic?"
+#Person1# said "Hi, can I help you?" #Person2# says hi.
+#Person1# said "Welcome, what would you like to order?" #Person2# ordered a double cheeseburger.
+#Person2# said "Would you please go over it and see if any modifications are needed?" #Person1# signed the agreement.
+#Person1# has decided to go on a diet.
+#Person1# and #Person2# went to Danny's for lunch.
+#Person1# and #Person2# were playing the piano.
+#Person2# says "You simply can't blame the server for this. "#Person1# said "I waited for 20 minutes for my sandwich, and when I finally got it the chicken was underdone."
+#Person1# said "Linda, I can't find my cellphone anywhere in this hotel room! "#Person2 # said "Could you call someone to call someone?"
+#Person1# said "Let's start from the beginning" and #Person2# agreed.
+#Person1# said "I don't know if you'd like to come with us to China, but some of us are thinking of going to Xi'an in the summer."
