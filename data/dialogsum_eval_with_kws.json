@@ -1,0 +1,510 @@
+{
+    "id": [
+        "327",
+        "57",
+        "12",
+        "379",
+        "140",
+        "125",
+        "114",
+        "71",
+        "377",
+        "52",
+        "346",
+        "456",
+        "279",
+        "44",
+        "302",
+        "216",
+        "16",
+        "15",
+        "47",
+        "111",
+        "119",
+        "258",
+        "308",
+        "13",
+        "287",
+        "101",
+        "366",
+        "332",
+        "359",
+        "214",
+        "112",
+        "229",
+        "301",
+        "142",
+        "414",
+        "445",
+        "3",
+        "388",
+        "412",
+        "81",
+        "357",
+        "174",
+        "79",
+        "110",
+        "490",
+        "390",
+        "172",
+        "194",
+        "49",
+        "183"
+    ],
+    "dialogue": [
+        "#Person1#: I have to do some shopping.\n#Person2#: What are you going to look for?\n#Person1#: I'm trying to buy a new bedroom set.\n#Person2#: What store are you going to?\n#Person1#: I'm not sure.\n#Person2#: You don't know?\n#Person1#: I have no idea where to find one.\n#Person2#: Would you like me to tell you where I got mine.\n#Person1#: I would appreciate that.\n#Person2#: I went to get mine from IKEA.\n#Person1#: Is the furniture at IKEA cheap?\n#Person2#: They're not cheap, but neither is their furniture.",
+        "#Person1#: How do you like these dishes?\n#Person2#: Fine, they are colorful and tasty.\n#Person1#: Did you enjoy your dinner?\n#Person2#: Yes, I did. I have never tasted anything like this.\n#Person1#: Would you like some more rice?\n#Person2#: No, thanks. I'm full.\n#Person1#: Another piece of meat pie?\n#Person2#: No, thanks. I'm on diet.\n#Person1#: How about the dessert?\n#Person2#: Ice cream, please.",
+        "#Person1#: Hi, Mr. Zhang. What's wrong? You don't look so happy. How was your date?\n#Person2#: I was turned down again. It's frustrating. I guess you'Ve got to teach me some skills.\n#Person1#: Me? I'm even less experienced than you are.\n#Person2#: At least you know what American women generally like in a man.\n#Person1#: Believe it or not, I guess American women like a man in good shape, which Chinese women may not care about so much. That's my honest opinion. I know you have been trying very hard.\n#Person2#: American men are naturally taller than Chinese men. So even if I exercise, there aren't many chances.\n#Person1#: No, that's not true. I'Ve met two American women who were married to Chinese. But those Chinese look very strong and healthy. So if you exercise more often, I bet it will surely be easier for you to date American girls. How old is Jacky Chan? He's small and short. But I bet he can have any American woman he wants.\n#Person2#: You know, that's going to be a tremendous change for me. Because I never exercise.\n#Person1#: Why don't you try then? Even if it doesn't help you find an American girl, you could still have a stronger and healthier body. You won't lose anything by doing that.",
+        "#Person1#: Can I help you?\n#Person2#: Yes. How much are these T-shirts?\n#Person1#: They are 12 dollars 50 cents each.\n#Person2#: I like the green one, but it isn't big enough. Have you got a larger size?\n#Person1#: Just a minute. No. I'm sorry. We haven't. What about the black one?\n#Person2#: No, it's too dark. I prefer something lighter, yellow or pink.\n#Person1#: How about the pink one?\n#Person2#: Yes, that's nice. I'll take it.\n#Person1#: That's 12 dollars 50 cents then please.\n#Person2#: Here you are.",
+        "#Person1#: I'm sure it will be wet when we arrive. \n#Person2#: Yes. I dare say it will be. \n#Person1#: It will be Sunday so I expected everything will be closed. \n#Person2#: No. I don't think that's possible. Some places are sure to be open. \n#Person1#: But the bank should be closed so we shouldn't to be able to get any money. \n#Person2#: Mmm, you may be right. \n#Person1#: Do you think we'll need our overcoats? \n#Person2#: No. We couldn't possibly. \n#Person1#: Why not? \n#Person2#: It will be summer. So it will be hot. \n#Person1#: Is that very likely in England? \n#Person2#: Yes. It could happen. ",
+        "#Person1#: Have you moved into your new house yet, Michael?\n#Person2#: We just moved in yesterday, actually.\n#Person1#: So, what do you think about the place? Are you glad that you moved in?\n#Person2#: It's great! Unfortunately, we're going to spend a fortune doing everything up.\n#Person1#: How old is the house then?\n#Person2#: It's about 200 years old. It has a lot of history!\n#Person1#: Sounds fascinating. Where is your new house located?\n#Person2#: It's just off of the ring road.\n#Person1#: Do you have a big yard?\n#Person2#: It's bigger than our last one. I've got flowers in the front, and fruits, vegetables and a fish pond in the back.\n#Person1#: Is your house well-lit?\n#Person2#: Oh, yes. Our windows let plenty of natural light in. They've also got wonderful views of the park behind our house.\n#Person1#: How many rooms does your house have?\n#Person2#: Right now, there are three bedrooms, two barrooms, a kitchen, a sitting room, a dining room, and a living room. We're hoping to add on a green room and a guest bedroom. In fact, when the guest bedroom is ready, you should come and stay with us for a weekend.\n#Person1#: I'd be up for that!",
+        "#Person1#: Hello, Neal. How are you?\n#Person2#: I'm fine, thanks. And you?\n#Person1#: Very well, thanks. Nice to see you again. I haven't seen you for a long time. What have you been doing lately?\n#Person2#: Oh, nothing much really. I went to Singapore to study for a period.\n#Person1#: Wow, that's great. What have you been studying?\n#Person2#: Natural language processing.\n#Person1#: Oh, that's hard. I've been studying for my exams. My school exams will begin next month.\n#Person2#: Really? Good luck for them.\n#Person1#: Thanks. And how are your parents?\n#Person2#: They're both very well, thanks.\n#Person1#: Where are you going now?\n#Person2#: I'm going to read some paper and then attend a seminar. Why don't you come with me?\n#Person1#: I can't. I have to meet my supervisor.\n#Person2#: Well ,it's been nice talking to you.\n#Person1#: Good bye. See you again sometime.",
+        "#Person1#: OK, Mr. Wang. Thank you very much for coming to the airport to see us off. Your great country and your hospitality have left a very deep impression on all of us and your working attitude and your way of doing business have changed my opinions about Chinese people.\n#Person2#: Really? I'm glad to hear that.\n#Person1#: That's true. And this trip has been a very productive one for us.\n#Person2#: Thank you again for your visit. We are looking forward to your reply.\n#Person1#: Believe me, Mr. Wang. I'll do my best to promote the transaction.\n#Person2#: We are happy that we have established business relations. I really hope that we'll have more business to do and more opportunities to meet each other.\n#Person1#: It's very kind of you to say so.\n#Person2#: You are very nice and helpful. Hope to see you again.\n#Person1#: I think we will have opportunities to meet each other in the future.\n#Person2#: OK, I think it's time for you to check in. If you run into any difficulty, we'll be here to assist you immediately.\n#Person1#: Fine. Thank you very much. Bye-bye.\n#Person2#: Goodbye.",
+        "#Person1#: That is the most boring, typical gift in the world!\n#Person2#: I know. But this year I want to get him an interesting tie. Like this one.\n#Person1#: That's not exactly a conversation piece. It's so plain.\n#Person2#: It's perfect! It's a Dilbert tie!\n#Person1#: The diagonal black and red stripes are really conservative though. . .\n#Person2#: But watch this. . . it bends upwards, just like Dilbert's tie. There's a wire inside.\n#Person1#: A fly-away tie! What a riot!",
+        "#Person1#: Here is your spicy diced chicken with peanuts, sir.\n#Person2#: Thank you. It looks very attractive.\n#Person1#: I would advise you to enjoy the dish while it is hot.\n#Person2#: Tasty and tender! It must be one of the famous local dishes.\n#Person1#: Yes. It's a traditional dish.\n#Person2#: And it must be very particular in cooking.\n#Person1#: You are right, sir. To prepare it, a Sichuan food chef first fries some chilli until they turn reddish brown, and then puts diced chicken breast meat into the pot with other condiments and peanuts. That's why the dish has a bright colour.\n#Person2#: I see.\n#Person1#: Enjoy yourself, sir.",
+        "#Person1#: I saw a beautiful fish in the market the other day, it was orange and blue. I'm thinking of buying some next Sunday.\n#Person2#: Where would you keep them?\n#Person1#: In that round bottle over there.\n#Person2#: It's a bit small, isn't it?\n#Person1#: So are the fish.\n#Person2#: I think you should get a tank if you want to keep fish.\n#Person1#: Really?\n#Person2#: Yes, you should never keep fish in a small round bottle. They don't get enough air. I suggest we go shopping together and look for a nice tank.\n#Person1#: That might be quite expensive.\n#Person2#: Check the prices before you buy one and you ought to put a few large rocks in the tank. Fish love swimming around the rocks and through holes in them.\n#Person1#: Is there anything else that I ought to get?\n#Person2#: Yes, you need to get some underwater plants, for one thing they keep the water clean, also they make the tank look much prettier.",
+        "#Person1#: Wow, Is winter always this cold in Taiwan?\n#Person2#: Not really. It's much warmer usually. Your are not used to cold weather?\n#Person1#: No, I am from south California. This is my first real winter.\n#Person2#: Well, You'd better get some more warm clothes.\n#Person1#: What's the temperature today anyway?\n#Person2#: I would say it's about 5 degree Celsius.",
+        "#Person1#: This is awful! It's like drinking saltwater! It's like drowning in the ocean!\n#Person2#: Don't be so dramatic. You're such a baby. Now sit down and finish your soup.\n#Person1#: OK, OK.\n#Person2#: And when we get back from the doctor's, you'll gargle again.\n#Person1#: Maybe I'll run away first.\n#Person2#: Well, the only free food on the streets is from a soup kitchen, and their soup isn't as tasty as mine!",
+        "#Person1#: Come in, come in! \n#Person2#: Hi, Gary, what happened? I was waiting for you at the theater. Why didn't you meet me there? \n#Person1#: I thought we were supposed to meet here. \n#Person2#: Don't you know our movie starts at seven? And we were going to meet at the theater at five to seven. Then it doesn't make sense to meet at the apartment. \n#Person1#: I'm sorry. We must have misunderstood each other. \n#Person2#: Why don't you try to be clearer about your intentions? \n#Person1#: You're right. I am sorry. Let's go and watch the movie. \n#Person2#: It's okay. I don't want to go now. We've already missed ten minutes of the movie. I don't want to see a movie without watching the beginning. ",
+        "#Person1#: Do you think we should travel by bus or by train?\n#Person2#: It's a difficult choice.The train is a little faster, but much more expensive.\n#Person1#: We could face delays if we travel by bus, thanks to traffic jams.\n#Person2#: Buses are more cramps and you can't walk around.\n#Person1#: That's true.But I feel that I see more when I travel by bus.\n#Person2#: Really? I think you see more traveling by train.\n#Person1#: So which form of transport do you prefer to use?\n#Person2#: I prefer going by train, even though it costs more.\n#Person1#: Ok, then we'll go by train. I'm sure we'll have a good journey.Shall we go to the station and buy the tickets?\n#Person2#: The trains aren't usually full.We can get them on the day we travel.We should buy return tickets, because they are much cheaper than getting 2 singles.\n#Person1#: We should take a packed lunch on the journey.The food they sell on the trains is always expensive.",
+        "#Person1#: Excuse me, sir?\n#Person2#: Yes?\n#Person1#: I'm afraid you can't smoke here.\n#Person2#: Why not?\n#Person1#: Can't you see the notes here?\n#Person2#: I'm sorry. I can't. What does the note say.\n#Person1#: It says'No smoking'.\n#Person2#: Sorry, I'm very near sighted.",
+        "#Person1#: I'm afraid it's bad news for you. You haven't got the position.\n#Person2#: Oh, no! I can't have failed. Are you sure?\n#Person1#: I'm afraid so. I'm terribly sorry.\n#Person2#: It sucks. But Arden told me he's satisfied with my qualifications and experience.\n#Person1#: He's the only one of the several to decide this.\n#Person2#: How am I going to face the fellows in our office? They thought I would be promoted. They must be waiting for my good news.\n#Person1#: I don't think the thing can be that serious. You should face the result. Besides, I don't think the position is the best for you.\n#Person2#: But I lost the chance.\n#Person1#: Keep working hard, and then you will get another chance of promotion someday.",
+        "#Person1#: Julia, I would like to have a word with you. Have a seat.\n#Person2#: Thank you.\n#Person1#: According to your performance, I decided to give you a salary increase. From next month, there will be a 2, 000 yuan raise to your salary. Although your first raise might not sound considerable, the company believes that with your ability, sooner or later you'll get a better raise.\n#Person2#: Thank you very much. Mr. George. As a newcomer, I understand that you have your consideration and I am satisfied with the raise.\n#Person1#: I think you deserved this.\n#Person2#: Thank you again. I'll keep doing my best.",
+        "#Person1#: Oh, Patrick. I can't get this phone to work. Can you help me?\n#Person2#: Are you trying to make a call?\n#Person1#: Yes, I just got it and I can't get the thing to work.\n#Person2#: Let me see. OK, you turn it on.\n#Person1#: I didn't turn it on.\n#Person2#: No, see you wait for the screen to light up. Then you enter the phone number and press the C button, right here. Got it?\n#Person1#: OK. I've got it. Ha! It's ringing. Hi, baby, it's me. Listen, I'm going to be a little late. I'm still at work in the office. OK? I'll be back by about 6:00.",
+        "#Person1#: You honestly believe the world's improving every year?\n#Person2#: Yes, I do. I think that science is making us wiser. What do you think?\n#Person1#: I don't think you're right there.\n#Person2#: I believe industry is making us wealthier.\n#Person1#: I don't believe that.\n#Person2#: And in my opinion, medicine is making us healthier.\n#Person1#: I agree with you in the sense. But we're all more miserable than ever, aren't we?\n#Person2#: I don't agree with you. I maintain that we're healthier, wealthier and wiser than we were a hundred years ago.\n#Person1#: That's your opinion not mine.",
+        "#Person1#: Can I help you?\n#Person2#: Yes. When is the next train to New York City?\n#Person1#: Let me see. . . the train to New York City. . . here it is. . . daily except Sunday at ten thirty, twelve twenty and fifteen ten.\n#Person2#: Aren't there any trains before ten thirty?\n#Person1#: Sorry, not before ten thirty.\n#Person2#: Then one to New York at ten thirty.\n#Person1#: One way or round trip?\n#Person2#: One way.\n#Person1#: A soft seat or hard one?\n#Person2#: How much is a soft?\n#Person1#: 15 dollars. And for a hard one, only 6 dollars.\n#Person2#: Then one hard seat, please.\n#Person1#: OK. Here is your change. The train leaves on platform 8.",
+        "#Person1#: What's your plan for your future?\n#Person2#: I'd like to work in a law firm to enrich my experience and put what I've learned into practice.\n#Person1#: Have you had any previous experience?\n#Person2#: Well. During the college years, I worked as a trainee every summer at lawyer's offices. Does that count?\n#Person1#: Of course it counts. What kind of work did you do there?\n#Person2#: I did clerical stuff and ran errands.\n#Person1#: In this office, we encourage full attendance by offering a bonus. If you take any leaves, we'll deduct money from your salary.\n#Person2#: May I know about the office hours?\n#Person1#: Office hours are nine to five-thirty. One hour for lunch. Do you have any questions?\n#Person2#: Er, may I know how much I will be paid monthly?\n#Person1#: We'll give you about 3000 to start. There'll be a trial period of three month. After six months, we'll have a job performance review and consider giving you a raise.\n#Person2#: When will I know your decision?\n#Person1#: I'll call you in a day or two, did you write down your phone number on your resume?\n#Person2#: Yes, I did. Can you call after 7 p. m. ? I'm usually out in the daytime.\n#Person1#: All right. Good-bye.\n#Person2#: Good-bye.",
+        "#Person1#: Do you have spare time tonight?\n#Person2#: What's the matter?\n#Person1#: There will be a live show of football tonight.\n#Person2#: What teams are playing tonight?\n#Person1#: AC Milan versus Real Madrid.\n#Person2#: That will be a tough match, right?\n#Person1#: Absolutely.\n#Person2#: What are we waiting for? It's already 7 pm now. Let's buy some drinks and desserts now.\n#Person1#: Great idea! Here we go!",
+        "#Person1#: What sports do you think women excel at most?\n#Person2#: I think women excel in every sport except the ones that are taboo for us to join in, like football.\n#Person1#: I mean which ones are they better at than men?\n#Person2#: Why do you care? Women and men are different all around. I don't think they can be compared.\n#Person1#: That's a good point. Let me change my question. What sports do women like best?\n#Person2#: Well, I know some women who love golf and I know others who love contact sports.\n#Person1#: Are you saying that women can't be generally categorized?\n#Person2#: Are you suggesting that anyone can be?",
+        "#Person1#: While you are thinking about what you might like to order for dinner, would you like to order your drinks? \n#Person2#: Can you tell me where your wine list is? \n#Person1#: The wine list is posted right there on the board. \n#Person2#: Can we order a mixed drink in this restaurant? \n#Person1#: Yes, we have a wide selection of mixed drinks available from our bar. \n#Person2#: Do you have any house specials that you could recommend? \n#Person1#: Our most popular drinks are our Cuervo Gold margaritas. \n#Person2#: That sounds like a good choice for me. May I have one, please? \n#Person1#: Can I bring that to you on the rocks, or would you like it blended? \n#Person2#: Please bring it to me on the rocks. \n#Person1#: Salt or no salt? \n#Person2#: I would like it with no salt, please. ",
+        "#Person1#: That China-gown of Tang-Dynasty style is so beautiful. Would you show it to me, please?\n#Person2#: Absolutely. Here it is.\n#Person1#: Could I try it on?\n#Person2#: Please do, the fitting-room is over there.\n#Person1#: It feels a little tight around the waist. Do you have a bigger one?\n#Person2#: I'm sorry. We don't have this color in your size. We have some green ones in your size. Would you please have a look at this green one?\n#Person1#: OK. How much does it cost?\n#Person2#: It's 486 yuan.",
+        "#Person1#: Hi charles, I want you know that I finally found an apartment in Haitian.\n#Person2#: You did? that is great!\n#Person1#: Yeah, I am having a party this saturday night, a sort of house warming, and i want to invite you. are you busy?\n#Person2#: No I am free, I will be there, what time the thing starting?\n#Person1#: Around seven.\n#Person2#: Ok, great, should I bring anything?\n#Person1#: No, but thanks for offering, actually could you bring some fold-up chairs for people if you have any? I am afraid not everyone's going to have a seat, do you have any?\n#Person2#: sure, I will be happy to bring a few, what is the address?\n#Person1#: Don't worry, I will come to pick you up at about 6 thirty.\n#Person2#: Got it.",
+        "#Person1#: Hello, Barbara, welcome back. You look great.\n#Person2#: Rod, it's lovely to see you again.\n#Person1#: How was your trip?\n#Person2#: Fine but tiring. Milan was interesting, it's bigger than I expected, noisier and dirtier, too.\n#Person1#: And Florence, what did you think of Florence?\n#Person2#: Well, I didn't go there. Have you been there?\n#Person1#: No, I've never been to Italy. I'd really like to go to Roma. Well, the cars are in the car park. Is this all your luggage?\n#Person2#: Yes, but the suitcase is very heavy.\n#Person1#: Barbara, what's in it? Books or stones?\n#Person2#: Just 20 pairs of shoes.",
+        "#Person1#: What can I do for you today?\n#Person2#: I need to return a book.\n#Person1#: Can I do anything else for you?\n#Person2#: I want to check this magazine out.\n#Person1#: We don't allow people to check out magazines.\n#Person2#: Why not?\n#Person1#: It's just a policy of ours.\n#Person2#: So what am I allowed to check out?\n#Person1#: You may check out books or videos.\n#Person2#: I need to check out this magazine.\n#Person1#: You will have to just read it in the library.\n#Person2#: That doesn't make any sense.",
+        "#Person1#: could we possibly discuss my salary some time?\n#Person2#: sure.\n#Person1#: first of all, I want you to know that I really like working for this company. Do you think I'm doing a good job here?\n#Person2#: well, you are a very hard-worker.\n#Person1#: I try very hard. The problem is, my salary just isn't enough to live on. Now that I have a wife and a child to support, we hardly have enough money for food and rent.\n#Person2#: there are trying times for everyone. What do you propose?\n#Person1#: I could really use a 5 % rise.\n#Person2#: that's quite a bit. If I give you a raise, I'm going to have to give everyone a raise.\n#Person1#: listen, if you give me a raise, I'll take on extra responsibilities.\n#Person2#: that sounds reasonable. How about this, from now on, you can be responsible for scheduling. That means that if you can't find someone to cover a shift, then you'll have to do it.\n#Person1#: that's fine. Do I get over-time for any extra hours that I work?\n#Person2#: of course. It's be against the law if we didn't.\n#Person1#: that sounds good to me. I really appreciate it.\n#Person2#: you are welcome. Come in early tomorrow and I'll show you how to do the scheduling.",
+        "#Person1#: Hey Mike. I forgot about registration. I'm a day late, so all the classes are mostly full. What do you think I should do?\n#Person2#: You're screwed. You can't do anything about that. You have to hope that you get some classes that will be useful.\n#Person1#: Do you think going to the registration building will help at all?\n#Person2#: No. They will tell you the same thing in a worse way.\n#Person1#: Did you register yet?\n#Person2#: Of course. Registering for classes is not something you want to miss.\n#Person1#: What classes do you think are still open?\n#Person2#: Well, I know psychology 101 is a big class, so there will always be seats in that class. You can also get into Sociology.\n#Person1#: That's helpful. Thanks. But what do you think about philosophy. I wanted to take that class this semester.\n#Person2#: I took that class last year. The professor is really cool, so if you go to his office, you can have him sign a card that will let you in even if the class is full.\n#Person1#: He does that?\n#Person2#: I guess that's because so many people drop out of that class.\n#Person1#: That makes sense. I think I'll do that. Thanks for all the help.\n#Person2#: No problem, man.",
+        "#Person1#: The day I turned thirty, I turned on the computer. I went into the over- thirty room for a joke. And he was there. And we started chatting.\n#Person2#: About what?\n#Person1#: Books, music, how much we both love New York. Nothing really meaningful. Yet a good way to pass time.\n#Person2#: How come?\n#Person1#: We don't talk about anything personal. We made a rule about that. I don't know his name, what he does, or exactly where he lives. So it will be really easy to stop seeing him, because I'm not.",
+        "#Person1#: I see myself as being honest, diligent, persevering and creative. And I have a strong sense of responsibility.\n#Person2#: How about your psychological resilience?\n#Person1#: I think I can work well under pressure, if necessary.\n#Person2#: How would you deal with those who are not easy to get along with?\n#Person1#: I will just be sincere and friendly to others, and I believe they will treat me the same way.\n#Person2#: You seem to be a kind-hearted lady.\n#Person1#: Thank you. I simply believe the goodness of human nature.\n#Person2#: Please tell me your weaknesses if you can.\n#Person1#: I should admit that sometimes I care too much about the details. I am always in pursuit of perfection.",
+        "#Person1#: Let's call it a day. \n#Person2#: It's nice to go home earlier once in a while. But it's the evening rush. \n#Person1#: It's hard to commute a long way. \n#Person2#: Sure it is. I really hate to get caught in a traffic jam. ",
+        "#Person1#: How are you doing?\n#Person2#: I'm pretty good, you?\n#Person1#: I'm awesome.\n#Person2#: How long have you been on the bus?\n#Person1#: I've been on here for like, 15 minutes.\n#Person2#: Do you catch this bus a lot?\n#Person1#: Not much, I have a car.\n#Person2#: So, you have your own car?\n#Person1#: I sure do.\n#Person2#: Then, why are you on the bus with me?\n#Person1#: I'm waiting till our President gets out of office, and the gas prices go down.\n#Person2#: That's good thinking.",
+        "#Person1#: I'm now at the airport to meet Mr. Dale, who is arriving at 3:00 PM. There will be some calls for me while I'm away. So please take a message.\n#Person2#: Certainly. What time will you be back?\n#Person1#: Well, if the plane arrives on time, and then I'll be back around 5:30 PM.\n#Person2#: If there is some urgent business, how can I reach you?\n#Person1#: I'll call it again. Just to make sure.\n#Person2#: All right.",
+        "#Person1#: Do you believe in UFOs?\n#Person2#: Of course, they are out there.\n#Person1#: But I never saw them.\n#Person2#: Are you stupid? They are called UFOs, so not everybody can see them.\n#Person1#: You mean that you can them.\n#Person2#: That's right. I can see them in my dreams.\n#Person1#: They come to the earth?\n#Person2#: No. Their task is to send the aliens here from the outer space.\n#Person1#: Aliens from the outer space? Do you talk to them? What do they look like?\n#Person2#: OK, OK, one by one, please! They look like robots, but they can speak. Their mission is to make friends with human beings.\n#Person1#: That means that you talk to them? In which language?\n#Person2#: Of course in English, they learn English on Mars too.\n#Person1#: Wow. Sounds fantastic!",
+        "#Person1#: Whew! I had to wait for almost an hour to get to the front of the line. \n#Person2#: You have much patience. \n#Person1#: Wow! Your calligraphy is very beautiful. It was worth the wait! \n#Person2#: Thank you. Today I'm writing a kind of poem called a Chinese couplet. \n#Person1#: What does it say? \n#Person2#: This is an especially famous one. It says 'May the passing days bring you health and longevity. May this season of renewal find you basked in riches.' \n#Person1#: That's very nice. Is it for sale? \n#Person2#: No. I never sell my artwork. \n#Person1#: Really? Then what do you do with it? \n#Person2#: I give it away. Here, this one is for you. \n#Person1#: Wow! Really? Are you sure? Now I'll have a lucky year! \n#Person2#: Remember, real luck must be created (by) yourself, and then it cannot be given or taken away. . . ",
+        "#Person1#: Has the game started yet?\n#Person2#: Yeah, about 5 minutes ago.\n#Person1#: Who's winning?\n#Person2#: The Bulls, of course!\n#Person1#: What! That wasn't a foul! C'mon, ref!\n#Person2#: Don't worry, Shan always screws up free throws.\n#Person1#: You were right! He didn't make the shot!\n#Person2#: That was a great shot! A three pointer, yeah!\n#Person1#: Did you see that? He traveled and the ref didn't call it!\n#Person2#: This ref needs glasses. Hey ref, open your eyes! I can't believe he didn't see that!\n#Person1#: Okay. . . end of the first quarter. . . Alright, I'm gonna make a beer run.",
+        "#Person1#: I don't know what Jim's got to grumble about. My work load has doubled in the past year and I still manage. He is not doing anything different from when he arrived, as far as I can see.\n#Person2#: Yeah, but he's not as energetic as you are. Well, no one is. But the boss doesn't blame me when I get a bit behind. He is very understanding with me. But with Jim, he goes on and on.\n#Person1#: I haven't noticed it. But you're probably right. I wonder why he does it.",
+        "#Person1#: Adam. I'm sorry.\n#Person2#: Where have you been, Alice, you're over an hour late.\n#Person1#: Yes, But I couldn't help it. I was late getting off work for a start and then I miss the bus. The bus I did catch that stuck in the traffic jam. It was one thing after another.\n#Person2#: why ere you getting off work so late? The office close at six, doesn't it?\n#Person1#: Yes. But those are the rush in that moment. And my boss ask me to do some urgent letters.\n#Person2#: Didn't you tell him you have an appointment?\n#Person1#: Well, no. I thought I ' Ve finish in five minutes. and I didn't want to be difficult about just few minutes, if I hadn't been missing the bus and in the traffic I wouldn't have been so late. I'm sorry.\n#Person2#: Well. You're here.",
+        "#Person1#: What kind of personality do you think you have?\n#Person2#: I am very active and energetic. I approach things enthusiastically and I don't like leaving them half done.\n#Person1#: Do you think you are introverted or extroverted?\n#Person2#: I am quite outgoing, I think. I enjoy mixing and doing things with other people.\n#Person1#: What do you think is the most important thing for you to be happy?\n#Person2#: I maintain that the most important thing is having good friends. A person can't live all by himself. A friend in need is a friend indeed. So the more really close friends I have, the happier I am.\n#Person1#: Do you have any friend you would call really close ones?\n#Person2#: Yes, I would call three of my former classmates really close friends. We often get together and talk with each other. Whenever I counter difficulties, they are always ready to give me a hand.\n#Person1#: What kind of people would you like to work with?\n#Person2#: People who are honest, dedicated to their work and have integrity.\n#Person1#: What kind of people you find hard to work with?\n#Person2#: Slacker and those who violate working principles.",
+        "#Person1#: What a great day! Hey, Tom, do you want to go to the beach this weekend?\n#Person2#: Yeah, that is a great idea. Maybe Sara would like to come along with us.\n#Person1#: I doubt it.\n#Person2#: Why? You are kidding! You know, she loves watching the sea.\n#Person1#: But yesterday afternoon she told me that she would go home this Saturday.\n#Person2#: What happened?\n#Person1#: She said that her mother was ill and stayed in the hospital, and therefore she wanted to go home to see her.\n#Person2#: I am sorry to hear that. Well, What do you think? Should we take some food?\n#Person1#: That sounds great. Maybe we could have a picnic on the beach. Then let's take some sandwiches, chips, and uh... some salad as well.\n#Person2#: We should also take some drinks like Coke and beer.\n#Person1#: Good. In addition, we had better pack beach towels and sun cream.\n#Person2#: OK. Please don't forget to give me a call and let's go down together.",
+        "#Person1#: Jenny, you look terrible. What's eating you?\n#Person2#: Don't brother me!\n#Person1#: Hey, Chillon, I'm just trying to help.\n#Person2#: Sorry, Sally, it's not your fault.\n#Person1#: So, what's the problem?\n#Person2#: I drew a blank on ~ about the test.\n#Person1#: No kidding! Didn't you study for it?\n#Person2#: Yeah, but nothing was clear during the test.\n#Person1#: That's too bad, anyway, I'm sure things will turn around next master.\n#Person2#: I'm thinking of dropping out.\n#Person1#: You can't do that, Jenny!\n#Person2#: I'm dead serious about this, Sally.\n#Person1#: Come on, let's talk about it.",
+        "#Person1#: Tom, I married Julia last month. Have you already known it? \n#Person2#: No, I haven't. I'm so surprised at the news. \n#Person1#: Indeed, we got married too soon. \n#Person2#: Congratulations. But have you heard the proverb that if one gets married too hurriedly one may regret it for a long time? \n#Person1#: Yes. However, I believe that marriage comes by destiny. I knew I would marry Julia when I met her at the first time. \n#Person2#: How's your married life? \n#Person1#: We're happy together now. \n#Person2#: I have to say you're a well-matched couple. \n#Person1#: Thank you! ",
+        "#Person1#: Most of our customers are foreigners. How many foreign languages can you speak, Elizabeth? \n#Person2#: Two. French and Spanish. \n#Person1#: And how well can you speak them? \n#Person2#: Well, French was my best subject at school. I can read and write it pretty well. \n#Person1#: And how about your Spanish? \n#Person2#: Well, it's not as good as my French. I can speak it reasonably well, but my written Spanish isn't very good. \n#Person1#: I see. Well, we have a lot of Spanish customers, but you wouldn't need to write any Spanish here. \n#Person2#: In that case, I'm fit for the position I think. ",
+        "#Person1#: What made you decide on this type of occupation?\n#Person2#: Oh, to tell you the truth, I love the sky. When I was a child, I imagined flying into the blue sky some day. Now, I think the day has come. My dream will come true. And I like travelling very much and I enjoy working with people.\n#Person1#: Can you make yourself understood in English without too much difficulty?\n#Person2#: Yes, I think I am quite fluent in English. I got the certificate of the Secondary English Training last month.\n#Person1#: Do you know what the responsibilities are for a stewardess?\n#Person2#: The main responsibility of the stewardess is to make the passengers relaxed and happy during the flight. And good service is also important.\n#Person1#: Are you in good health?\n#Person2#: I just had a complete physical examination and I am in top condition.\n#Person1#: Have you had any nursing experience?\n#Person2#: Yes, I have two years of nursing experience, and now I am working as a nurse in a hospital.\n#Person1#: How tall are you? What about your eyesight?\n#Person2#: My height is one meter and sixty-eight centimeters. I've never had any vision problems.\n#Person1#: What would you say are your strengths and weaknesses?\n#Person2#: One of my strengths is my friendliness and open-minded attitude and also I think I have a warm personality. But sometimes, I find it is hard to tell others when I don't like what they are doing.\n#Person1#: If a passenger can't understand what you say, what should you do?\n#Person2#: I'll try to speak in another language or I'll try my best to use gestures and draw pictures.",
+        "#Person1#: Now, Mark, you're from Canada?\n#Person2#: That's right.\n#Person1#: Where is it actually that you grew up?\n#Person2#: I was born in Montreal and I lived there for 4 years. The first 4 years, but uh, I grew up in Calgary in Alberta.\n#Person1#: Ok, so what was your childhood like? Were you into nature or sports?\n#Person2#: When I was young. I was into books. I was a big reader. I used to go to the library with my mother.\n#Person1#: Ok, so when was your first trip abroad? Where did you go?\n#Person2#: The first big trip I took abroad was when I was 14. I went to Liverpool that time. Where my mother is from and Wales and Scotland on the 5 or 6 trips after that.",
+        "#Person1#: Hong, it seems like you really struggle to learn English, is this level too hard for you?\n#Person2#: I don't know. I think it's just boring. I don't like the workbooks because the lessons talk about baby things. I'm not a little child. I want to learn something more exciting.\n#Person1#: Hmm, I have an idea that you'll like. This week, you can do a special project for class.\n#Person2#: Oh, what's that?\n#Person1#: I want you to watch some YouTube videos of people speaking in different English accents. I'll send you the links for the ones you should watch, they're very funny. One person does about 30 different accents in 10 minutes.\n#Person2#: Wow, that's great, but, won't it be harder for me to learn English if I'm listening to so many different ways of speaking the language?\n#Person1#: It shouldn't, this is just a fun project to help you get more interested in the lessons. There is a more serious side to it, though. I want you to write a one page essay about the videos and tell the class about your project on Friday. You can show some of the videos during your presentation too if you like. I think the whole class will benefit from this.\n#Person2#: I can't wait to get started. Thank you, Miss Winters.",
+        "#Person1#: You're going to wear out the computer's keyboard!\n#Person2#: Oh, hi.\n#Person1#: Do you have any idea what time it is?\n#Person2#: About ten or ten-thirty?\n#Person1#: It's nearly midnight.\n#Person2#: Really? I didn't know it was so late.\n#Person1#: Don't you have an early class to teach tomorrow morning?\n#Person2#: Yes, at seven o'clock. My commuter class, the students who go to work right after their lesson.\n#Person1#: Then you ought to go to bed. What are you writing, anyway?\n#Person2#: An article I hope I can sell.\n#Person1#: Oh, another of your newspaper pieces? What's this one about?\n#Person2#: Do you remember the trip I took last month?\n#Person1#: The one up to the Amazon?\n#Person2#: Well, that's what I'm writing about-the new highway and the changes it's making in the Amazon valley.\n#Person1#: It should be interesting.\n#Person2#: It is. I guess that's why I forgot all about the time.\n#Person1#: How many articles have you sold now?\n#Person2#: About a dozen so far.\n#Person1#: What kind of newspapers buy them?\n#Person2#: The papers that carry a lot of foreign news. They usually appear in the big Sunday editions where they need a lot of background stories to help fill up the space between the ads.\n#Person1#: Is there any future in it?\n#Person2#: I hope so. There's a chance I may sell this article to a news service.\n#Person1#: Then your story would be published in several papers, wouldn't it?\n#Person2#: That's the idea. And I might even be able to do other stories on a regular basis.\n#Person1#: That would be great."
+    ],
+    "summary": [
+        "#Person1# wants to buy a new bedroom set but doesn't know where to buy. #Person2# recommends IKEA.",
+        "#Person2# enjoyed the dinner and asks #Person1# for ice cream as dessert.",
+        "Mr. Zhang was turned down again and asks #Person1# to teach some skills. #Person1# thinks American women like a man in good shape and suggests Mr. Zhang try to exercise.",
+        "#Person2# buys a pink T-shirt for $12.5 with #Person1#'s help.",
+        "#Person1# talks with #Person2# about what the situation will be when they arrive in England.",
+        "#Person1# and #Person2# talk about #Person2#'s new house which has a long history, a big yard and many rooms. #Person2# invites #Person1# to come and stay when the guest bedroom is ready. #Person1# is willing to go.",
+        "Neal and #Person1# haven't see each other for a while. Neal went to study aboard and #Person1# has been studying for exams. Neal is going to study and #Person1# is going to meet #Person1#'s supervisor.",
+        "Mr. Wang sees #Person1# off at the airport and they share good expectations of their business relationship.",
+        "#Person1# dislikes #Person2#'s idea of getting a tie for someone. #Person2# then shows #Person1# the tie and #Person1# starts to think it's cool.",
+        "#Person2# likes his spicy diced chicken with peanuts very much. #Person1# tells him how to cook it.",
+        "#Person2# tells #Person1# things that should be prepared for keeping fish, including a tank, some rocks, and underwater plants.",
+        "#Person1#, as a Californian, thinks Taiwan's winter is cold. #Person2# suggests #Person1# get some more warm clothes.",
+        "#Person1# doesn't like #Person2#'s salty soup but #Person2# forces #Person1# to drink.",
+        "#Person2# and Gary misunderstood each other, so they missed the beginning of the movie. Gary apologizes, but #Person2# doesn't want to see the movie anymore.",
+        "#Person1# and #Person2# talk about whether to travel by bus or by train. They finally choose to go by train as it is more convenient and arrives on time though it costs more.",
+        "#Person1# tells #Person2# not to smoke here.",
+        "#Person1# tells #Person2# #Person2# hasn't got the position. #Person2# feels disappointed and #Person1# encourages #Person2# to keep working hard.",
+        "Mr. George decides to give Julia a salary increase according to her performance, and Julia feels satisfied.",
+        "#Person1# asks Patrick to help make a call. Patrick tells #Person1# how to use the phone and get through successfully.",
+        "#Person2# believes people now are healthier, wealthier and wiser while #Person1# doesn't.",
+        "#Person2# buys a one-way hard-seat train ticket to New York City with #Person1#'s assistance.",
+        "#Person2# tells #Person1# about #Person2#'s future plans, past work experience and inquires #Person1# about office hours and salary. #Person1#'ll inform #Person2# of the decision in a day or two by phone.",
+        "#Person1# invites #Person2# to watch the football match together tonight.",
+        "#Person1# asks #Person2# what sports women excel at and is better than men. #Person2# thinks men and women could not be compared.",
+        "#Person2# orders Cuervo Gold margaritas under #Person1#'s recommendation and asks #Person1# to bring it on the rocks with no salt.",
+        "#Person1# tries on a little tight China-gown at a store and buys one with #Person2#'s assistance.",
+        "#Person1# invites Charles to #Person1#'s house-warming party. Charles will bring some fold-up chairs for #Person1#.",
+        "#Person1# is asking Barbara about her trip and what is in Barbara's suitcase.",
+        "#Person2# wants to check out a magazine but #Person1# tells #Person2# it's not allowed. #Person2# thinks it's unreasonable.",
+        "#Person1# asks #Person2# for a salary raise and proposes a 5% rise. #Person2# thinks if #Person1# takes on extra responsibilities for scheduling, the rise will be reasonable.",
+        "#Person1# forgot about class registration, so #Person1# asks Mike for advice. Mike recommends #Person1# to get into psychology, sociology and philosophy. #Person1# thanks Mike for his help.",
+        "#Person1# tells #Person2# #Person1# chatted with a man online but nothing personal when #Person1# turned thirty.",
+        "#Person2# interviews #Person1#. #Person1# tells #Person2# her self-assessment of personality, psychological resilience, and weakness.",
+        "Both #Person1# and #Person2# hate the evening rush.",
+        "#Person1# and #Person2# are taking on a bus. #Person1# doesn't drive #Person1#'s car because of the President and the gas price.",
+        "#Person1# asks #Person2# to take a message if there are calls for #Person1#.",
+        "#Person2# believes in UFOs and can see them in dreams. #Person1# asks #Person2# about UFOs and aliens in #Person2#'s dreams and finds #Person2#'s dreams fantastic.",
+        "#Person1# waited for a long time to see #Person2#'s beautiful calligraphy. #Person2# today is writing a Chinese couplet and gives it away to #Person1#. #Person1#'s thrilled.",
+        "#Person1# and #Person2# are watching a game and they are not satisfied with the referee.",
+        "#Person1# doesn't understand why Jim grumbles. #Person2# thinks he's not as energetic as #Person1# is and the boss is not understanding with him. #Person1# wonders why.",
+        "Alice is over an hour late for the appointment with Adam. She explains the reason for her lateness and apologizes.",
+        "#Person2# thinks #Person2# is active, energetic, and outgoing. #Person2# values friendship very much and tells #Person1# about #Person2#'s close friends. #Person2# likes to work with people who are honest, dedicated, and have integrity and finds it hard to work with slackers and those who violate working principles.",
+        "#Person1# invites #Person2# to the beach at the weekend as Sara, whose mom is ill, cannot go. They list some food, drink, and other belongings to take.",
+        "Jenny did a poor job in the test and is thinking of dropping out. Sally comforts Jenny.",
+        "#Person1# tells Tom he and Julia got married hurriedly but they are happy.",
+        "Elizabeth can speak French well. Since #Person1# has many Spanish customers, Elizabeth thinks she's fit for the position.",
+        "#Person1# is interviewing #Person2# who wants to get a job as a stewardess. #Person1# asks #Person2# about #Person2#'s motivation, English level, health condition, nursing experience, height, eyesight, strengths, weaknesses, etc.",
+        "Mark was born in Montreal and grew up in Calgary. He was a big reader when he was young. His first trip abroad was to Liverpool when he was 14.",
+        "Hong thinks learning English is boring and wants something more exciting. So Miss Winters asks Hong to do a special project for the class to get more interested in the lessons.",
+        "#Person1# reminds #Person2# who is typing an article about #Person2#'s trip up to the Amazon last month that it's late at night. #Person2# hopes to sell the article to a news service and then #Person2# might be able to do other stories regularly."
+    ],
+    "kws": [
+        [
+            "ikea",
+            "furniture",
+            "new bedroom set",
+            "person1 #",
+            "shopping"
+        ],
+        [
+            "dishes",
+            "dessert",
+            "meat pie",
+            "rice",
+            "dinner"
+        ],
+        [
+            "chinese women",
+            "chinese men",
+            "mr. zhang",
+            "american girl",
+            "american girls"
+        ],
+        [
+            "shirts",
+            "cents",
+            "person1 #",
+            "dollars",
+            "larger size"
+        ],
+        [
+            "overcoats",
+            "person1 #",
+            "bank",
+            "summer",
+            "england"
+        ],
+        [
+            "new house",
+            "house",
+            "living room",
+            "bedrooms",
+            "many rooms"
+        ],
+        [
+            "exams",
+            "school exams",
+            "person1 #",
+            "natural language processing",
+            "parents"
+        ],
+        [
+            "mr. wang",
+            "chinese people",
+            "hospitality",
+            "business relations",
+            "airport"
+        ],
+        [
+            "dilbert tie",
+            "tie",
+            "away tie",
+            "interesting tie",
+            "dilbert"
+        ],
+        [
+            "spicy diced chicken",
+            "sichuan food chef",
+            "diced chicken breast meat",
+            "traditional dish",
+            "chilli"
+        ],
+        [
+            "fish",
+            "fish love",
+            "tank",
+            "beautiful fish",
+            "nice tank"
+        ],
+        [
+            "taiwan",
+            "cold weather",
+            "temperature today",
+            "first real winter",
+            "cold"
+        ],
+        [
+            "soup",
+            "soup kitchen",
+            "person1 #",
+            "free food",
+            "drinking saltwater"
+        ],
+        [
+            "theater",
+            "movie",
+            "intentions",
+            "minutes",
+            "gary"
+        ],
+        [
+            "buses",
+            "bus",
+            "trains",
+            "transport",
+            "train"
+        ],
+        [
+            "says'no smoking",
+            "notes",
+            "person1 #",
+            "note",
+            "#"
+        ],
+        [
+            "promotion",
+            "arden",
+            "chance",
+            "position",
+            "person1 #"
+        ],
+        [
+            "yuan",
+            "first raise",
+            "salary increase",
+            "better raise",
+            "raise"
+        ],
+        [
+            "call",
+            "phone",
+            "phone number",
+            "c button",
+            "office"
+        ],
+        [
+            "medicine",
+            "opinion",
+            "person1 #",
+            "industry",
+            "world"
+        ],
+        [
+            "trains",
+            "train",
+            "next train",
+            "person1 #",
+            "hard seat"
+        ],
+        [
+            "law firm",
+            "job performance review",
+            "clerical stuff",
+            "lawyer",
+            "office hours"
+        ],
+        [
+            "ac milan",
+            "football tonight",
+            "spare time tonight",
+            "real madrid",
+            "tonight"
+        ],
+        [
+            "sports",
+            "sport",
+            "women",
+            "contact sports",
+            "golf"
+        ],
+        [
+            "cuervo gold margaritas",
+            "mixed drinks",
+            "popular drinks",
+            "drinks",
+            "mixed drink"
+        ],
+        [
+            "yuan",
+            "gown",
+            "tang",
+            "dynasty style",
+            "person1 #"
+        ],
+        [
+            "person1 #",
+            "haitian",
+            "apartment",
+            "party",
+            "people"
+        ],
+        [
+            "florence",
+            "milan",
+            "roma",
+            "italy",
+            "suitcase"
+        ],
+        [
+            "magazines",
+            "magazine",
+            "library",
+            "books",
+            "book"
+        ],
+        [
+            "scheduling",
+            "raise",
+            "worker",
+            "salary",
+            "extra responsibilities"
+        ],
+        [
+            "classes",
+            "class",
+            "semester",
+            "big class",
+            "professor"
+        ],
+        [
+            "person1 #",
+            "room",
+            "joke",
+            "new york",
+            "nothing"
+        ],
+        [
+            "person1 #",
+            "psychological resilience",
+            "kind - hearted lady",
+            "weaknesses",
+            "responsibility"
+        ],
+        [
+            "traffic jam",
+            "person1 #",
+            "evening rush",
+            "day",
+            "#"
+        ],
+        [
+            "person1 #",
+            "bus",
+            "car",
+            "#",
+            "gas prices"
+        ],
+        [
+            "person1 #",
+            "airport",
+            "urgent business",
+            "message",
+            "mr. dale"
+        ],
+        [
+            "aliens",
+            "ufos",
+            "outer space",
+            "human beings",
+            "robots"
+        ],
+        [
+            "poem",
+            "calligraphy",
+            "person1 #",
+            "chinese couplet",
+            "artwork"
+        ],
+        [
+            "foul",
+            "ref",
+            "free throws",
+            "bulls",
+            "first quarter"
+        ],
+        [
+            "jim",
+            "work load",
+            "boss",
+            "person1 #",
+            "#"
+        ],
+        [
+            "urgent letters",
+            "bus",
+            "traffic jam",
+            "person1 #",
+            "boss"
+        ],
+        [
+            "close friends",
+            "person1 #",
+            "good friends",
+            "personality",
+            "person"
+        ],
+        [
+            "better pack beach towels",
+            "picnic",
+            "person1 #",
+            "sandwiches",
+            "food"
+        ],
+        [
+            "person1 #",
+            "test",
+            "jenny",
+            "sally",
+            "next master"
+        ],
+        [
+            "marriage",
+            "married life",
+            "proverb",
+            "couple",
+            "julia"
+        ],
+        [
+            "spanish customers",
+            "many foreign languages",
+            "spanish",
+            "french",
+            "foreigners"
+        ],
+        [
+            "stewardess",
+            "secondary english training",
+            "passengers",
+            "flight",
+            "english"
+        ],
+        [
+            "calgary",
+            "first big trip",
+            "alberta",
+            "first trip",
+            "canada"
+        ],
+        [
+            "different english accents",
+            "different accents",
+            "language",
+            "english",
+            "lessons"
+        ],
+        [
+            "students",
+            "lesson",
+            "person1 #",
+            "early class",
+            "new highway"
+        ]
+    ]
+}
