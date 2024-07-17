@@ -1,0 +1,71 @@
+num_beams: 20
+ rouge1: 25.498317599481048
+ rouge2: 6.9787767502268565
+ rougeL: 20.127699220628845
+ rougeLsum: 22.819085040305954
+ bert-score: 0.5683133828639985
+
+num_beams: 20
+ rouge1: 25.981124851606797
+ rouge2: 7.530893320983048
+ rougeL: 21.245410826306806
+ rougeLsum: 23.54525148424203
+ bert-score: 0.5674350643157959
+
+num_beams: 20
+ rouge1: 25.862351036592102
+ rouge2: 6.748891380604811
+ rougeL: 19.756301583902356
+ rougeLsum: 22.34877084969042
+ bert-score: 0.5665755647420884
+
+#Person1# said "I'm sorry, but it really is your responsibility to check the goods when you buy them. "#Person2# bought a personal stereo at your shop 3 days ago.
+#Person1# and #Person2# are on the phone.
+#Person2# said "I know my father will kill me if I fail, he'll kill me" when he learns from his mistakes.
+#Person2# said "Having a father figure in my baby's life is important to me because I missed out on a lot of freedom."
+#Person2# said "We'll go to the doctor first thing in the morning. "#Person3# says "We have your test results back and, indeed, you are pregnant."
+#Person1# and #Person2# are at the wedding of a friend of their mutual friend, who is getting married next week.
+#Person1# and#Person2# went to the exact time when the big fire broke out.
+#Person1# said "I ended up staying two years there actually." #Person2# was in charge of the sports news section of the newspaper.
+#Person1# said "I am happy I started carrying the credit card that the bank gave us. "#Person2# says "Did you use it to buy something?"
+#Person1# said "How long does it take to get to downtown from here? "#Person2# said it takes 15 minutes.
+#Person1# said "Are you worried about working for a big newspaper like the Chicago Tribune? "#Person2# says "Not really, I think I'll do a good job."
+#Person1# and #Person2# are at the Lantern Festival in Beijing.
+#Person1# said "Please put down the table in front of you, I'd like to have Chinese food. "#Person2# has a cup of coffee, iced water or iced tea.
+#Person1# said "Have you ever thought of moving, Sarah? "#Person2# says "We thought about it, but my husband and I can't afford it right now."
+#Person1# and #Person2# are going to the pharmacy.
+#Person1# asked #Person2# to pass through life at my side.
+#Person1# said "Look at those two ugly old ladies."
+#Person2# said "I will buy a tea set" when she goes to the party.#Person1# said she sent an email about it.
+#Person1# finished cleaning up the leaves in the yard and took out the front steps.#Person2# said "Will you still be able to work for me after you get your bike? ".
+#Person1# tried to register for Comp Lit 287, but the class is full.#Person2# said "I'm sorry, but that class is already full. ".
+#Person1# says hi to #Person2#.
+#Person1# gets married.#Person2# gets fired.
+#Person1# said "John dates her seven times a week. "#Person2# has a date on Friday.
+#Person1# said "What time is it, Tom? "#Person2# says "It's ten to nine by my watch."
+#Person1# and #Person2# went to China to learn more about China's long history of destructive earthquakes.
+#Person1# said "I need to use the ATM. "#Person2# asked "What do I have to do next?" #Person1 # said "Click on whichever option you want, and you're done." #Person2 # is pretty easy to help personx figure it out.
+#Person1# said "Hello, there's a very popular program, but it's very popular already. "#Person2# answered "We have just introduced the program."
+#Person1# said "I think that is the first time that you will have come to visit us after your marriage."
+#Person1# said "How about give me a ring, then?" #Person2# gave him a ring.
+#Person2# said "He gave me a lame excuse, and so I pressed him on it. ".
+#Person1# and #Person2# are walking to the Garden Hotel.
+#Person1# said "She's going to take me to Disney World."
+#Person2# said "How much do I need for this letter?" #Person1# sent it as an ordinary or registered letter.
+#Person2# said "If you lose your job, you can just move in with me until you find another job.
+#Person2# said "Did you go out at all that day to see what was going on in the World Trade Center? "#Person1# asked "no, we decided to stay in our apartment."
+#Person1# said "You sit in front of the TV watching baseball for 3 hours every Saturday. "#Person2# said it's too much for me.
+#Person1# is having a birthday party.
+#Person1# said "It looks like some kind of primitive form of torture. "#Person2 # said "You're such a wimp!"
+#Person1# said "Such as fat-free milk, whole-wheat rolls and fish sandwich. "#Person2# says "I think America deserves the name of fast food nation."
+#Person1# and #Person2# were on their way to the school clinic.
+#Person1# said "Hi, can I help you?" #Person2# says "Yes, we have a reservation for double, for three nights."
+#Person1# and #Person2# are at McDonald's.
+#Person1# and #Person2# signed the agreement.
+#Person1# and #Person2# were talking about their New Year's resolutions.
+#Person1# said "Welcome to Danny's, may I take your order please? "#Person2# ordered a turkey sandwich.
+#Person1# said "I began to play the piano when I was 7 years old. "#Person2# found a teacher for me who is from her home.
+#Person1# said "I thought you must feel right at home here as we get as many fast food restaurants as you do in America. "#Person2# gets fired.# person1# says "I am wondering that you must believe fast food is your lifestyle, don't you?" "More often than not, people go there only for convenience."
+#Person2# said "OK, well, I need to call my sister to tell her to tell us how the kids are doing.#Person1# says "I don't hear anything."
+#Person1# said "OK, that's a cut. "#Person2# smiles.
+#Person1# said "I don't know if you've heard of it, Peter, but some of us are thinking of going to Xi'an in the summer."

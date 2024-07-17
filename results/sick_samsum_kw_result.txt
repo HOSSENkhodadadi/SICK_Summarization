@@ -1,0 +1,88 @@
+num_beams: 20
+ rouge1: 28.30364450473628
+ rouge2: 7.940443490241766
+ rougeL: 22.614019945200052
+ rougeLsum: 25.05111032065144
+ bert-score: 0.530764510234197
+
+Clay said "was off the seat the moment he chopped the ball back to his right foot" after his first 60 minutes.
+Lincoln and Fatima are having a problem, Alene has a problem and Lincoln thinks she may have a problem.
+Ollie said "Nagoro village in Japan is like a village with ppl living in it. "Jessica said "Bt not the scariest".
+Camilla and Charles have been talking about what they have been up to this weekend and what they plan to do this weekend.
+Abby said "from the seacoast" when she met Dylan on the beach.Dylan said "really, I had no idea he was Albanian".
+Shaldona sent Shaldona a picture of her wedding invitation.
+Emily said "fancy a drink after work today" after work.
+Harry said "Can you call Ela and tell her i need to talk urgent please pick my call." Ela answered the phone.
+Val said "we will be wet" when it starts to rain.
+Maya said "Buy me some earplugs please" to have a conversation.Randolph said "Honey, say something else".
+Tina got a new girlfriend.Tina said "I think I have to catch a bit of your approach" as soon as possible.
+Tomas said "checking my bank account every hour every hour" when asked if he received the grant yet.
+Blair said "Remember we are seeing the wedding planner after work".Chuck said "Sure, where are we meeting her?"
+Tom said "Take all your papers, it's going to be fight! "Ben said "Ok, I'll be there".
+Milena, Kate and Regina were giving a presentation to a group of people at a conference.
+Javier said "Hey do you know any tattoo parlors over here with English speaking employees?" Judie asked for a picture.
+Jack said "Possibly a little tightly strung today".May said "You read my mind..."
+Mary and Carter went to the train station to catch a train home.
+Gina said "I'm going to the salon until the 6th!" goes to the bathroom.
+Jessica said "I'm so happy with what I bought" and paid 70 euros for a new dress.
+Annie said "I could do with some Theraflu" when asked if she was going to be late for school.
+Mario said "I’ve landed in every airport in Europe today - completely whacked out dude".
+Jake said "dude, I just pulled a TOTW" when asked if he was going to sell it.
+Bella and Eric were in boss's room at work.
+Mason said "I know it was just Huddersfield, but finally something positive happened" when asked about the Chelsea game.
+Lily said "I spent an amazing night with this guy" Thomas.
+Ronald's parents are having a fight over where should eat where should we eat.Ronald has a good weekend.
+Hannah asked James if he was watching the football.
+Sean said "After much thought I’ve decided that my spirit animal is a tortoise".
+Rodney and Ross are talking about a guy who was beaten and mugged on campus.
+Desiree said "Keep my pasta in the microwave". Lucian said "I haven't cooked anything".
+Zoey said "Hello dear friends, here something to cheer you up on a cold day." Thomas sent a photo.
+Gyle came home from school and Brook was waiting for him.
+Tom and Dan are going out on Sunday.Dan said "I'm ready to go on a date" when they get home from work.
+Payton said "I like browsing, trying on, looking in the mirror and seeing how I look, but not always buying books".
+Ainsley said "I've got a cold and I'm sneezing like a little bitch every 2 seconds".
+Adrian said "Can you talk?" to Simon.
+Adrian said "I'm not going to play games during school anymore, I just pay attention during class, I don't study as much as I should and I keep screwing up."
+Daisy asked Lisa when she was going home.
+Ken said "I want my money back" to Greg to express his anger.
+Peter said "Nah, I don’t have much weight to lose, just want to improve my health. "Lisa said "Bit busy with work." Peter said "Too much of work".
+Mae and Cael are getting ready for the wedding.
+Sally said "Guess who's the father!" Greg said "I knew it!" Jane said "You're such a gossip girl, Sally!" Tom said "Relax Jane, what's your problem?!" Tom is asked a question.
+Jordan said "I told you about him, he had a liver cancer".
+Mariana asked Rita if she’s going to the seminar on Monday.
+Jacky said "I think you were right yesterday." David said "Yeah, I'm right about most things".
+Steve said "hiya the dishwasher has turned up" to wash dishes.
+Cindy said "I don’t want to talk about it…" Cindy sent a file.
+Jordan said "Yes, Nanna, thanks for the £20." Nanna said "Sorry I didn't ring you before." Jordan said "hello Nanna".
+Conrad said "I'm outside the house" leave the house.
+Ella said "Twins* darling xD" and Joseph sent a photo.
+Josie has a crush on Salman Rushdie.
+Rob said "I wanna start with 30 min of activity every day. "Anna said "30 min every day for the rest of the year".
+Martin said "You're lucky that I love you, two milks coming up in couple of hours".
+Lia said "I'd like to go to the party, there may be some hot boys!" Jim said "haha, stupid fucks good, they say "stupid fucks bad" at the party.
+Jill said "I can't do more than 3-4 per day" to Ally.
+Ryan said "I have a bad feeling about this" to feel bad about something.
+Luis and Cole are in the same room.
+Jerry said "Hi sweetie" to Janet.
+Ed said "Sinners!! "Valerie said "Double sin if it’s anything but missionary style! "Valerie is a good missionary.
+One of the last countries in Europe is being ostracised by the EU because of its immigration policy.
+Julia said "I'm afraid they're closed" "I hope they will reopen somewhere else" "Unless they will do somewhere else, I hope they won't reopen anywhere else".
+Marleen said "Am at Kaiser's" and Barry said "Shall we go 50?" and asked for a discount to ask for a present for Rita.
+Catherine said "How dare she!!" and Nora said "She's not his type!" at the same time.
+Kate said "Do you like some fruits for school tomorrow? "George said "Oh yes please, an apple would be great".
+Laura said "i love pasta" and wanted to go to a restaurant.
+Adele has a new dog and Lulu has a puppy.
+Ziggler said "hey Dolph" to say hello.
+Mary said "Hi my friend :*" to say hi to Alice.
+Carly said "How could she do that :D" to show off her skills.
+Dima said "I'm in a huge trouble, my laptop is broken and I have to deliver a translation tomorrow @9".
+Zadie said "So apparently it's a place were random people from "Latin America" (meaning fuck knows which countries) started running small businesses and restaurant, and a nice little community was formed".
+Pete said "Did you clean the hamster cage? "Adelle said "No."
+Emily said "Does anybody now know where the next ASEEES conference takes place? "James said "I've heard somewhere in California".
+Jake said "Maaaan!" to say hello to Mike.
+Tom and Camilla were talking about going to the beach in Dublin this weekend.
+Gab said "So when can we meet up for a drink?" to get a drink.Kat said "I'd love to meet you in real life, but I don't want to meet strange men from the internet".
+Megan said "Any word from Jason?" to say something.
+Ben said "I don't think so, we don't have anything in common" when asked to do something.
+Bob said "did you buy a ticket for tomorrow? "Melanie said "yes I did".
+William said "could you please buy some fresh tomatoes" as he was making spaghetti.
