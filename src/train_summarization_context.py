@@ -15,8 +15,6 @@ from datasets import load_metric
 from data.dataset import SamsumDataset_total, DialogsumDataset_total
 import argparse
 # from augmentation import augmentation_on_dataset
-from pronoun_resolution import resolve_references_in_dialogue
-import spacy
 
 
 def compute_metrics(eval_pred):
@@ -146,6 +144,7 @@ parser.add_argument('--relation',type=str,default="xReason")
 parser.add_argument('--supervision_relation',type=str,default='isAfter')
 parser.add_argument('--data_augmentation',type=bool,default=False)
 parser.add_argument('--coref',type=bool,default=False)
+parser.add_argument('--kw',type=bool,default=False)
 
 args = parser.parse_args()
 
@@ -194,13 +193,14 @@ if args.dataset_name=='samsum':
                                         supervision_relation=args.supervision_relation,
                                         roberta=args.use_roberta,
                                         sentence_transformer=args.use_sentence_transformer,
-                                        coref=args.coref
+                                        coref=args.coref,
+                                        keyword=args.kw
                                         )
     
     train_dataset = total_dataset.getTrainData()
     eval_dataset = total_dataset.getEvalData()
     test_dataset = total_dataset.getTestData()
-
+    
     if args.data_augmentation:
         train_dataset = augmentation_on_dataset('samsum', train_dataset)
 
@@ -215,7 +215,8 @@ elif args.dataset_name=='dialogsum':
                                            supervision_relation=args.supervision_relation,
                                            sentence_transformer=args.use_sentence_transformer,
                                            roberta=args.use_roberta,
-                                           coref=args.coref
+                                           coref=args.coref,
+                                           keyword=args.kw
                                            )
     
     train_dataset = total_dataset.getTrainData()

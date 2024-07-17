@@ -11,12 +11,24 @@ import re
 import random
 
 
+def mark_keywords(dialogue, tokens, offsets, keywords, special_token_start='<kw>', special_token_end='</kw>'):
+    enriched_tokens = []
+    for token, offset in zip(tokens, offsets):
+        token_text = dialogue[offset[0]:offset[1]]
+        if token_text in keywords:
+            enriched_tokens.append(special_token_start)
+            enriched_tokens.append(token)
+            enriched_tokens.append(special_token_end)
+        else:
+            enriched_tokens.append(token)
+    return enriched_tokens
+
 
 class SamsumDataset(Dataset):
     def __init__(self, encoder_max_len, decoder_max_len, split_type, 
                  tokenizer, extra_context=False, extra_supervision=False, 
                  paracomet=False,relation = "xReason", supervision_relation="xIntent", 
-                 roberta=False, sentence_transformer=False, coref=False):
+                 roberta=False, sentence_transformer=False, coref=False, keyword=False):
         self.encoder_max_len = encoder_max_len
         self.decoder_max_len = decoder_max_len
         self.split_type = split_type
@@ -36,6 +48,8 @@ class SamsumDataset(Dataset):
 
         self.roberta = roberta
         self.sentence_transformer = sentence_transformer
+        self.keyword = keyword
+
         # print(self.relation)
         ##################################################
         
@@ -59,18 +73,42 @@ class SamsumDataset(Dataset):
                     self.summary = js['summary']
                     self.id = js['id']
         else:
-            self.data = load_dataset('samsum',split=split_type, trust_remote_code=True)
-            total = [i for i in range(len(self.data))]
-            random.seed(42)
-            random_sampled = random.sample(total, len(self.data) // 10)
+            if keyword:
+                if split_type == 'train':
+                    with open('data/samsum_train_with_kws.json', 'r') as json_file:
+                        js = json.load(json_file)
+                        self.dialogue = js['dialogue']
+                        self.summary = js['summary']
+                        self.id = js['id']
+                        self.kws = js['kws']
+                elif split_type == 'validation':
+                    with open('data/samsum_eval_with_kws.json', 'r') as json_file:
+                        js = json.load(json_file)
+                        self.dialogue = js['dialogue']
+                        self.summary = js['summary']
+                        self.id = js['id']
+                        self.kws = js['kws']               
+                elif split_type == 'test':
+                    with open('data/samsum_test_with_kws.json', 'r') as json_file:
+                        js = json.load(json_file)
+                        self.dialogue = js['dialogue']
+                        self.summary = js['summary']
+                        self.id = js['id']
+                        self.kws = js['kws']
+            else:
+                self.data = load_dataset('samsum',split=split_type, trust_remote_code=True)
+                total = [i for i in range(len(self.data))]
+                random.seed(42)
+                random_sampled = random.sample(total, len(self.data) // 10)
 
-            whole_dialogue = self.data['dialogue']
-            whole_summary = self.data['summary']
-            whole_id = self.data['id']
+                whole_dialogue = self.data['dialogue']
+                whole_summary = self.data['summary']
+                whole_id = self.data['id']
 
-            self.dialogue = [whole_dialogue[i] for i in random_sampled]
-            self.summary = [whole_summary[i] for i in random_sampled]
-            self.id = [whole_id[i] for i in random_sampled]
+                self.dialogue = [whole_dialogue[i] for i in random_sampled]
+                self.summary = [whole_summary[i] for i in random_sampled]
+                self.id = [whole_id[i] for i in random_sampled]
+
 
         self.nlp = spacy.load('en_core_web_sm')
         
@@ -237,7 +275,19 @@ class SamsumDataset(Dataset):
                                             padding='max_length', 
                                             truncation=True, 
                                             max_length=self.encoder_max_len, 
-                                            return_tensors='pt')
+                                            return_tensors='pt',
+                                            return_offsets_mapping=True)
+                        
+            if self.keyword:
+                input_ids = encoded_dialogue['input_ids']
+                tokens = self.tokenizer.convert_ids_to_tokens(input_ids.squeeze())
+                offsets = encoded_dialogue['offset_mapping'].squeeze()
+                keywords = self.kws[index]
+                enriched_tokens = mark_keywords(encoded_dialogue, tokens, offsets, keywords)
+                enriched_input_ids = self.tokenizer.convert_tokens_to_ids(enriched_tokens)
+                enriched_input_ids = torch.tensor(enriched_input_ids)
+                enriched_input_ids = enriched_input_ids.unsqueeze(0)
+                encoded_dialogue['input_ids'] = enriched_input_ids
 
 
         # (1, sequence_length)
@@ -332,10 +382,10 @@ class SamsumDataset_total:
     def __init__(self, encoder_max_len, decoder_max_len, tokenizer, 
                  extra_context=False, extra_supervision=False, paracomet=False,
                  relation="xReason", supervision_relation='isAfter',
-                 roberta=False, sentence_transformer=False, coref=False):
-        self.train_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'train',tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref)
-        self.eval_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref)
-        self.test_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref)
+                 roberta=False, sentence_transformer=False, coref=False, keyword=False):
+        self.train_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'train',tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref, keyword=keyword)
+        self.eval_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'validation', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref, keyword=keyword)
+        self.test_dataset = SamsumDataset(encoder_max_len, decoder_max_len, 'test', tokenizer,extra_context=extra_context,extra_supervision=extra_supervision,paracomet=paracomet,relation=relation, supervision_relation=supervision_relation, roberta=roberta, sentence_transformer=sentence_transformer, coref=coref, keyword=keyword)
     
     def getTrainData(self):
         return self.train_dataset
