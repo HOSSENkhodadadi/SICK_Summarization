@@ -289,6 +289,8 @@ class SamsumDataset(Dataset):
                 enriched_input_ids = enriched_input_ids.unsqueeze(0)
                 encoded_dialogue['input_ids'] = enriched_input_ids
 
+            encoded_dialogue.pop('offset_mapping', None)
+
 
         # (1, sequence_length)
         with self.tokenizer.as_target_tokenizer():
