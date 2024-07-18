@@ -21,3 +21,6 @@ dependencies:
       - bert_score
       - py7zr
       - metrics
+      - git+https://github.com/makcedward/nlpaug.git
+      - emoji
+      - sacremoses
