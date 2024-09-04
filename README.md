@@ -1,4 +1,7 @@
-# Leveraging Personal Pronoun Resolution, Keywords Extraction, Data Augmentation, and Model Exploration for Enhanced Abstractive Dialogue Summarization
+## Leveraging Personal Pronoun Resolution, Keywords Extraction, Data Augmentation, and Model Exploration for Enhanced Abstractive Dialogue Summarization
+# Hey is that too difficult to read the whole read me, let's chat with the repo!
+[https://hf.co/chat/assistant/66d7552c06318396b70e04d4](click here!)
+
 The repository for the final project of the Deep Natural Language Processing (DNLP) at Politecnico di Torino. (2023/24 academic year)
 
 SICK is a framework for the abstractive dialogue summarization. You can find the links to the paper, YouTube video, and GitHub repository in the following
